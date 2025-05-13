@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Text.Json;
@@ -103,6 +104,25 @@ namespace Grimoire
         }
 
 
+        public static string NormalizeString(string input)
+        {
+            if (string.IsNullOrEmpty(input))
+                return input;
+
+            string normalized = input.Normalize(NormalizationForm.FormD);
+            var builder = new StringBuilder();
+
+            foreach (var c in normalized)
+            {
+                var unicodeCategory = CharUnicodeInfo.GetUnicodeCategory(c);
+                if (unicodeCategory != UnicodeCategory.NonSpacingMark)
+                    builder.Append(char.ToLowerInvariant(c)); // to lower
+            }
+
+            return builder.ToString().Normalize(NormalizationForm.FormC); // proper build
+        }
+
+
         public static SearchResult? GetEntry(List<string> tags)
         {
             var results = ScoredSearch(Database.Entries, tags);
@@ -148,12 +168,11 @@ namespace Grimoire
             foreach (var entry in entries)
             {
                 int score = 0;
-
+                var nameLower = NormalizeString(entry.Name);
                 foreach (var item in tags_to_search)
                 {
-                    var itemLower = item.ToLower();
-                    var nameLower = entry.Name.ToLower();
-
+                    var itemLower = NormalizeString(item);
+                   
                     if (nameLower == itemLower)
                         score += 100;
                     else if (nameLower.Contains(itemLower))
@@ -161,7 +180,7 @@ namespace Grimoire
 
                     foreach (var tag in entry.Tags)
                     {
-                        var tagLower = tag.ToLower();
+                        var tagLower = NormalizeString(tag);
                         if (tagLower == itemLower)
                             score += 50;
                         else if (tagLower.Contains(itemLower))
