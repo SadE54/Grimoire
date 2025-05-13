@@ -10,15 +10,15 @@
 
 - 📚 Quick access to rules and custom content
 - 🧠 NPC and location generation with the OpenAI API
+- 🎲 Dice rolls on random tables
+- 🔖 OpenAI prompt management via a JSON database
 - 🎲 Dice rolling
 - 🏷 Search by name or keywords
 - 📃 Uses markdown files for content
-- 🔖 OpenAI prompt management via a JSON database
 - 🗂 Supports multiple games and versions via metadata
 
  🔥 In development:
- * 🎲 Dice rolls on random tables
- * 🕯️Torch simulation with configurable duration
+ - 🕯️Torch simulation with configurable duration
 
 ---
 
@@ -52,7 +52,7 @@ You can also use Visual Studio directly.
 Currently supported commands:
 
 ```bash
-!show                      # Display markdown content
+!rule                      # Display markdown content
 !roll                      # Perform a dice roll
 !ai                        # Query the AI
 !clear                     # Clear the screen
@@ -60,10 +60,10 @@ Currently supported commands:
 !info                      # Display app and database info
 ```
 
-### Show
+### Rule
 
 ```bash
-!show tag_1 tag_2
+!rule tag_1 tag_2
 ```
 
 Searches the rules database for content matching the tags. If multiple entries are found, the prompt lets you choose which one to display.
@@ -80,13 +80,21 @@ Examples:
 !roll 2d6+1         # Roll 2d6 and add 1 to the final result
 !roll 1d12+1 adv    # Roll a d12 twice, return the best and add 1
 ```
+### Event
+
+Get an event from a table from the rules database.
+The found entry is analyzed for random table content and a random event is generated.
+The event is then displayed in the console.
+
+```bash
+!event tag
+!event tag1 tag2
+```
 
 ### Ai
 
 This feature requires an OpenAI account and API token. You can buy credits on OpenAI’s website. The cost is very reasonable since the model used is `chatgpt-3.5-turbo`. With $5, you can probably run close to a thousand requests.
-
 Different prompts are defined in a separate database. You can configure a system prompt (your AI assistant's behavior) and associate it with a name used by the command.
-
 If you define a prompt named 'npc' asking OpenAI to describe a character, you can use:
 
 ```bash
@@ -95,7 +103,6 @@ If you define a prompt named 'npc' asking OpenAI to describe a character, you ca
 ```
 
 OpenAI will return a nice description of a troll! You can even include stats in the prompt if you like.
-
 Another example:
 
 ```bash
