@@ -1,5 +1,7 @@
 # 📔 Grimoire 🧙‍♂️
 
+![Grimoire](pictures/grimoire.png)
+
 **Grimoire** is a command-line and text-mode role-playing game (RPG) assistant designed to help GMs run their sessions. A rich graphical interface can be distracting when quick access to information is needed. With just a few simple commands, **Grimoire** provides instant access to rules, random tables, dice rolls, and even the ability to generate NPCs or locations via the OpenAI API.
 
 ---
