@@ -5,17 +5,18 @@
     <TargetFramework>net9.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <ApplicationIcon>book_icon.ico</ApplicationIcon>
+    <ApplicationIcon>grimoire.ico</ApplicationIcon>
   </PropertyGroup>
 
   <ItemGroup>
-    <Content Include="book_icon.ico" />
+    <Content Include="grimoire.ico" />
   </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="ChatGPT.Net" Version="2.0.0" />
     <PackageReference Include="PrettyPrompt" Version="4.1.1" />
     <PackageReference Include="Spectre.Console" Version="0.50.0" />
+    <PackageReference Include="Spectre.Console.ImageSharp" Version="0.50.0" />
     <PackageReference Include="Tommy" Version="3.1.2" />
   </ItemGroup>
 
@@ -51,6 +52,12 @@
 
   <ItemGroup>
     <None Update="config.toml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="grimoire.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="help.md">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>
