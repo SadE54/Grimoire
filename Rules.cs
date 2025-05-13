@@ -210,12 +210,13 @@ namespace Grimoire
 
         public static void SetMarkdownStyles(ref MarkdownRenderable markup)
         {
-            markup.HeadingLevel1Color = Color.DeepSkyBlue1;
-            markup.HeadingLevel2To4Style = Color.DeepSkyBlue1;
+            markup.HeadingLevel1Color = Color.SkyBlue2;
+            markup.HeadingLevel2To4Style = Color.SkyBlue2;
             markup.HeadingLevel5AndAboveStyle = Color.SpringGreen1;
-            markup.ListBlockMarkerStyle = Color.DeepSkyBlue1;
-            markup.TableBorderStyle = Color.DeepSkyBlue1;
+            markup.ListBlockMarkerStyle = Color.Gold3_1;
+            markup.TableBorderStyle = Color.SkyBlue2;
             markup.QuoteBlockBorderStyle = Color.Gold3_1;
+            markup.CodeBlockBorderStyle = Color.Gold3_1;
         }
     }
 }
