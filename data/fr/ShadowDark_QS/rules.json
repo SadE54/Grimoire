@@ -1,0 +1,172 @@
+{
+  "game": "ShadowDark QuickStart",
+  "language": "fr",
+  "version": "1.0",
+  "author": "YS",
+  "description": "Base de règles et tables pour ShadowDark",
+  "license": "MIT",
+  "credits": "credits.md",
+  "entries": [
+    {
+      "name": "equipement_de_base",
+      "tags": ["equipement", "base", "sac"],
+      "path": "equipement_de_base.md"
+    },
+    {
+      "name": "table_des_armes",
+      "tags": ["arme", "sac"],
+      "path": "armes.md"
+    },
+    {
+      "name": "combat",
+      "tags": ["combat", "initiative","degats","terrain","moral","mort"],
+      "path": "combat.md"
+    },
+    {
+      "name": "lancer_les_sorts",
+      "tags": ["sort", "lancer","incantation","penitence"],
+      "path": "lancer_les_sorts.md"
+    },
+    {
+      "name": "temps",
+      "tags": ["tour", "round"],
+      "path": "temps.md"
+    },	
+    {
+      "name": "repos",
+      "tags": ["feu", "camp"],
+      "path": "repos.md"
+    },	
+    {
+      "name": "lancer_les_dés",
+      "tags": ["avantage", "desavantage","dés"],
+      "path": "lancer_les_des.md"
+    },	
+    {
+      "name": "ecumer_les_souterrains",
+      "tags": ["outrenuit", "round", "vision", "eclairage", "états", "déplacement", "action", "rencontre"],
+      "path": "ecumer_les_souterrains.md"
+    },	
+    {
+      "name": "utiliser_les_caracteristiques",
+      "tags": ["carac", "force", "dextérité", "constitution", "intelligence","sagesse", "charisme"],
+      "path": "utiliser_les_caracteristiques.md"
+    },	
+    {
+      "name": "effectuer_des_tests",
+      "tags": ["lancer", "difficulté", "opposé"],
+      "path": "effectuer_des_tests.md"
+    },	
+    {
+      "name": "jetons_de_chance",
+      "tags": ["jeton", "chance"],
+      "path": "jetons_de_chance.md"
+    },		
+    {
+      "name": "discretion_et_surprise",
+      "tags": ["cacher", "faufiler", "détection"],
+      "path": "discretion_et_surprise.md"
+    },		
+	{
+      "name": "ordre_du_tour",
+      "tags": ["initiative"],
+      "path": "ordre_du_tour.md"
+    },
+	{
+      "name": "accorder_des_px",
+      "tags": ["px", "or", "trésor"],
+      "path": "accorder_des_px.md"
+    },	
+	{
+      "name": "apercu_des_trésors",
+      "tags": ["or", "trésor"],
+      "path": "apercu_des_tresors.md"
+    },	
+	{
+      "name": "table_trésors",
+      "tags": ["table", "or", "trésor"],
+      "path": "table_tresors.md"
+    },		
+	{
+      "name": "monstres_1",
+      "tags": ["aboleth", "adepte", "acolyte"],
+      "path": "monstres_1.md"
+    },	
+	{
+      "name": "monstres_2",
+      "tags": ["araignée", "armure", "bandit", "bousier", "brute", "caverne"],
+      "path": "monstres_2.md"
+    },		
+	{
+      "name": "monstres_3",
+      "tags": ["chauve", "souris", "chevalier", "crocodile", "cube", "dragon", "marais"],
+      "path": "monstres_3.md"
+    },		
+	{
+      "name": "monstres_4",
+      "tags": ["driade", "élan", "ettercap", "fantome", "feu", "follet"],
+      "path": "monstres_4.md"
+    },	
+	{
+      "name": "monstres_5",
+      "tags": ["fée", "gelée", "gnome", "gobelin", "golem", "pierre"],
+      "path": "monstres_5.md"
+    },	
+	{
+      "name": "monstres_6",
+      "tags": ["guenaude", "guêpe", "grick", "hobgobelin"],
+      "path": "monstres_6.md"
+    },	
+	{
+      "name": "monstres_7",
+      "tags": ["homme", "bête", "kobold", "licorne", "loup", "garou", "mante"],
+      "path": "monstres_7.md"
+    },		
+	{
+      "name": "monstres_8",
+      "tags": ["marauder", "minotaure", "nécrophage", "ogre"],
+      "path": "monstres_8.md"
+    },	
+	{
+      "name": "monstres_9",
+      "tags": ["orque", "ours", "oxydeur", "paysan"],
+      "path": "monstres_9.md"
+    },		
+	{
+      "name": "monstres_10",
+      "tags": ["rat", "sanglier", "sangsue", "scarabée", "scolopendre"],
+      "path": "monstres_10.md"
+    },	
+	{
+      "name": "monstres_11",
+      "tags": ["serpent", "soldat", "squelette", "troll"],
+      "path": "monstres_11.md"
+    },	
+	{
+      "name": "pièges",
+      "tags": ["détection", "désamorcage", "signe"],
+      "path": "pieges.md"
+    },		
+	{
+      "name": "perils",
+      "tags": ["péril", "peril"],
+      "path": "perils.md"
+    },	
+	{
+      "name": "table_un_evenement_ survient",
+      "tags": ["évènement", "event"],
+      "path": "table_un_evenement_survient.md"
+    },
+	{
+      "name": "table_rencontre_ruines",
+      "tags": ["ruine", "rencontre"],
+      "path": "ruines.md"
+    },	
+	
+	{
+      "name": "table_catastrophes_magiques",
+      "tags": ["table", "catastrophes", "sort", "magie"],
+      "path": "table_catastrophes_magiques.md"
+    }	
+  ]
+}

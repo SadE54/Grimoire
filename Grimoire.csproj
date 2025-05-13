@@ -1,0 +1,52 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <ApplicationIcon>book_icon.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="book_icon.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ChatGPT.Net" Version="2.0.0" />
+    <PackageReference Include="PrettyPrompt" Version="4.1.1" />
+    <PackageReference Include="Spectre.Console" Version="0.50.0" />
+    <PackageReference Include="Tommy" Version="3.1.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Markdig">
+      <HintPath>Spectre.Console.Extensions.Markup\Markdig.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CodeAnalysis">
+      <HintPath>Spectre.Console.Extensions.Markup\Microsoft.CodeAnalysis.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CodeAnalysis.CSharp">
+      <HintPath>Spectre.Console.Extensions.Markup\Microsoft.CodeAnalysis.CSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Spectre.Console.CSharp">
+      <HintPath>Spectre.Console.Extensions.Markup\Spectre.Console.CSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Spectre.Console.Extensions.Markup">
+      <HintPath>Spectre.Console.Extensions.Markup\Spectre.Console.Extensions.Markup.dll</HintPath>
+    </Reference>
+    <Reference Include="Spectre.Console.Javascript">
+      <HintPath>Spectre.Console.Extensions.Markup\Spectre.Console.Javascript.dll</HintPath>
+    </Reference>
+    <Reference Include="Spectre.Console.Json">
+      <HintPath>Spectre.Console.Extensions.Markup\Spectre.Console.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Spectre.Console.Sql">
+      <HintPath>Spectre.Console.Extensions.Markup\Spectre.Console.Sql.dll</HintPath>
+    </Reference>
+    <Reference Include="Spectre.Console.Xml">
+      <HintPath>Spectre.Console.Extensions.Markup\Spectre.Console.Xml.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
