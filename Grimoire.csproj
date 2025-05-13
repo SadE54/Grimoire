@@ -49,4 +49,15 @@
     </Reference>
   </ItemGroup>
 
+  <ItemGroup>
+    <None Update="config.toml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+	<Target Name="CopyDataFolder" AfterTargets="Build">
+		<ItemGroup>
+			<DataFiles Include="data\**\*" />
+		</ItemGroup>
+		<Copy SourceFiles="@(DataFiles)" DestinationFiles="@(DataFiles->'$(OutputPath)data\%(RecursiveDir)%(Filename)%(Extension)')" />
+	</Target>
 </Project>

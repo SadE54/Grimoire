@@ -1,0 +1,7 @@
+[rules]
+database_path = "data/fr/shadowdark_qs/rules.json"
+
+[openai]
+api_token = "your-openai-token"
+database_path = "data/fr/shadowdark_qs/prompts.json"
+
