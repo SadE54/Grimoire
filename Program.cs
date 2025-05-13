@@ -19,14 +19,14 @@ namespace Grimoire
         {
             System.Console.OutputEncoding = Encoding.UTF8;
             System.Console.InputEncoding = Encoding.UTF8;
-            //System.Console.ForegroundColor = ConsoleColor.Blue;
 
             AnsiConsole.Clear();
-            var rule = new Rule().RuleStyle(Color.Blue).Centered();
+            var rule = new Rule().RuleStyle(Color.SkyBlue2).Centered();
             AnsiConsole.Write(rule);
-            AnsiConsole.Write((new FigletText("Grimoire").Centered().Color(Color.Blue)));
-            rule = new Rule($"{Assembly.GetExecutingAssembly().GetName().Version}").RuleStyle(Color.Blue).Centered();
+            AnsiConsole.Write((new FigletText("Grimoire").Centered().Color(Color.SkyBlue2)));
+            rule = new Rule($"{Assembly.GetExecutingAssembly().GetName().Version}").RuleStyle(Color.SkyBlue2).Centered();
             AnsiConsole.Write(rule);
+            rule = new Rule().RuleStyle(Color.SkyBlue2).Centered();
 
             LoadConfig("config.toml");
             Rules.LoadDatabase(RulesDatabasePath);
@@ -49,6 +49,7 @@ namespace Grimoire
                 {
                     CommandParser.Parse(response.Text);
                 }
+                AnsiConsole.Write(rule);
             }
 
         }
