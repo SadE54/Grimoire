@@ -17,7 +17,7 @@ namespace Grimoire
         private static readonly Regex ClearRegex = new Regex(@"!clear", RegexOptions.IgnoreCase | RegexOptions.Compiled);
         private static readonly Regex CreditsRegex = new Regex(@"!credits", RegexOptions.IgnoreCase | RegexOptions.Compiled);
         private static readonly Regex ExitRegex = new Regex(@"!exit", RegexOptions.IgnoreCase | RegexOptions.Compiled);
-        private static readonly Regex HelpRegEx = new Regex(@"!help", RegexOptions.IgnoreCase | RegexOptions.Compiled);
+        private static readonly Regex HelpRegex = new Regex(@"!help", RegexOptions.IgnoreCase | RegexOptions.Compiled);
         private static readonly Regex InfoRegex = new Regex(@"!info", RegexOptions.IgnoreCase | RegexOptions.Compiled);
 
 
@@ -141,17 +141,19 @@ namespace Grimoire
 
         public static bool ParseHelpCommand(string input)
         {
-            var match = CreditsRegex.Match(input);
+            var match = HelpRegex.Match(input);
             if (match.Success)
             {
                 if (File.Exists("help.md"))
                 {
-                    var helpText = File.ReadAllText("help.md");
-                    AnsiConsole.MarkupLine(helpText);
+                    var md = File.ReadAllText("help.md");
+                    var markup = new MarkdownRenderable(md);
+                    Rules.SetMarkdownStyles(ref markup);
+                    AnsiConsole.Write(markup);
                 }
                 else
                 {
-                    AnsiConsole.MarkupLine("[red]Help file not found. Please ensure 'help.md' exists in the current directory.[/]");
+                    AnsiConsole.MarkupLine("[red]Help file not found. Please ensure 'help.md' exists in the working directory.[/]");
                 }
                 return true;
             }

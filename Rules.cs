@@ -208,7 +208,7 @@ namespace Grimoire
             return 0;
         }
 
-        private static void SetMarkdownStyles(ref MarkdownRenderable markup)
+        public static void SetMarkdownStyles(ref MarkdownRenderable markup)
         {
             markup.HeadingLevel1Color = Color.DeepSkyBlue1;
             markup.HeadingLevel2To4Style = Color.DeepSkyBlue1;
