@@ -15,8 +15,10 @@
 - 🎲 Dice rolls on random tables
 - 📃 Uses markdown files for content
 - 🗂 Supports multiple games and versions via metadata
+- 💻 Crossplatorm (win-x64/linux-x64/linux-arm64/osx-x64/osx-arm64)
 
  🔥 In development:
+ - Generate binaries for linux/mac
  - 🕯️Torch simulation with configurable duration
  - Ask for new features !
 
