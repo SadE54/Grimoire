@@ -69,6 +69,7 @@ Currently supported commands:
 ```bash
 !rule                      # Display markdown content
 !roll                      # Perform a dice roll
+!event                     # Get a random entry from a table
 !ai                        # Query the AI
 !clear                     # Clear the screen
 !help                      # List commands
