@@ -7,6 +7,10 @@
     <Nullable>enable</Nullable>
     <ApplicationIcon>grimoire.ico</ApplicationIcon>
   </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyVersion>0.9.0.0</AssemblyVersion>
+    <FileVersion>0.9.0.0</FileVersion>
+  </PropertyGroup>
 
   <ItemGroup>
     <Content Include="grimoire.ico" />
