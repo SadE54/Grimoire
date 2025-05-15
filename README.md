@@ -31,6 +31,7 @@ You can see some screenshots in the Wiki section:
 ## 📦 Binaries
 
 Available directly from GitHub for Windows 10/11.
+> You need to have .NET 9 runtime installed (https://dotnet.microsoft.com/fr-fr/download/dotnet/9.0/runtime)
 
 ---
 
