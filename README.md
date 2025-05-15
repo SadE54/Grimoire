@@ -2,25 +2,31 @@
 
 ![Grimoire](pictures/grimoire.png)
 
-**Grimoire** is a command-line and text-mode role-playing game (RPG) assistant designed to help GMs run their sessions. A rich graphical interface can be distracting when quick access to information is needed. With just a few simple commands, **Grimoire** provides instant access to rules, random tables, dice rolls, and even the ability to generate NPCs or locations via the OpenAI API.
+**Grimoire** is a command-line and text-mode role-playing game assistant designed to help GMs run their sessions. A rich graphical interface can be distracting when quick access to information is needed. With just a few simple commands, **Grimoire** provides instant access to rules, random tables, dice rolls, and even the ability to generate NPCs or locations via the OpenAI API.
 
 ---
 
 ## ✨ Features
 
 - 📚 Quick access to rules and custom content
-- 🧠 NPC and location generation with the OpenAI API
-- 🎲 Dice rolls on random tables
-- 🔖 OpenAI prompt management via a JSON database
-- 🎲 Dice rolling
 - 🏷 Search by name or keywords
+- 🎲 Dice rolling
+- 🧠 NPC and location generation, ... using configurable prompts with the OpenAI API
+- 🎲 Dice rolls on random tables
 - 📃 Uses markdown files for content
 - 🗂 Supports multiple games and versions via metadata
 
  🔥 In development:
  - 🕯️Torch simulation with configurable duration
+ - Ask for new features !
 
 ---
+
+## 📷 Screenshots 
+
+You can see some screenshots in the Wiki section: 
+[screenshots](https://github.com/SadE54/Grimoire/wiki/Screenshots)
+
 
 ## 📦 Binaries
 
@@ -46,6 +52,15 @@ dotnet build
 You can also use Visual Studio directly.
 
 ---
+
+## ✨ Start
+
+The configuration file is by default using the Shadowdark quickstart fr database. 
+See in the **configuration **section how to edit the configuration file if needed. 
+
+To start the application, you just have to launch `grimoire.exe` from the Grimoire directory.
+I recommand to use the new Windows terminal application instead the old `cmd` tool.
+
 
 ## 🛠 Available Commands
 
