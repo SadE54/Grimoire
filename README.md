@@ -18,8 +18,7 @@
 - 💻 Crossplatorm (win-x64/linux-x64/linux-arm64/osx-x64/osx-arm64)
 
  🔥 In development:
- - Generate binaries for linux/mac
- - 🕯️Torch simulation with configurable duration
+ - 🕯️Torch simulation + direct driving of Philips HUE lights with flame animation
  - Ask for new features !
 
 ---
