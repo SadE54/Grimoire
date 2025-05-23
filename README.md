@@ -13,12 +13,14 @@
 - 🎲 Dice rolling
 - 🧠 NPC and location generation, ... using configurable prompts with the OpenAI API
 - 🎲 Dice rolls on random tables
+- 🕯️Torch simulation + direct driving of Philips HUE lights with flame animation or other effects
 - 📃 Uses markdown files for content
 - 🗂 Supports multiple games and versions via metadata
 - 💻 Crossplatorm (win-x64/linux-x64/linux-arm64/osx-x64/osx-arm64)
 
  🔥 In development:
- - 🕯️Torch simulation + direct driving of Philips HUE lights with flame animation
+ 
+ - D&D database
  - Ask for new features !
 
 ---
@@ -63,6 +65,7 @@ See in the **configuration **section how to edit the configuration file if neede
 To start the application, you just have to launch `grimoire.exe` from the Grimoire directory.
 I recommand to use the new Windows terminal application instead the old `cmd` tool.
 
+---
 
 ## 🛠 Available Commands
 
@@ -154,6 +157,17 @@ database_path = "/path_to/your_game_rules.json"
 [openai]
 api_token = "your-Open-API-key"
 database_path = "Shadowdark/prompts.json"
+
+[hue]
+enabled = false
+bridge_ip = "ip.ip.ip.ip"
+api_token = "your_hue_api_token"
+room = "room_name"
+lights = ["id_1", "id_2"]
+color = "FF0000"
+brightness = 100
+effect = "fire"
+
 ```
 
 The `rules` section sets the path to the JSON database for rules and tables.
@@ -161,6 +175,9 @@ The `rules` section sets the path to the JSON database for rules and tables.
 The `openai` section defines parameters for OpenAI access:
 - `api_token`: your OpenAI access token
 - `database_path`: the path to the prompt database
+
+The Hue configuration is explained in detail here:
+https://github.com/SadE54/Grimoire/wiki/Philips-HUE-Setup
 
 ---
 
