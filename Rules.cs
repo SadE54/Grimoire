@@ -4,6 +4,7 @@ using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Text.Json;
+using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 using PrettyPrompt.Highlighting;
 using Spectre.Console;
@@ -20,21 +21,35 @@ namespace Grimoire
 
     public class MarkdownDatabase
     {
-        public string Game { get; set; }
+        [JsonPropertyName("game")]
+        public string Game { get; set; } = "";
 
-        public string Language { get; set; }
-        public string Version { get; set; }
-        public string Author { get; set; }
-        public string Description { get; set; }
-        public string License { get; set; }
-        public string Credits { get; set; }
-        public List<MarkdownEntry> Entries { get; set; }
+        [JsonPropertyName("language")]
+        public string Language { get; set; } = "";
+
+        [JsonPropertyName("version")]
+        public string Version { get; set; } = "";
+
+        [JsonPropertyName("author")]
+        public string Author { get; set; } = "";
+
+        [JsonPropertyName("description")]
+        public string Description { get; set; } = "";
+
+        [JsonPropertyName("license")]
+        public string License { get; set; } = "";
+
+        [JsonPropertyName("credits")]
+        public string? Credits { get; set; } // ← facultatif (peut être null dans le JSON)
+
+        [JsonPropertyName("entries")]
+        public List<MarkdownEntry> Entries { get; set; } = new List<MarkdownEntry>();
     }
 
 
     public class SearchResult
     {
-        public MarkdownEntry Entry { get; set; }
+        public required MarkdownEntry Entry { get; set; }
         public int Score { get; set; }
     }
 
@@ -64,7 +79,13 @@ namespace Grimoire
             try
             {
                 var jsonText = File.ReadAllText(database_path);
-                Database = JsonSerializer.Deserialize<MarkdownDatabase>(jsonText, options);
+                var markdownDatabase = JsonSerializer.Deserialize<MarkdownDatabase>(jsonText, options);
+                if (markdownDatabase == null)
+                {
+                    AnsiConsole.MarkupLine("[red]Error parsing database file. Please ensure the file is valid JSON.[/]");
+                    return -1;
+                }
+                Database = markdownDatabase;
             }
             catch (FileNotFoundException)
             {
