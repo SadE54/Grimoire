@@ -5,3 +5,14 @@ database_path = "data/fr/shadowdark_qs/rules.json"
 api_token = "your-openai-token"
 database_path = "data/fr/shadowdark_qs/prompts.json"
 
+[hue]
+enabled = true
+bridge_ip = "ip.ip.ip.ip"
+api_token = "your-hue-token"
+room = "room_name"
+lights = []
+color = "FF0000"
+brightness = 100
+effect = "fire"
+
+

@@ -14,13 +14,12 @@ namespace Grimoire
         private static readonly Regex RuleRegex = new Regex(@"!rule\s+(.*)", RegexOptions.IgnoreCase | RegexOptions.Compiled);
         private static readonly Regex OpenaiRegex = new Regex(@"^!ai\s+([a-zA-Z0-9_]+)\s+(.*)$", RegexOptions.IgnoreCase | RegexOptions.Compiled);
         private static readonly Regex EventRegex = new Regex(@"!event\s+(.*)", RegexOptions.IgnoreCase | RegexOptions.Compiled);
+        private static readonly Regex TorchRegex = new Regex(@"^!torch(?:\s+(start)\s+(\d+)|\s+(stop))?$", RegexOptions.IgnoreCase | RegexOptions.Compiled);
         private static readonly Regex ClearRegex = new Regex(@"!clear", RegexOptions.IgnoreCase | RegexOptions.Compiled);
         private static readonly Regex CreditsRegex = new Regex(@"!credits", RegexOptions.IgnoreCase | RegexOptions.Compiled);
         private static readonly Regex ExitRegex = new Regex(@"!exit", RegexOptions.IgnoreCase | RegexOptions.Compiled);
         private static readonly Regex HelpRegex = new Regex(@"!help", RegexOptions.IgnoreCase | RegexOptions.Compiled);
         private static readonly Regex InfoRegex = new Regex(@"!info", RegexOptions.IgnoreCase | RegexOptions.Compiled);
-
-
 
 
         public static void Parse(string input)
@@ -29,6 +28,7 @@ namespace Grimoire
             if (ParseRuleCommand(input) == true) return;
             if (ParseEventCommand(input) == true) return;
             if (ParseOpenAiCommand(input) == true) return;
+            if (ParseTorchCommand(input) == true) return;
             if (ParseClearCommand(input) == true) return;
             if (ParseCreditsCommand(input) == true) return;
             if (ParseExitCommand(input) == true) return;
@@ -94,9 +94,17 @@ namespace Grimoire
                 var type = match.Groups[1].Value.ToLower();
                 var prompt = match.Groups[2].Value.Trim();
 
-                var response = Openai.ExecutePrompt(type, prompt);
-                AnsiConsole.MarkupLine("[green]" + response.Result + "[/]");
-                return true;
+                try
+                {
+                    var response = Openai.ExecutePrompt(type, prompt).Result;
+                    AnsiConsole.MarkupLine($"[green]{response}[/]");
+                    return true;
+                }
+                catch
+                {
+                    AnsiConsole.MarkupLine("❌ [red]OpenAI API request failed.[/]");
+                    return true;
+                }
             }
             return false;
         }
@@ -110,6 +118,40 @@ namespace Grimoire
                 var tableTags = match.Groups[1].Value.Trim().Split(" ").ToList();
                 var response = Table.GetEvent(tableTags);
                 AnsiConsole.MarkupLine(response);
+                return true;
+            }
+            return false;
+        }
+
+
+        public static bool ParseTorchCommand(string input)
+        {
+            var match = TorchRegex.Match(input);
+            if (match.Success)
+            {
+                var action = match.Groups[1].Success ? match.Groups[1].Value : match.Groups[3].Value;
+                var duration = match.Groups[2].Success ? int.Parse(match.Groups[2].Value) : 0;
+                if (action == "start")
+                {
+                    Program.Torch.Start(duration); 
+                    
+                }
+                else if (action == "stop")
+                {
+                    Program.Torch.Stop();
+                }
+                else
+                {
+                    var remainingTime = Program.Torch.GetRemainingTime();
+                    if (remainingTime.TotalSeconds > 0)
+                    {
+                        AnsiConsole.MarkupLine($"[gold3_1]The torch is still lit for {remainingTime.Minutes}m{remainingTime.Seconds}s.[/]");
+                    }
+                    else
+                    {
+                        AnsiConsole.MarkupLine("[gold3_1]🔥 The torch is not lit.[/]");
+                    }
+                }
                 return true;
             }
             return false;
@@ -187,7 +229,7 @@ namespace Grimoire
             AnsiConsole.MarkupLine("[gold3_1]Loaded databases:[/]");
             if (Rules.Database != null)
             {
-                AnsiConsole.MarkupLine($"[gold3_1]{Rules.Database.Game} ({Rules.Database.Language}, v{Rules.Database.Version})[/]");
+                AnsiConsole.MarkupLine($"[gold3_1]🛢️ {Rules.Database.Game} ({Rules.Database.Language}, v{Rules.Database.Version})[/]");
             }
             else
             {
@@ -196,7 +238,7 @@ namespace Grimoire
 
             if (Openai.Database != null)
             {
-                AnsiConsole.MarkupLine($"[gold3_1]{Openai.Database.Name} ({Openai.Database.Language}, v{Openai.Database.Version})[/]");
+                AnsiConsole.MarkupLine($"[gold3_1]🛢️ {Openai.Database.Name} ({Openai.Database.Language}, v{Openai.Database.Version})[/]");
             }
             else
             {

@@ -15,6 +15,7 @@ namespace Grimoire
            ("!rule",   AnsiColor.Rgb(135, 95,  215)), // Purple
            ("!roll",    AnsiColor.Rgb(135, 95,  215)),
            ("!event",   AnsiColor.Rgb(135, 95,  215)),
+           ("!torch",   AnsiColor.Rgb(135, 95,  215)),
            ("!ai",      AnsiColor.Rgb(135, 95,  215)),
            ("!help",    AnsiColor.Rgb(135, 95,  215)),
            ("!credits", AnsiColor.Rgb(135, 95,  215)),

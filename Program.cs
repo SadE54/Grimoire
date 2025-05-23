@@ -2,8 +2,11 @@
 using PrettyPrompt;
 using System.Text;
 using PrettyPrompt.Highlighting;
+using PrettyPrompt.Completion;
+using PrettyPrompt.Consoles;
 using System.Reflection;
 using Tommy;
+using System.Threading;
 
 
 
@@ -13,6 +16,8 @@ namespace Grimoire
     {
         static string RulesDatabasePath = "";
         static string PromptsDatabasePath = "";
+        static HueSettings HueSettings = new HueSettings();
+        public static TorchManager Torch = new TorchManager();
 
 
         static async Task Main(string[] args)
@@ -33,6 +38,11 @@ namespace Grimoire
             Openai.LoadDatabase(PromptsDatabasePath);
             CommandParser.DisplayInfo();
 
+            HueManager.Init(HueSettings).Wait();
+
+
+
+
             var prompt = new Prompt(
                 callbacks: new CliCallbacks(),
                 configuration: new PromptConfiguration(
@@ -41,19 +51,33 @@ namespace Grimoire
                             selectedCompletionItemBackground: AnsiColor.Rgb(30, 30, 30),
                             selectedTextBackground: AnsiColor.Rgb(20, 61, 102)));
 
-
             while (true)
             {
-                var response = await prompt.ReadLineAsync();
+                var cancellationToken = new CancellationTokenSource();
+
+                AnsiConsole.Write(rule);
+                Torch.SetToken(cancellationToken.Token);
+
+                var response = await prompt.ReadLineAsync(Torch.Token).ConfigureAwait(false);
                 if (response.IsSuccess)
                 {
                     CommandParser.Parse(response.Text);
                 }
-                AnsiConsole.Write(rule);
+                else
+                {
+                    if (response.CancellationToken.IsCancellationRequested)
+                    {
+                        AnsiConsole.MarkupLine("[red]Prompt canceled.[/]");
+                        break;
+                    }
+                }
+
+                if (Torch.IsExpired == true)
+                {
+                    AnsiConsole.MarkupLine("[gold3_1]🔥 The torch goes out.[/]");
+                }
             }
-
         }
-
 
         public static int LoadConfig(string configFile)
         {
@@ -70,7 +94,7 @@ namespace Grimoire
                     TomlTable table = TOML.Parse(reader);
                     if (table.HasKey("rules") == true)
                     {
-                        if (table["rules"].HasKey("database_path") == true)
+                        if ((table["rules"].HasKey("database_path") == true) && table["rules"]["database_path"] != null)
                         {
                             var safe_path = table["rules"]["database_path"].ToString().TrimStart(Path.DirectorySeparatorChar, Path.AltDirectorySeparatorChar);
                             var path = Path.GetFullPath(Path.Combine(Directory.GetCurrentDirectory(), safe_path));
@@ -101,7 +125,7 @@ namespace Grimoire
                             AnsiConsole.MarkupLine("[red]OpenAI token not found in config file.[/]");
                             return -1;
                         }
-                        if (table["openai"].HasKey("database_path") == true)
+                        if ((table["openai"].HasKey("database_path") == true) && (table["openai"]["database_path"].ToString() != null))
                         {
                             var safe_path = table["openai"]["database_path"].ToString().TrimStart(Path.DirectorySeparatorChar, Path.AltDirectorySeparatorChar);
                             var path = Path.GetFullPath(Path.Combine(Directory.GetCurrentDirectory(), safe_path));
@@ -119,6 +143,26 @@ namespace Grimoire
                     else
                     {
                         AnsiConsole.MarkupLine("[red]Config file is missing the 'openai' section.[/]");
+                    }
+
+                    // Hue Section
+                    if (table.HasKey("hue") == true)
+                    {
+                        HueSettings.Enabled = table["hue"]["enabled"] ?? false;
+                        HueSettings.BridgeIp = table["hue"]["bridge_ip"].ToString() ?? "";
+                        HueSettings.ApiKey = table["hue"]["api_token"].ToString() ?? "";
+                        HueSettings.RoomName = table["hue"]["room"].ToString() ?? "";
+                        HueSettings.Color = table["hue"]["color"].ToString() ?? "";
+                        HueSettings.Effect = table["hue"]["effect"].ToString() ?? "";
+                        HueSettings.Brightness = byte.TryParse(table["hue"]["brightness"].ToString(), out var brightness) ? brightness : (byte)50;
+                        var lights= table["hue"]["lights_ids"];
+                        if (lights != null)
+                        {
+                            foreach (var light in lights)
+                            {
+                                HueSettings.LightsId.Add(light.ToString());
+                            }
+                        }
                     }
                 }
             }

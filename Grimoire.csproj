@@ -19,7 +19,8 @@
 
   <ItemGroup>
     <PackageReference Include="ChatGPT.Net" Version="2.0.0" />
-    <PackageReference Include="PrettyPrompt" Version="4.1.1" />
+    <PackageReference Include="HueApi" Version="1.8.0" />
+    <PackageReference Include="HueApi.ColorConverters" Version="1.7.1" />
     <PackageReference Include="Spectre.Console" Version="0.50.0" />
     <PackageReference Include="Spectre.Console.ImageSharp" Version="0.50.0" />
     <PackageReference Include="Tommy" Version="3.1.2" />
@@ -68,5 +69,14 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
     </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="libs\PrettyPrompt\**" />
+    <EmbeddedResource Remove="libs\PrettyPrompt\**" />
+    <None Remove="libs\PrettyPrompt\**" />
+  </ItemGroup>
+  <ItemGroup>
+	<ProjectReference Include="libs/PrettyPrompt/src/PrettyPrompt/PrettyPrompt.csproj" />
   </ItemGroup>
 </Project>
