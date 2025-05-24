@@ -76,6 +76,7 @@
     <EmbeddedResource Remove="libs\PrettyPrompt\**" />
     <None Remove="libs\PrettyPrompt\**" />
   </ItemGroup>
+
   <ItemGroup>
 	<ProjectReference Include="libs/PrettyPrompt/src/PrettyPrompt/PrettyPrompt.csproj" />
   </ItemGroup>
