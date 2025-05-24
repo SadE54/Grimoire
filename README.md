@@ -13,7 +13,7 @@
 - 🎲 Dice rolling
 - 🧠 NPC and location generation, ... using configurable prompts with the OpenAI API
 - 🎲 Dice rolls on random tables
-- 🕯️Torch simulation + direct driving of Philips HUE lights with flame animation or other effects
+- 🔥Torch simulation + direct driving of Philips HUE lights with flame animation or other effects
 - 📃 Uses markdown files for content
 - 🗂 Supports multiple games and versions via metadata
 - 💻 Crossplatorm (win-x64/linux-x64/linux-arm64/osx-x64/osx-arm64)
@@ -21,6 +21,7 @@
  🔥 In development:
  
  - D&D database
+ - Wled compatibility for torch control
  - Ask for new features !
 
 ---
@@ -76,6 +77,7 @@ Currently supported commands:
 !roll                      # Perform a dice roll
 !event                     # Get a random entry from a table
 !ai                        # Query the AI
+!torch                     # Start/stop a torch, optionnally couple with HUE brides for leds driving
 !clear                     # Clear the screen
 !help                      # List commands
 !info                      # Display app and database info
@@ -132,11 +134,23 @@ Another example:
 
 With the corresponding prompt, it will describe a great tavern!
 
+### Torch
+
+```bash
+!torch start 60  // lit a torch for 60 minutes
+!torch stop      // stop the torch
+!torch           // display remianing time for the torh
+```
+
+> [!NOTE]
+> If a **Philips HUE** system is confugured. The leds will switch on/off accordingly the torch state
+
+
 ### Clear
 
 Clears the screen:
 
-```
+```bash
 !clear
 ```
 
