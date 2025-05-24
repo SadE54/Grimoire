@@ -1,0 +1,3 @@
+[submodule "libs/PrettyPrompt"]
+	path = libs/PrettyPrompt
+	url = https://github.com/SadE54/PrettyPrompt.git

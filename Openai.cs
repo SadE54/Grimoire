@@ -20,7 +20,7 @@ namespace Grimoire
         public string Language { get; set; } = "";
 
         [JsonPropertyName("version")]
-        public string Version { get; set; }
+        public string Version { get; set; } = "";
 
         [JsonPropertyName("author")]
         public string Author { get; set; } = "";
@@ -35,16 +35,16 @@ namespace Grimoire
     public class SystemPrompt
     {
         [JsonPropertyName("command")]
-        public string Command { get; set; }
+        public string Command { get; set; } = "";
 
         [JsonPropertyName("title")]
-        public string Title { get; set; }
+        public string Title { get; set; } = "";
 
         [JsonPropertyName("temperature")]
-        public float Temperature { get; set; }
+        public float Temperature { get; set; } = 1.0F;
 
         [JsonPropertyName("system")]
-        public string System { get; set; }
+        public string System { get; set; } = "";
     }
 
 
@@ -71,16 +71,22 @@ namespace Grimoire
             try
             {
                 var jsonText = File.ReadAllText(database_path);
-                Database = JsonSerializer.Deserialize<PromptDatabase>(jsonText, options);
+                var deserializedDatabase  = JsonSerializer.Deserialize<PromptDatabase>(jsonText, options);
+                if (deserializedDatabase == null)
+                {
+                    AnsiConsole.MarkupLine("[red]Failed to deserialize prompts database.[/]");
+                    return -1;
+                }
+                Database = deserializedDatabase;
             }
             catch (FileNotFoundException)
             {
-                AnsiConsole.MarkupLine("[red]Prompts database file not found.[/]");
+                AnsiConsole.MarkupLine("❌ [red]Prompts database file not found.[/]");
                 return -1;
             }
             catch 
             {
-                AnsiConsole.MarkupLine($"[red]Error parsing prompts database file[/]");
+                AnsiConsole.MarkupLine($"❌ [red]Error parsing prompts database file[/]");
                 return -2;
             }
             return 0;
@@ -91,7 +97,7 @@ namespace Grimoire
         {
             if (string.IsNullOrEmpty(token))
             {
-                AnsiConsole.MarkupLine("[red]OpenAI token is empty. Please provide a valid token.[/]");
+                AnsiConsole.MarkupLine("❌[red]OpenAI token is empty. Please provide a valid token.[/]");
                 return -1;
             }
             OpenaiToken = token;
@@ -120,10 +126,10 @@ namespace Grimoire
 
             string response = "";
             await AnsiConsole.Status()
-            .StartAsync("Asking...", async ctx =>
+            .StartAsync("[gold3_1]Asking AI...[/]", async ctx =>
             {
                 // Update the status and spinner
-                ctx.Status("Asking...");
+                ctx.Status("[gold3_1]Asking AI...[/]");
                 ctx.Spinner(Spinner.Known.Dots9);
                 ctx.SpinnerStyle(Style.Parse("gold3_1"));
                 response = await bot.Ask(input, prompt.Command);
