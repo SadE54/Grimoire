@@ -37,7 +37,16 @@ namespace Grimoire
                 return;
             }
 
-            localHueClient = new LocalHueApi(Settings.BridgeIp, Settings.ApiKey);
+            try
+            {
+                localHueClient = new LocalHueApi(Settings.BridgeIp, Settings.ApiKey);
+            }
+            catch (Exception ex)
+            {
+                AnsiConsole.MarkupLine($"❌ [red]Error connecting to Hue bridge[/]");
+                return;
+            }
+           
 
             // Initialize the lightsId dictionary with room names and their corresponding light IDs  
             if (Settings.RoomName != "")
@@ -50,14 +59,14 @@ namespace Grimoire
                         ctx.Status("[gold3_1]Init Hue System...[/]");
                         ctx.Spinner(Spinner.Known.Dots9);
                         ctx.SpinnerStyle(Style.Parse("gold3_1"));
-                        var response = await GetLightsFromRoom(Settings.RoomName);
+                        response = await GetLightsFromRoom(Settings.RoomName);
                     });
                 if (response.Count == 0)
                 {
                     AnsiConsole.MarkupLine($"❌ [red]Error initializing Hue System[/]");
                     AnsiConsole.MarkupLine($"[red]Please check the configuration file.[/]");
+                    return;
                 }
-                return;
             }
             AnsiConsole.MarkupLine($"💡 [gold3_1]Hue system initialized.[/]");
         }
