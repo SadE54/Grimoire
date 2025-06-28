@@ -3,7 +3,7 @@ database_path = "data/en/DnD5e/Dnd5e.json"
 
 [openai]
 api_token = "your_openai_token"
-database_path = "data/fr/shadowdark_qs/prompts.json"
+database_path = "data/en/ai_prompts.json"
 
 [hue]
 enabled = true
