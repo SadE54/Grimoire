@@ -1,8 +1,8 @@
 [rules]
-database_path = "data/fr/shadowdark_qs/rules.json"
+database_path = "data/en/DnD5e/Dnd5e.json"
 
 [openai]
-api_token = "your-openai-token"
+api_token = "your_openai_token"
 database_path = "data/fr/shadowdark_qs/prompts.json"
 
 [hue]
@@ -14,5 +14,14 @@ lights = []
 color = "FF0000"
 brightness = 100
 effect = "fire"
+
+[wled]
+enabled = true
+uri = "http://ip.ip.ip.ip"
+preset = 1
+brightness = 255
+
+
+
 
 

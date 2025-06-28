@@ -17,6 +17,7 @@ namespace Grimoire
         static string RulesDatabasePath = "";
         static string PromptsDatabasePath = "";
         static HueSettings HueSettings = new HueSettings();
+        static WledSettings WledSettings = new WledSettings();
         public static TorchManager Torch = new TorchManager();
 
 
@@ -39,6 +40,7 @@ namespace Grimoire
             CommandParser.DisplayInfo();
 
             HueManager.Init(HueSettings).Wait();
+            WledManager.Init(WledSettings).Wait();
 
 
 
@@ -163,6 +165,20 @@ namespace Grimoire
                                 HueSettings.LightsId.Add(light.ToString());
                             }
                         }
+                    }
+
+                    // Wled Section
+                    if (table.HasKey("wled") == true)
+                    {
+                        WledSettings.Enabled = table["wled"]["enabled"] ?? false;
+                        WledSettings.Uri = table["wled"]["uri"].ToString() ?? "";
+                        WledSettings.Preset = table["wled"]["preset"].AsInteger ?? 0;
+                        WledSettings.Brightness = table["wled"]["brightness"].AsInteger ?? 127;
+                        if (WledSettings.Brightness > 255)
+                        {
+                            WledSettings.Brightness = 255; // Ensure brightness is within valid range
+                        }
+
                     }
                 }
             }

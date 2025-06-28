@@ -33,7 +33,7 @@ namespace Grimoire
 
         public void Start(int durationInMinutes)
         {
-            Stop();
+            //Stop();
 
             TimeSpan duration = TimeSpan.FromMinutes(durationInMinutes);
             IsExpired = false;
@@ -122,6 +122,18 @@ namespace Grimoire
                         //AnsiConsole.MarkupLine($"[red]Invalid Light ID: {lightId}[/]");
                     }
                 }
+            }
+
+            if (WledManager.Settings.Enabled)
+            {
+                _ = WledManager.SetState(state)
+                    .ContinueWith(t =>
+                    {
+                        if (t.Exception != null)
+                        {
+                            AnsiConsole.MarkupLine($"[red]Error trying to set WLED devices {t.Exception.InnerException?.Message}[/]");
+                        }
+                    }, TaskContinuationOptions.OnlyOnFaulted);
             }
         }
 

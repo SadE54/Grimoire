@@ -171,7 +171,7 @@ namespace Grimoire
             if (completedTask == timeoutTask)
             {
                 // Timeout 
-                Console.WriteLine("Timeout settingState to light.");
+                Console.WriteLine("Timeout setting light state.");
                 return -1;
             }
             var result = await lightTask;
