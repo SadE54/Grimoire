@@ -5,6 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Text.Json;
 using System.Text.Json.Serialization;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using PrettyPrompt.Highlighting;
 using Spectre.Console;
@@ -164,49 +165,99 @@ namespace Grimoire
             SearchResult? selectedResult = null;
             if (results.Count > 1)
             {
-                var entry = AnsiConsole.Prompt(
+                var displayMap = results.ToDictionary(
+                    r => $"{r.Entry.Name} [grey](score: {r.Score})[/]",
+                    r => r);
+
+                var selectedDisplay = AnsiConsole.Prompt(
                     new SelectionPrompt<string>()
                         .Title("[bold red]There's several results:[/]")
                         .PageSize(5)
-                        .MoreChoicesText("[grey](⬆️ et ⬇️ to selct)[/]")
-                        .AddChoices(results.Select(r => r.Entry.Name).ToList()));
+                        .MoreChoicesText("[grey](⬆️ et ⬇️ to select)[/]")
+                        .AddChoices(displayMap.Keys));
 
-                selectedResult = results.FirstOrDefault(r => r.Entry.Name == entry);
+                selectedResult = displayMap[selectedDisplay];
             }
-            else if (results.Count == 1)
+            else
             {
                 selectedResult = results.FirstOrDefault();
             }
             return selectedResult;
+
         }
 
 
 
-        public static List<SearchResult> ScoredSearch(List<MarkdownEntry> entries, List<string> tags_to_search)
+        public static List<SearchResult> ScoredSearch(List<MarkdownEntry> entries, List<string> tagsToSearch)
         {
+            const int NameExactMatchScore = 100;
+            const int NameContainsScore = 30;
+            const int TagExactMatchScore = 50;
+            const int TagContainsScore = 20;
+            const double TagMatchBonusFactor = 0.1;
+            const int MinLengthForPartialMatch = 5;
+
+            var normalizedSearchTags = tagsToSearch.Select(NormalizeString).ToList();
             var results = new List<SearchResult>();
 
             foreach (var entry in entries)
             {
                 int score = 0;
-                var nameLower = NormalizeString(entry.Name);
-                foreach (var item in tags_to_search)
-                {
-                    var itemLower = NormalizeString(item);
-                   
-                    if (nameLower == itemLower)
-                        score += 100;
-                    else if (nameLower.Contains(itemLower))
-                        score += 30;
+                int tagMatchCount = 0;
 
-                    foreach (var tag in entry.Tags)
+                var nameLower = NormalizeString(entry.Name);
+                var nameWords = Regex.Split(nameLower, @"[\s\-_]+", RegexOptions.Compiled);
+                var normalizedEntryTags = entry.Tags.Select(NormalizeString).ToList();
+
+                foreach (var searchTag in normalizedSearchTags)
+                {
+                    bool allowPartialMatch = searchTag.Length >= MinLengthForPartialMatch;
+
+                    // Exact match
+                    if (nameLower == searchTag || nameWords.Contains(searchTag))
                     {
-                        var tagLower = NormalizeString(tag);
-                        if (tagLower == itemLower)
-                            score += 50;
-                        else if (tagLower.Contains(itemLower))
-                            score += 20;
+                        score += NameExactMatchScore;
                     }
+                    // scored partial match
+                    else if (allowPartialMatch)
+                    {
+                        foreach (var word in nameWords)
+                        {
+                            if (word.Contains(searchTag))
+                            {
+                                double weight = (double)searchTag.Length / word.Length;
+                                score += (int)(NameContainsScore * weight);
+                            }
+                        }
+                    }
+
+                    // Tags
+                    foreach (var tagLower in normalizedEntryTags)
+                    {
+                        if (tagLower == searchTag)
+                        {
+                            score += TagExactMatchScore;
+                            tagMatchCount++;
+                        }
+                        else if (allowPartialMatch)
+                        {
+                            var tagWords = Regex.Split(tagLower, @"[\s\-_]+", RegexOptions.Compiled);
+                            foreach (var word in tagWords)
+                            {
+                                if (word.Contains(searchTag))
+                                {
+                                    double weight = (double)searchTag.Length / word.Length;
+                                    score += (int)(TagContainsScore * weight);
+                                    tagMatchCount++;
+                                }
+                            }
+                        }
+                    }
+                }
+
+                if (tagMatchCount > 0)
+                {
+                    score = (int)(score * (1 + tagMatchCount * TagMatchBonusFactor));
                 }
 
                 if (score > 0)
@@ -220,9 +271,11 @@ namespace Grimoire
             }
 
             return results
-                    .OrderByDescending(r => r.Score)
-                    .ToList();
+                .OrderByDescending(r => r.Score)
+                .ThenBy(r => r.Entry.Name)
+                .ToList();
         }
+
 
         public static int DisplayCredits()
         {
