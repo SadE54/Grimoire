@@ -1,0 +1,8513 @@
+{
+  "Game": "D&D 5e",
+  "Language": "en",
+  "Version": "1.0",
+  "Author": "oldmanumby",
+  "Description": "D&D 5e SRD",
+  "License": "“CC-BY-4.0",
+  "Credits": "Legal.md",
+  "Entries": [
+    {
+      "Name": "Alignment",
+      "Path": "Characterizations/Alignment.md",
+      "Tags": [ "alignment", "good", "neutral", "evil"]
+    },
+    {
+      "Name": "Backgrounds",
+      "Path": "Characterizations/Backgrounds.md",
+      "Tags": ["background"]
+    },
+    {
+      "Name": "Beyond 1st Level",
+      "Path": "Characterizations/Beyond 1st Level.md",
+      "Tags": ["1st", "level"]
+    },
+    {
+      "Name": "Feats",
+      "Path": "Characterizations/Feats.md",
+      "Tags": ["feats"]
+    },
+    {
+      "Name": "Inspiration",
+      "Path": "Characterizations/Inspiration.md",
+      "Tags": ["inspiration"]
+    },
+    {
+      "Name": "Languages",
+      "Path": "Characterizations/Languages.md",
+      "Tags": ["language"]
+    },
+    {
+      "Name": "Multiclassing",
+      "Path": "Characterizations/Multiclassing.md",
+      "Tags": ["multiclassing"]
+    },
+    {
+      "Name": "Barbarian",
+      "Path": "Classes/Barbarian.md",
+      "Tags": [
+        "barbarian",
+        "class",
+        "rage",
+        "unarmored defense",
+        "reckless attack",
+        "danger sense",
+        "primal path",
+        "ability score improvement",
+        "extra attack",
+        "fast movement",
+        "feral instinct",
+        "brutal critical",
+        "relentless rage",
+        "persistent rage",
+        "indomitable might",
+        "primal champion",
+        "barbarian paths",
+        "path of the berserker",
+        "frenzy",
+        "mindless rage",
+        "intimidating presence",
+        "retaliation"
+      ]
+    },
+    {
+      "Name": "Bard",
+      "Path": "Classes/Bard.md",
+      "Tags": [
+        "class",
+        "spellcasting",
+        "cantrips",
+        "spell slots",
+        "spells known of 1st level and higher",
+        "spellcasting ability",
+        "ritual casting",
+        "spellcasting focus",
+        "bardic inspiration",
+        "jack of all trades",
+        "song of rest",
+        "bard college",
+        "expertise",
+        "ability score improvement",
+        "font of inspiration",
+        "countercharm",
+        "magical secrets",
+        "superior inspiration",
+        "bard colleges",
+        "college of lore",
+        "bonus proficiencies",
+        "cutting words",
+        "additional magical secrets",
+        "peerless skill"
+      ]
+    },
+    {
+      "Name": "Cleric",
+      "Path": "Classes/Cleric.md",
+      "Tags": [
+        "class",
+        "cantrips",
+        "preparing and casting spells",
+        "spellcasting ability",
+        "ritual casting",
+        "spellcasting focus",
+        "divine domain",
+        "domain spells",
+        "channel divinity",
+        "channel divinity: turn undead",
+        "ability score improvement",
+        "destroy undead",
+        "divine intervention",
+        "cleric domains",
+        "life domain",
+        "bonus proficiency",
+        "disciple of life",
+        "channel divinity: preserve life",
+        "blessed healer",
+        "divine strike",
+        "supreme healing"
+      ]
+    },
+    {
+      "Name": "Druid",
+      "Path": "Classes/Druid.md",
+      "Tags": [
+        "class",
+        "druidic",
+        "spellcasting",
+        "cantrips",
+        "preparing and casting spells",
+        "spellcasting ability",
+        "ritual casting",
+        "spellcasting focus",
+        "wild shape",
+        "druid circle",
+        "ability score improvement",
+        "timeless body",
+        "beast spells",
+        "archdruid",
+        "druid circles",
+        "circle of the land",
+        "bonus cantrip",
+        "natural recovery",
+        "circle spells",
+        "land\u0027s stride",
+        "nature\u0027s ward",
+        "nature\u0027s sanctuary"
+      ]
+    },
+    {
+      "Name": "Fighter",
+      "Path": "Classes/Fighter.md",
+      "Tags": [
+        "class",
+        "fighting style",
+        "archery",
+        "defense",
+        "dueling",
+        "great weapon fighting",
+        "protection",
+        "two-weapon fighting",
+        "second wind",
+        "action surge",
+        "martial archetype",
+        "ability score improvement",
+        "extra attack",
+        "indomitable",
+        "martial archetypes",
+        "champion",
+        "improved critical",
+        "remarkable athlete",
+        "additional fighting style",
+        "superior critical",
+        "survivor"
+      ]
+    },
+    {
+      "Name": "Monk",
+      "Path": "Classes/Monk.md",
+      "Tags": [
+        "class",
+        "unarmored defense",
+        "martial arts",
+        "ki",
+        "flurry of blows",
+        "patient defense",
+        "step of the wind",
+        "unarmored movement",
+        "monastic tradition",
+        "deflect missiles",
+        "ability score improvement",
+        "slow fall",
+        "extra attack",
+        "stunning strike",
+        "ki-empowered strikes",
+        "evasion",
+        "stillness of mind",
+        "purity of body",
+        "tongue of the sun and moon",
+        "diamond soul",
+        "timeless body",
+        "empty body",
+        "perfect self",
+        "monastic traditions",
+        "way of the open hand",
+        "open hand technique",
+        "wholeness of body",
+        "tranquility",
+        "quivering palm"
+      ]
+    },
+    {
+      "Name": "Paladin",
+      "Path": "Classes/Paladin.md",
+      "Tags": [
+        "class",
+        "divine sense",
+        "lay on hands",
+        "fighting style",
+        "defense",
+        "dueling",
+        "great weapon fighting",
+        "protection",
+        "spellcasting",
+        "preparing and casting spells",
+        "spellcasting ability",
+        "spellcasting focus",
+        "divine smite",
+        "divine health",
+        "sacred oath",
+        "oath spells",
+        "channel divinity",
+        "ability score improvement",
+        "extra attack",
+        "aura of protection",
+        "aura of courage",
+        "improved divine smite",
+        "cleansing touch",
+        "sacred oaths",
+        "oath of devotion",
+        "tenets of devotion",
+        "aura of devotion",
+        "purity of spirit",
+        "holy nimbus"
+      ]
+    },
+    {
+      "Name": "Ranger",
+      "Path": "Classes/Ranger.md",
+      "Tags": [
+        "class",
+        "favored enemy",
+        "natural explorer",
+        "fighting style",
+        "archery",
+        "defense",
+        "dueling",
+        "two-weapon fighting",
+        "spellcasting",
+        "spell slots",
+        "spells known of 1st level and higher",
+        "spellcasting ability",
+        "ranger archetype",
+        "primeval awareness",
+        "ability score improvement",
+        "extra attack",
+        "land\u0027s stride",
+        "hide in plain sight",
+        "vanish",
+        "feral senses",
+        "foe slayer",
+        "ranger archetypes",
+        "hunter",
+        "hunter\u0027s prey",
+        "defensive tactics",
+        "multiattack",
+        "superior hunter\u0027s defense"
+      ]
+    },
+    {
+      "Name": "Rogue",
+      "Path": "Classes/Rogue.md",
+      "Tags": [
+        "class",
+        "expertise",
+        "sneak attack",
+        "thieves\u0027 cant",
+        "cunning action",
+        "roguish archetype",
+        "ability score improvement",
+        "uncanny dodge",
+        "evasion",
+        "reliable talent",
+        "blindsense",
+        "slippery mind",
+        "elusive",
+        "stroke of luck",
+        "roguish archetypes",
+        "thief",
+        "fast hands",
+        "second-story work",
+        "supreme sneak",
+        "use magic device",
+        "thief\u0027s reflexes"
+      ]
+    },
+    {
+      "Name": "Sorcerer",
+      "Path": "Classes/Sorcerer.md",
+      "Tags": [
+        "class",
+        "spellcasting",
+        "cantrips",
+        "spell slots",
+        "spells known of 1st level and higher",
+        "spellcasting ability",
+        "spellcasting focus",
+        "sorcerous origin",
+        "font of magic",
+        "sorcery points",
+        "flexible casting",
+        "metamagic",
+        "careful spell",
+        "distant spell",
+        "empowered spell",
+        "extended spell",
+        "heightened spell",
+        "quickened spell",
+        "subtle spell",
+        "twinned spell",
+        "ability score improvement",
+        "sorcerous restoration",
+        "sorcerous origins",
+        "draconic bloodline",
+        "dragon ancestor",
+        "draconic resilience",
+        "elemental affinity",
+        "dragon wings",
+        "draconic presence"
+      ]
+    },
+    {
+      "Name": "Warlock",
+      "Path": "Classes/Warlock.md",
+      "Tags": [
+        "class",
+        "otherworldly patron",
+        "pact magic",
+        "cantrips",
+        "spell slots",
+        "spells known of 1st level and higher",
+        "spellcasting ability",
+        "spellcasting focus",
+        "eldritch invocations",
+        "pact boon",
+        "pact of the chain",
+        "pact of the blade",
+        "pact of the tome",
+        "ability score improvement",
+        "mystic arcanum",
+        "eldritch master",
+        "agonizing blast",
+        "armor of shadows",
+        "ascendant step",
+        "beast speech",
+        "beguiling influence",
+        "bewitching whispers",
+        "book of ancient secrets",
+        "chains of carceri",
+        "devil\u0027s sight",
+        "dreadful word",
+        "eldritch sight",
+        "eldritch spear",
+        "eyes of the rune keeper",
+        "fiendish vigor",
+        "gaze of two minds",
+        "lifedrinker",
+        "mask of many faces",
+        "master of myriad forms",
+        "minions of chaos",
+        "mire the mind",
+        "misty visions",
+        "one with shadows",
+        "otherworldly leap",
+        "repelling blast",
+        "sculptor of flesh",
+        "sign of ill omen",
+        "thief of five fates",
+        "thirsting blade",
+        "visions of distant realms",
+        "voice of the chain master",
+        "whispers of the grave",
+        "witch sight",
+        "otherworldly patrons",
+        "the fiend",
+        "expanded spell list",
+        "dark one\u0027s blessing",
+        "dark one\u0027s own luck",
+        "fiendish resilience",
+        "hurl through hell"
+      ]
+    },
+    {
+      "Name": "Wizard",
+      "Path": "Classes/Wizard.md",
+      "Tags": [
+        "class",
+        "spellcasting",
+        "cantrips",
+        "spellbook",
+        "preparing and casting spells",
+        "spellcasting ability",
+        "ritual casting",
+        "spellcasting focus",
+        "learning spells of 1st level and higher",
+        "arcane recovery",
+        "arcane tradition",
+        "ability score improvement",
+        "spell mastery",
+        "signature spells",
+        "arcane traditions",
+        "school of evocation",
+        "evocation savant",
+        "sculpt spells",
+        "potent cantrip",
+        "empowered evocation",
+        "overchannel"
+      ]
+    },
+    {
+      "Name": "Armor",
+      "Path": "Equipment/Armor.md",
+      "Tags": ["armor"]
+    },
+    {
+      "Name": "Coinage",
+      "Path": "Equipment/Coinage.md",
+      "Tags": []
+    },
+    {
+      "Name": "Expenses",
+      "Path": "Equipment/Expenses.md",
+      "Tags": [
+        "lifestyle",
+        "food",
+        "drink",
+        "lodging",
+        "services"
+      ]
+    },
+    {
+      "Name": "Gear",
+      "Path": "Equipment/Gear.md",
+      "Tags": []
+    },
+    {
+      "Name": "Selling Treasure",
+      "Path": "Equipment/Selling Treasure.md",
+      "Tags": []
+    },
+    {
+      "Name": "Tools",
+      "Path": "Equipment/Tools.md",
+      "Tags": []
+    },
+    {
+      "Name": "Trade Goods",
+      "Path": "Equipment/Trade Goods.md",
+      "Tags": []
+    },
+    {
+      "Name": "Transportation",
+      "Path": "Equipment/Transportation.md",
+      "Tags": []
+    },
+    {
+      "Name": "Weapons",
+      "Path": "Equipment/Weapons.md",
+      "Tags": []
+    },
+    {
+      "Name": "Conditions",
+      "Path": "Gamemastering/Conditions.md",
+      "Tags": [
+        "blinded",
+        "charmed",
+        "deafened",
+        "exhaustion",
+        "frightened",
+        "grappled",
+        "incapacitated",
+        "invisible",
+        "paralyzed",
+        "petrified",
+        "poisoned",
+        "prone",
+        "restrained",
+        "stunned",
+        "unconscious"
+      ]
+    },
+    {
+      "Name": "Diseases",
+      "Path": "Gamemastering/Diseases.md",
+      "Tags": [
+        "cackle fever",
+        "sewer plague",
+        "sight rot"
+      ]
+    },
+    {
+      "Name": "Madness",
+      "Path": "Gamemastering/Madness.md",
+      "Tags": []
+    },
+    {
+      "Name": "Objects",
+      "Path": "Gamemastering/Objects.md",
+      "Tags": [
+        "statistics",
+        "objects"
+      ]
+    },
+    {
+      "Name": "Pantheons",
+      "Path": "Gamemastering/Pantheons.md",
+      "Tags": []
+    },
+    {
+      "Name": "Planes",
+      "Path": "Gamemastering/Planes.md",
+      "Tags": []
+    },
+    {
+      "Name": "Poisons",
+      "Path": "Gamemastering/Poisons.md",
+      "Tags": []
+    },
+    {
+      "Name": "Traps",
+      "Path": "Gamemastering/Traps.md",
+      "Tags": []
+    },
+    {
+      "Name": "Abilities",
+      "Path": "Gameplay/Abilities.md",
+      "Tags": [
+        "ability",
+        "contests",
+        "skills"
+      ]
+    },
+    {
+      "Name": "Adventuring",
+      "Path": "Gameplay/Adventuring.md",
+      "Tags": [
+        "speed",
+        "travel",
+        "terrain",
+        "climbing",
+        "swimming",
+        "crawling",
+        "jumping",
+        "falling",
+        "suffocating",
+        "vision",
+        "blindsight",
+        "darkvision",
+        "truesight",
+        "water",
+        "food",
+        "interacting",
+        "rest",
+        "expenses",
+        "activities",
+        "crafting",
+        "profession",
+        "recuperating",
+        "researching",
+        "training"
+      ]
+    },
+    {
+      "Name": "Combat",
+      "Path": "Gameplay/Combat.md",
+      "Tags": [
+        "damage",
+        "critical",
+        "range",
+        "initiative",
+        "range",
+        "attack",
+        "cover",
+        "healing",
+        "death",
+        "knock"
+      ]
+    },
+    {
+      "Name": "Monster Statistics",
+      "Path": "Monsters/# Monster Statistics.md",
+      "Tags": []
+    },
+    {
+      "Name": "Aboleth",
+      "Path": "Monsters/Aboleth.md",
+      "Tags": []
+    },
+    {
+      "Name": "Acolyte (NPC)",
+      "Path": "Monsters/Acolyte (NPC).md",
+      "Tags": []
+    },
+    {
+      "Name": "Adult Black Dragon (Chromatic)",
+      "Path": "Monsters/Adult Black Dragon (Chromatic).md",
+      "Tags": [
+        "black",
+        "dragon"
+      ]
+    },
+    {
+      "Name": "Adult Blue Dragon (Chromatic)",
+      "Path": "Monsters/Adult Blue Dragon (Chromatic).md",
+      "Tags": [
+        "blue",
+        "dragon"
+      ]
+    },
+    {
+      "Name": "Adult Brass Dragon (Metallic)",
+      "Path": "Monsters/Adult Brass Dragon (Metallic).md",
+      "Tags": [
+        "brass",
+        "dragon"
+      ]
+    },
+    {
+      "Name": "Adult Bronze Dragon (Metallic)",
+      "Path": "Monsters/Adult Bronze Dragon (Metallic).md",
+      "Tags": [
+        "bronze",
+        "dragon"
+      ]
+    },
+    {
+      "Name": "Adult Copper Dragon (Metallic)",
+      "Path": "Monsters/Adult Copper Dragon (Metallic).md",
+      "Tags": [
+        "copper",
+        "dragon"
+      ]
+    },
+    {
+      "Name": "Adult Gold Dragon (Metallic)",
+      "Path": "Monsters/Adult Gold Dragon (Metallic).md",
+      "Tags": [
+        "gold",
+        "dragon"
+      ]
+    },
+    {
+      "Name": "Adult Green Dragon (Chromatic)",
+      "Path": "Monsters/Adult Green Dragon (Chromatic).md",
+      "Tags": [
+        "green",
+        "dragon"
+      ]
+    },
+    {
+      "Name": "Adult Red Dragon (Chromatic)",
+      "Path": "Monsters/Adult Red Dragon (Chromatic).md",
+      "Tags": [
+        "red",
+        "dragon"
+      ]
+    },
+    {
+      "Name": "Adult Silver Dragon (Metallic)",
+      "Path": "Monsters/Adult Silver Dragon (Metallic).md",
+      "Tags": [
+        "silver",
+        "dragon"
+      ]
+    },
+    {
+      "Name": "Adult White Dragon (Chromatic)",
+      "Path": "Monsters/Adult White Dragon (Chromatic).md",
+      "Tags": [
+        "white",
+        "dragon"
+      ]
+    },
+    {
+      "Name": "Air Elemental",
+      "Path": "Monsters/Air Elemental.md",
+      "Tags": []
+    },
+    {
+      "Name": "Ancient Black Dragon (Chromatic)",
+      "Path": "Monsters/Ancient Black Dragon (Chromatic).md",
+      "Tags": [
+        "black",
+        "dragon"
+      ]
+    },
+    {
+      "Name": "Ancient Blue Dragon (Chromatic)",
+      "Path": "Monsters/Ancient Blue Dragon (Chromatic).md",
+      "Tags": [
+        "blue",
+        "dragon",
+        "ancient"
+      ]
+    },
+    {
+      "Name": "Ancient Brass Dragon (Metallic)",
+      "Path": "Monsters/Ancient Brass Dragon (Metallic).md",
+      "Tags": [
+        "brass",
+        "dragon",
+        "ancient"
+      ]
+    },
+    {
+      "Name": "Ancient Bronze Dragon (Metallic)",
+      "Path": "Monsters/Ancient Bronze Dragon (Metallic).md",
+      "Tags": [
+        "bronze",
+        "dragon",
+        "ancient"
+      ]
+    },
+    {
+      "Name": "Ancient Copper Dragon (Metallic)",
+      "Path": "Monsters/Ancient Copper Dragon (Metallic).md",
+      "Tags": [
+        "copper",
+        "dragon",
+        "ancient"
+      ]
+    },
+    {
+      "Name": "Ancient Gold Dragon (Metallic)",
+      "Path": "Monsters/Ancient Gold Dragon (Metallic).md",
+      "Tags": [
+        "gold",
+        "dragon",
+        "ancient"
+      ]
+    },
+    {
+      "Name": "Ancient Green Dragon (Chromatic)",
+      "Path": "Monsters/Ancient Green Dragon (Chromatic).md",
+      "Tags": [
+        "green",
+        "dragon",
+        "ancient"
+      ]
+    },
+    {
+      "Name": "Ancient Red Dragon (Chromatic)",
+      "Path": "Monsters/Ancient Red Dragon (Chromatic).md",
+      "Tags": [
+        "red",
+        "dragon",
+        "ancient"
+      ]
+    },
+    {
+      "Name": "Ancient Silver Dragon (Metallic)",
+      "Path": "Monsters/Ancient Silver Dragon (Metallic).md",
+      "Tags": [
+        "silver",
+        "dragon",
+        "ancient"
+      ]
+    },
+    {
+      "Name": "Ancient White Dragon (Chromatic)",
+      "Path": "Monsters/Ancient White Dragon (Chromatic).md",
+      "Tags": [
+        "white",
+        "dragon",
+        "ancient"
+      ]
+    },
+    {
+      "Name": "Androsphinx (Sphinx)",
+      "Path": "Monsters/Androsphinx (Sphinx).md",
+      "Tags": []
+    },
+    {
+      "Name": "Animated Armor (Animated Object)",
+      "Path": "Monsters/Animated Armor (Animated Object).md",
+      "Tags": [
+        "animated",
+        "armor"
+      ]
+    },
+    {
+      "Name": "Ankheg",
+      "Path": "Monsters/Ankheg.md",
+      "Tags": []
+    },
+    {
+      "Name": "Ape (Creature)",
+      "Path": "Monsters/Ape (Creature).md",
+      "Tags": []
+    },
+    {
+      "Name": "Archmage (NPC)",
+      "Path": "Monsters/Archmage (NPC).md",
+      "Tags": []
+    },
+    {
+      "Name": "Assassin (NPC)",
+      "Path": "Monsters/Assassin (NPC).md",
+      "Tags": []
+    },
+    {
+      "Name": "Awakened Shrub (Creature)",
+      "Path": "Monsters/Awakened Shrub (Creature).md",
+      "Tags": []
+    },
+    {
+      "Name": "Awakened Tree (Creature)",
+      "Path": "Monsters/Awakened Tree (Creature).md",
+      "Tags": []
+    },
+    {
+      "Name": "Axe Beak (Creature)",
+      "Path": "Monsters/Axe Beak (Creature).md",
+      "Tags": []
+    },
+    {
+      "Name": "Azer",
+      "Path": "Monsters/Azer.md",
+      "Tags": []
+    },
+    {
+      "Name": "Baboon (Creature)",
+      "Path": "Monsters/Baboon (Creature).md",
+      "Tags": []
+    },
+    {
+      "Name": "Badger (Creature)",
+      "Path": "Monsters/Badger (Creature).md",
+      "Tags": []
+    },
+    {
+      "Name": "Balor (Demon)",
+      "Path": "Monsters/Balor (Demon).md",
+      "Tags": []
+    },
+    {
+      "Name": "Bandit (NPC)",
+      "Path": "Monsters/Bandit (NPC).md",
+      "Tags": []
+    },
+    {
+      "Name": "Bandit Captain (NPC)",
+      "Path": "Monsters/Bandit Captain (NPC).md",
+      "Tags": [
+        "bandit",
+        "captain"
+      ]
+    },
+    {
+      "Name": "Barbed Devil (Devil)",
+      "Path": "Monsters/Barbed Devil (Devil).md",
+      "Tags": []
+    },
+    {
+      "Name": "Basilisk",
+      "Path": "Monsters/Basilisk.md",
+      "Tags": []
+    },
+    {
+      "Name": "Bat (Creature)",
+      "Path": "Monsters/Bat (Creature).md",
+      "Tags": []
+    },
+    {
+      "Name": "Bearded Devil (Devil)",
+      "Path": "Monsters/Bearded Devil (Devil).md",
+      "Tags": []
+    },
+    {
+      "Name": "Behir",
+      "Path": "Monsters/Behir.md",
+      "Tags": []
+    },
+    {
+      "Name": "Berserker (NPC)",
+      "Path": "Monsters/Berserker (NPC).md",
+      "Tags": []
+    },
+    {
+      "Name": "Black Bear (Creature)",
+      "Path": "Monsters/Black Bear (Creature).md",
+      "Tags": [
+        "black bear",
+        "actions"
+      ]
+    },
+    {
+      "Name": "Black Pudding (Ooze)",
+      "Path": "Monsters/Black Pudding (Ooze).md",
+      "Tags": []
+    },
+    {
+      "Name": "Blink Dog (Creature)",
+      "Path": "Monsters/Blink Dog (Creature).md",
+      "Tags": []
+    },
+    {
+      "Name": "Blood Hawk (Creature)",
+      "Path": "Monsters/Blood Hawk (Creature).md",
+      "Tags": []
+    },
+    {
+      "Name": "Boar (Creature)",
+      "Path": "Monsters/Boar (Creature).md",
+      "Tags": []
+    },
+    {
+      "Name": "Bone Devil (Devil)",
+      "Path": "Monsters/Bone Devil (Devil).md",
+      "Tags": []
+    },
+    {
+      "Name": "Brown Bear (Creature)",
+      "Path": "Monsters/Brown Bear (Creature).md",
+      "Tags": []
+    },
+    {
+      "Name": "Bugbear",
+      "Path": "Monsters/Bugbear.md",
+      "Tags": []
+    },
+    {
+      "Name": "Bulette",
+      "Path": "Monsters/Bulette.md",
+      "Tags": []
+    },
+    {
+      "Name": "Camel (Creature)",
+      "Path": "Monsters/Camel (Creature).md",
+      "Tags": []
+    },
+    {
+      "Name": "Cat (Creature)",
+      "Path": "Monsters/Cat (Creature).md",
+      "Tags": ["cat"]
+    },
+    {
+      "Name": "Centaur",
+      "Path": "Monsters/Centaur.md",
+      "Tags": []
+    },
+    {
+      "Name": "Chain Devil (Devil)",
+      "Path": "Monsters/Chain Devil (Devil).md",
+      "Tags": []
+    },
+    {
+      "Name": "Chimera",
+      "Path": "Monsters/Chimera.md",
+      "Tags": []
+    },
+    {
+      "Name": "Chuul",
+      "Path": "Monsters/Chuul.md",
+      "Tags": []
+    },
+    {
+      "Name": "Clay Golem",
+      "Path": "Monsters/Clay Golem.md",
+      "Tags": []
+    },
+    {
+      "Name": "Cloaker",
+      "Path": "Monsters/Cloaker.md",
+      "Tags": []
+    },
+    {
+      "Name": "Cloud Giant (Giant)",
+      "Path": "Monsters/Cloud Giant (Giant).md",
+      "Tags": []
+    },
+    {
+      "Name": "Cockatrice",
+      "Path": "Monsters/Cockatrice.md",
+      "Tags": []
+    },
+    {
+      "Name": "Commoner (NPC)",
+      "Path": "Monsters/Commoner (NPC).md",
+      "Tags": []
+    },
+    {
+      "Name": "Constrictor Snake (Creature)",
+      "Path": "Monsters/Constrictor Snake (Creature).md",
+      "Tags": ["snake"]
+    },
+    {
+      "Name": "Couatl",
+      "Path": "Monsters/Couatl.md",
+      "Tags": []
+    },
+    {
+      "Name": "Crab (Creature)",
+      "Path": "Monsters/Crab (Creature).md",
+      "Tags": []
+    },
+    {
+      "Name": "Crocodile (Creature)",
+      "Path": "Monsters/Crocodile (Creature).md",
+      "Tags": []
+    },
+    {
+      "Name": "Cult Fanatic (NPC)",
+      "Path": "Monsters/Cult Fanatic (NPC).md",
+      "Tags": ["fanatic"]
+    },
+    {
+      "Name": "Cultist (NPC)",
+      "Path": "Monsters/Cultist (NPC).md",
+      "Tags": []
+    },
+    {
+      "Name": "Customizing NPCs (NPC)",
+      "Path": "Monsters/Customizing NPCs (NPC).md",
+      "Tags": [
+        "customizing",
+        "npc"
+      ]
+    },
+    {
+      "Name": "Darkmantle",
+      "Path": "Monsters/Darkmantle.md",
+      "Tags": []
+    },
+    {
+      "Name": "Death Dog (Creature)",
+      "Path": "Monsters/Death Dog (Creature).md",
+      "Tags": ["dog"]
+    },
+    {
+      "Name": "Deer (Creature)",
+      "Path": "Monsters/Deer (Creature).md",
+      "Tags": []
+    },
+    {
+      "Name": "Deva (Angel)",
+      "Path": "Monsters/Deva (Angel).md",
+      "Tags": ["deva"]
+    },
+    {
+      "Name": "Dire Wolf (Creature)",
+      "Path": "Monsters/Dire Wolf (Creature).md",
+      "Tags": []
+    },
+    {
+      "Name": "Djinni (Genie)",
+      "Path": "Monsters/Djinni (Genie).md",
+      "Tags": []
+    },
+    {
+      "Name": "Doppelganger",
+      "Path": "Monsters/Doppelganger.md",
+      "Tags": []
+    },
+    {
+      "Name": "Draft Horse (Creature)",
+      "Path": "Monsters/Draft Horse (Creature).md",
+      "Tags": []
+    },
+    {
+      "Name": "Dragon Turtle",
+      "Path": "Monsters/Dragon Turtle.md",
+      "Tags": []
+    },
+    {
+      "Name": "Dretch (Demon)",
+      "Path": "Monsters/Dretch (Demon).md",
+      "Tags": []
+    },
+    {
+      "Name": "Drider",
+      "Path": "Monsters/Drider.md",
+      "Tags": [
+        "drider",
+        "actions"
+      ]
+    },
+    {
+      "Name": "Druid (NPC)",
+      "Path": "Monsters/Druid (NPC).md",
+      "Tags": []
+    },
+    {
+      "Name": "Dryad",
+      "Path": "Monsters/Dryad.md",
+      "Tags": []
+    },
+    {
+      "Name": "Duergar",
+      "Path": "Monsters/Duergar.md",
+      "Tags": []
+    },
+    {
+      "Name": "Dust Mephit",
+      "Path": "Monsters/Dust Mephit.md",
+      "Tags": []
+    },
+    {
+      "Name": "Eagle (Creature)",
+      "Path": "Monsters/Eagle (Creature).md",
+      "Tags": []
+    },
+    {
+      "Name": "Earth Elemental",
+      "Path": "Monsters/Earth Elemental.md",
+      "Tags": []
+    },
+    {
+      "Name": "Efreeti (Genie)",
+      "Path": "Monsters/Efreeti (Genie).md",
+      "Tags": []
+    },
+    {
+      "Name": "Elephant (Creature)",
+      "Path": "Monsters/Elephant (Creature).md",
+      "Tags": []
+    },
+    {
+      "Name": "Elf Drow",
+      "Path": "Monsters/Elf, Drow.md",
+      "Tags": []
+    },
+    {
+      "Name": "Elk (Creature)",
+      "Path": "Monsters/Elk (Creature).md",
+      "Tags": []
+    },
+    {
+      "Name": "Erinyes (Devil)",
+      "Path": "Monsters/Erinyes (Devil).md",
+      "Tags": []
+    },
+    {
+      "Name": "Ettercap",
+      "Path": "Monsters/Ettercap.md",
+      "Tags": []
+    },
+    {
+      "Name": "Ettin",
+      "Path": "Monsters/Ettin.md",
+      "Tags": []
+    },
+    {
+      "Name": "Fire Elemental",
+      "Path": "Monsters/Fire Elemental.md",
+      "Tags": []
+    },
+    {
+      "Name": "Fire Giant (Giant)",
+      "Path": "Monsters/Fire Giant (Giant).md",
+      "Tags": []
+    },
+    {
+      "Name": "Flesh Golem",
+      "Path": "Monsters/Flesh Golem.md",
+      "Tags": []
+    },
+    {
+      "Name": "Flying Snake (Creature)",
+      "Path": "Monsters/Flying Snake (Creature).md",
+      "Tags": []
+    },
+    {
+      "Name": "Flying Sword (Animated Object)",
+      "Path": "Monsters/Flying Sword (Animated Object).md",
+      "Tags": []
+    },
+    {
+      "Name": "Frog (Creature)",
+      "Path": "Monsters/Frog (Creature).md",
+      "Tags": []
+    },
+    {
+      "Name": "Frost Giant (Giant)",
+      "Path": "Monsters/Frost Giant (Giant).md",
+      "Tags": []
+    },
+    {
+      "Name": "Gargoyle",
+      "Path": "Monsters/Gargoyle.md",
+      "Tags": []
+    },
+    {
+      "Name": "Gelatinous Cube (Ooze)",
+      "Path": "Monsters/Gelatinous Cube (Ooze).md",
+      "Tags": []
+    },
+    {
+      "Name": "Ghast (Ghoul)",
+      "Path": "Monsters/Ghast (Ghoul).md",
+      "Tags": []
+    },
+    {
+      "Name": "Ghost",
+      "Path": "Monsters/Ghost.md",
+      "Tags": []
+    },
+    {
+      "Name": "Ghoul",
+      "Path": "Monsters/Ghoul.md",
+      "Tags": []
+    },
+    {
+      "Name": "Giant Ape (Creature)",
+      "Path": "Monsters/Giant Ape (Creature).md",
+      "Tags": ["ape"]
+    },
+    {
+      "Name": "Giant Badger (Creature)",
+      "Path": "Monsters/Giant Badger (Creature).md",
+      "Tags": ["badger"]
+    },
+    {
+      "Name": "Giant Bat (Creature)",
+      "Path": "Monsters/Giant Bat (Creature).md",
+      "Tags": ["bat"]
+    },
+    {
+      "Name": "Giant Boar (Creature)",
+      "Path": "Monsters/Giant Boar (Creature).md",
+      "Tags": ["boar"]
+    },
+    {
+      "Name": "Giant Centipede (Creature)",
+      "Path": "Monsters/Giant Centipede (Creature).md",
+      "Tags": ["centipede"]
+    },
+    {
+      "Name": "Giant Constrictor Snake (Creature)",
+      "Path": "Monsters/Giant Constrictor Snake (Creature).md",
+      "Tags": [
+        "constrictor",
+        "snake"
+      ]
+    },
+    {
+      "Name": "Giant Crab (Creature)",
+      "Path": "Monsters/Giant Crab (Creature).md",
+      "Tags": ["crab²"]
+    },
+    {
+      "Name": "Giant Crocodile (Creature)",
+      "Path": "Monsters/Giant Crocodile (Creature).md",
+      "Tags": ["crocodile"]
+    },
+    {
+      "Name": "Giant Eagle (Creature)",
+      "Path": "Monsters/Giant Eagle (Creature).md",
+      "Tags": ["eagle"]
+    },
+    {
+      "Name": "Giant Elk (Creature)",
+      "Path": "Monsters/Giant Elk (Creature).md",
+      "Tags": ["elk"]
+    },
+    {
+      "Name": "Giant Fire Beetle (Creature)",
+      "Path": "Monsters/Giant Fire Beetle (Creature).md",
+      "Tags": ["beetle"]
+    },
+    {
+      "Name": "Giant Frog (Creature)",
+      "Path": "Monsters/Giant Frog (Creature).md",
+      "Tags": ["frog"]
+    },
+    {
+      "Name": "Giant Goat (Creature)",
+      "Path": "Monsters/Giant Goat (Creature).md",
+      "Tags": ["goat"]
+    },
+    {
+      "Name": "Giant Hyena (Creature)",
+      "Path": "Monsters/Giant Hyena (Creature).md",
+      "Tags": ["hyena"]
+    },
+    {
+      "Name": "Giant Lizard (Creature)",
+      "Path": "Monsters/Giant Lizard (Creature).md",
+      "Tags": ["lizard"]
+    },
+    {
+      "Name": "Giant Octopus (Creature)",
+      "Path": "Monsters/Giant Octopus (Creature).md",
+      "Tags": ["octopus"]
+    },
+    {
+      "Name": "Giant Owl (Creature)",
+      "Path": "Monsters/Giant Owl (Creature).md",
+      "Tags": ["owl"]
+    },
+    {
+      "Name": "Giant Poisonous Snake (Creature)",
+      "Path": "Monsters/Giant Poisonous Snake (Creature).md",
+      "Tags": ["snake"]
+    },
+    {
+      "Name": "Giant Rat (Creature)",
+      "Path": "Monsters/Giant Rat (Creature).md",
+      "Tags": ["rat"]
+    },
+    {
+      "Name": "Giant Scorpion (Creature)",
+      "Path": "Monsters/Giant Scorpion (Creature).md",
+      "Tags": ["scorpion"]
+    },
+    {
+      "Name": "Giant Sea Horse (Creature)",
+      "Path": "Monsters/Giant Sea Horse (Creature).md",
+      "Tags": [
+        "sea",
+        "horse"
+      ]
+    },
+    {
+      "Name": "Giant Shark (Creature)",
+      "Path": "Monsters/Giant Shark (Creature).md",
+      "Tags": ["shark"]
+    },
+    {
+      "Name": "Giant Spider (Creature)",
+      "Path": "Monsters/Giant Spider (Creature).md",
+      "Tags": ["spider"]
+    },
+    {
+      "Name": "Giant Toad (Creature)",
+      "Path": "Monsters/Giant Toad (Creature).md",
+      "Tags": ["toad"]
+    },
+    {
+      "Name": "Giant Vulture (Creature)",
+      "Path": "Monsters/Giant Vulture (Creature).md",
+      "Tags": ["vulture"]
+    },
+    {
+      "Name": "Giant Wasp (Creature)",
+      "Path": "Monsters/Giant Wasp (Creature).md",
+      "Tags": ["wasp"]
+    },
+    {
+      "Name": "Giant Weasel (Creature)",
+      "Path": "Monsters/Giant Weasel (Creature).md",
+      "Tags": ["weasel"]
+    },
+    {
+      "Name": "Giant Wolf Spider (Creature)",
+      "Path": "Monsters/Giant Wolf Spider (Creature).md",
+      "Tags": ["wolf"]
+    },
+    {
+      "Name": "Gibbering Mouther",
+      "Path": "Monsters/Gibbering Mouther.md",
+      "Tags": []
+    },
+    {
+      "Name": "Glabrezu (Demon)",
+      "Path": "Monsters/Glabrezu (Demon).md",
+      "Tags": []
+    },
+    {
+      "Name": "Gladiator (NPC)",
+      "Path": "Monsters/Gladiator (NPC).md",
+      "Tags": []
+    },
+    {
+      "Name": "Gnoll",
+      "Path": "Monsters/Gnoll.md",
+      "Tags": []
+    },
+    {
+      "Name": "Gnome, Deep (Svirfneblin)",
+      "Path": "Monsters/Gnome, Deep (Svirfneblin).md",
+      "Tags": ["gnome"]
+    },
+    {
+      "Name": "Goat (Creature)",
+      "Path": "Monsters/Goat (Creature).md",
+      "Tags": []
+    },
+    {
+      "Name": "Goblin",
+      "Path": "Monsters/Goblin.md",
+      "Tags": []
+    },
+    {
+      "Name": "Gorgon",
+      "Path": "Monsters/Gorgon.md",
+      "Tags": []
+    },
+    {
+      "Name": "Gray Ooze",
+      "Path": "Monsters/Gray Ooze.md",
+      "Tags": ["ooze"]
+    },
+    {
+      "Name": "Green Hag",
+      "Path": "Monsters/Green Hag.md",
+      "Tags": ["hag"]
+    },
+    {
+      "Name": "Grick",
+      "Path": "Monsters/Grick.md",
+      "Tags": []
+    },
+    {
+      "Name": "Griffon",
+      "Path": "Monsters/Griffon.md",
+      "Tags": []
+    },
+    {
+      "Name": "Grimlock",
+      "Path": "Monsters/Grimlock.md",
+      "Tags": []
+    },
+    {
+      "Name": "Guard (NPC)",
+      "Path": "Monsters/Guard (NPC).md",
+      "Tags": []
+    },
+    {
+      "Name": "Guardian Naga",
+      "Path": "Monsters/Guardian Naga.md",
+      "Tags": ["naga"]
+    },
+    {
+      "Name": "Gynosphinx (Sphinx)",
+      "Path": "Monsters/Gynosphinx (Sphinx).md",
+      "Tags": ["sphinx"]
+    },
+    {
+      "Name": "Half Dragon Template",
+      "Path": "Monsters/Half-Dragon Template.md",
+      "Tags": [
+          "dragon",
+          "template"
+      ]
+    },
+    {
+      "Name": "Harpy",
+      "Path": "Monsters/Harpy.md",
+      "Tags": []
+    },
+    {
+      "Name": "Hawk (Creature)",
+      "Path": "Monsters/Hawk (Creature).md",
+      "Tags": ["hawk"]
+    },
+    {
+      "Name": "Hell Hound",
+      "Path": "Monsters/Hell Hound.md",
+      "Tags": ["hound"]
+    },
+    {
+      "Name": "Hezrou (Demon)",
+      "Path": "Monsters/Hezrou (Demon).md",
+      "Tags": ["hezrou"]
+    },
+    {
+      "Name": "Hill Giant (Giant)",
+      "Path": "Monsters/Hill Giant (Giant).md",
+      "Tags": ["giant"]
+    },
+    {
+      "Name": "Hippogriff",
+      "Path": "Monsters/Hippogriff.md",
+      "Tags": []
+    },
+    {
+      "Name": "Hobgoblin",
+      "Path": "Monsters/Hobgoblin.md",
+      "Tags": []
+    },
+    {
+      "Name": "Homunculus",
+      "Path": "Monsters/Homunculus.md",
+      "Tags": []
+    },
+    {
+      "Name": "Horned Devil",
+      "Path": "Monsters/Horned Devil.md",
+      "Tags": ["devil"]
+    },
+    {
+      "Name": "Hunter Shark (Creature)",
+      "Path": "Monsters/Hunter Shark (Creature).md",
+      "Tags": ["shark"]
+    },
+    {
+      "Name": "Hydra",
+      "Path": "Monsters/Hydra.md",
+      "Tags": []
+    },
+    {
+      "Name": "Hyena (Creature)",
+      "Path": "Monsters/Hyena (Creature).md",
+      "Tags": ["hyena"]
+    },
+    {
+      "Name": "Ice Devil (Devil)",
+      "Path": "Monsters/Ice Devil (Devil).md",
+      "Tags": ["devil"]
+    },
+    {
+      "Name": "Ice Mephit",
+      "Path": "Monsters/Ice Mephit.md",
+      "Tags": ["mephit"]
+    },
+    {
+      "Name": "Imp (Devil)",
+      "Path": "Monsters/Imp (Devil).md",
+      "Tags": ["imp"]
+    },
+    {
+      "Name": "Invisible Stalker",
+      "Path": "Monsters/Invisible Stalker.md",
+      "Tags": ["stalker"]
+    },
+    {
+      "Name": "Iron Golem",
+      "Path": "Monsters/Iron Golem.md",
+      "Tags": ["golem"]
+    },
+    {
+      "Name": "Jackal (Creature)",
+      "Path": "Monsters/Jackal (Creature).md",
+      "Tags": ["jackal"]
+    },
+    {
+      "Name": "Killer Whale (Creature)",
+      "Path": "Monsters/Killer Whale (Creature).md",
+      "Tags": ["whale"]
+    },
+    {
+      "Name": "Knight (NPC)",
+      "Path": "Monsters/Knight (NPC).md",
+      "Tags": ["knight"]
+    },
+    {
+      "Name": "Kobold",
+      "Path": "Monsters/Kobold.md",
+      "Tags": []
+    },
+    {
+      "Name": "Kraken",
+      "Path": "Monsters/Kraken.md",
+      "Tags": []
+    },
+    {
+      "Name": "Lamia",
+      "Path": "Monsters/Lamia.md",
+      "Tags": []
+    },
+    {
+      "Name": "Lemure (Devil)",
+      "Path": "Monsters/Lemure (Devil).md",
+      "Tags": ["lemure"]
+    },
+    {
+      "Name": "Lich",
+      "Path": "Monsters/Lich.md",
+      "Tags": []
+    },
+    {
+      "Name": "Lion (Creature)",
+      "Path": "Monsters/Lion (Creature).md",
+      "Tags": ["lion"]
+    },
+    {
+      "Name": "Lizard (Creature)",
+      "Path": "Monsters/Lizard (Creature).md",
+      "Tags": ["lizard"]
+    },
+    {
+      "Name": "Lizardfolk",
+      "Path": "Monsters/Lizardfolk.md",
+      "Tags": []
+    },
+    {
+      "Name": "Mage (NPC)",
+      "Path": "Monsters/Mage (NPC).md",
+      "Tags": ["mage"]
+    },
+    {
+      "Name": "Magma Mephit",
+      "Path": "Monsters/Magma Mephit.md",
+      "Tags": ["mephit"]
+    },
+    {
+      "Name": "Magmin",
+      "Path": "Monsters/Magmin.md",
+      "Tags": []
+    },
+    {
+      "Name": "Mammoth (Creature)",
+      "Path": "Monsters/Mammoth (Creature).md",
+      "Tags": ["mammoth"]
+    },
+    {
+      "Name": "Manticore",
+      "Path": "Monsters/Manticore.md",
+      "Tags": []
+    },
+    {
+      "Name": "Marilith (Demon)",
+      "Path": "Monsters/Marilith (Demon).md",
+      "Tags": ["marilith"]
+    },
+    {
+      "Name": "Mastiff (Creature)",
+      "Path": "Monsters/Mastiff (Creature).md",
+      "Tags": ["mastiff"]
+    },
+    {
+      "Name": "Medusa",
+      "Path": "Monsters/Medusa.md",
+      "Tags": []
+    },
+    {
+      "Name": "Merfolk",
+      "Path": "Monsters/Merfolk.md",
+      "Tags": []
+    },
+    {
+      "Name": "Merrow",
+      "Path": "Monsters/Merrow.md",
+      "Tags": []
+    },
+    {
+      "Name": "Mimic",
+      "Path": "Monsters/Mimic.md",
+      "Tags": []
+    },
+    {
+      "Name": "Minotaur Skeleton",
+      "Path": "Monsters/Minotaur Skeleton.md",
+      "Tags": ["minotaur"]
+    },
+    {
+      "Name": "Minotaur",
+      "Path": "Monsters/Minotaur.md",
+      "Tags": []
+    },
+    {
+      "Name": "Mule (Creature)",
+      "Path": "Monsters/Mule (Creature).md",
+      "Tags": ["mule"]
+    },
+    {
+      "Name": "Mummy Lord",
+      "Path": "Monsters/Mummy Lord.md",
+      "Tags": ["mummy"]
+    },
+    {
+      "Name": "Mummy",
+      "Path": "Monsters/Mummy.md",
+      "Tags": []
+    },
+    {
+      "Name": "Nalfeshnee (Demon)",
+      "Path": "Monsters/Nalfeshnee (Demon).md",
+      "Tags": ["nalfeshnee"]
+    },
+    {
+      "Name": "Night Hag",
+      "Path": "Monsters/Night Hag.md",
+      "Tags": ["hag"]
+    },
+    {
+      "Name": "Nightmare",
+      "Path": "Monsters/Nightmare.md",
+      "Tags": []
+    },
+    {
+      "Name": "Noble (NPC)",
+      "Path": "Monsters/Noble (NPC).md",
+      "Tags": ["noble"]
+    },
+    {
+      "Name": "Ochre Jelly (Ooze)",
+      "Path": "Monsters/Ochre Jelly (Ooze).md",
+      "Tags": [
+        "jelly",
+        "ooze"
+      ]
+    },
+    {
+      "Name": "Octopus (Creature)",
+      "Path": "Monsters/Octopus (Creature).md",
+      "Tags": ["octopus"]
+    },
+    {
+      "Name": "Ogre Zombie",
+      "Path": "Monsters/Ogre Zombie.md",
+      "Tags": ["zombie"]
+    },
+    {
+      "Name": "Ogre",
+      "Path": "Monsters/Ogre.md",
+      "Tags": []
+    },
+    {
+      "Name": "Oni",
+      "Path": "Monsters/Oni.md",
+      "Tags": []
+    },
+    {
+      "Name": "Orc",
+      "Path": "Monsters/Orc.md",
+      "Tags": []
+    },
+    {
+      "Name": "Otyugh",
+      "Path": "Monsters/Otyugh.md",
+      "Tags": []
+    },
+    {
+      "Name": "Owl (Creature)",
+      "Path": "Monsters/Owl (Creature).md",
+      "Tags": []
+    },
+    {
+      "Name": "Owlbear",
+      "Path": "Monsters/Owlbear.md",
+      "Tags": []
+    },
+    {
+      "Name": "Panther (Creature)",
+      "Path": "Monsters/Panther (Creature).md",
+      "Tags": ["panther"]
+    },
+    {
+      "Name": "Pegasus",
+      "Path": "Monsters/Pegasus.md",
+      "Tags": []
+    },
+    {
+      "Name": "Phase Spider (Creature)",
+      "Path": "Monsters/Phase Spider (Creature).md",
+      "Tags": ["spider"]
+    },
+    {
+      "Name": "Pit Fiend (Devil)",
+      "Path": "Monsters/Pit Fiend (Devil).md",
+      "Tags": [
+        "pit",
+        "fiend"
+      ]
+    },
+    {
+      "Name": "Planetar (Angel)",
+      "Path": "Monsters/Planetar (Angel).md",
+      "Tags": ["planetar"]
+    },
+    {
+      "Name": "Plesiosaurus (Dinosaur)",
+      "Path": "Monsters/Plesiosaurus (Dinosaur).md",
+      "Tags": [
+        "plesiosaurus",
+        "dinosaur"]
+    },
+    {
+      "Name": "Poisonous Snake (Creature)",
+      "Path": "Monsters/Poisonous Snake (Creature).md",
+      "Tags": [
+        "snake",
+        "poisonous"
+      ]
+    },
+    {
+      "Name": "Polar Bear (Creature)",
+      "Path": "Monsters/Polar Bear (Creature).md",
+      "Tags": [
+        "polar",
+        "bear"
+      ]
+    },
+    {
+      "Name": "Pony (Creature)",
+      "Path": "Monsters/Pony (Creature).md",
+      "Tags": ["pony"]
+    },
+    {
+      "Name": "Priest (NPC)",
+      "Path": "Monsters/Priest (NPC).md",
+      "Tags": [
+        "priest"
+      ]
+    },
+    {
+      "Name": "Pseudodragon",
+      "Path": "Monsters/Pseudodragon.md",
+      "Tags": [
+        "pseudodragon",
+        "dragon"
+      ]
+    },
+    {
+      "Name": "Purple Worm",
+      "Path": "Monsters/Purple Worm.md",
+      "Tags": [
+        "worm"
+      ]
+    },
+    {
+      "Name": "Quasit (Demon)",
+      "Path": "Monsters/Quasit (Demon).md",
+      "Tags": [
+        "quasit"
+      ]
+    },
+    {
+      "Name": "Quipper (Creature)",
+      "Path": "Monsters/Quipper (Creature).md",
+      "Tags": [
+        "quipper"
+      ]
+    },
+    {
+      "Name": "Rakshasa",
+      "Path": "Monsters/Rakshasa.md",
+      "Tags": []
+    },
+    {
+      "Name": "Rat (Creature)",
+      "Path": "Monsters/Rat (Creature).md",
+      "Tags": [
+        "rat"
+      ]
+    },
+    {
+      "Name": "Raven (Creature)",
+      "Path": "Monsters/Raven (Creature).md",
+      "Tags": [
+        "raven"
+      ]
+    },
+    {
+      "Name": "Reef Shark (Creature)",
+      "Path": "Monsters/Reef Shark (Creature).md",
+      "Tags": [
+        "shark",
+        "reef"
+      ]
+    },
+    {
+      "Name": "Remorhaz",
+      "Path": "Monsters/Remorhaz.md",
+      "Tags": []
+    },
+    {
+      "Name": "Rhinoceros (Creature)",
+      "Path": "Monsters/Rhinoceros (Creature).md",
+      "Tags": [
+        "rhinoceros"
+      ]
+    },
+    {
+      "Name": "Riding Horse (Creature)",
+      "Path": "Monsters/Riding Horse (Creature).md",
+      "Tags": [
+        "horse"
+      ]
+    },
+    {
+      "Name": "Roc",
+      "Path": "Monsters/Roc.md",
+      "Tags": []
+    },
+    {
+      "Name": "Roper",
+      "Path": "Monsters/Roper.md",
+      "Tags": []
+    },
+    {
+      "Name": "Rug of Smothering (Animated Object)",
+      "Path": "Monsters/Rug of Smothering (Animated Object).md",
+      "Tags": [
+        "smothering",
+        "rug"
+      ]
+    },
+    {
+      "Name": "Rust Monster",
+      "Path": "Monsters/Rust Monster.md",
+      "Tags": [
+        "rust",
+        "monster"
+      ]
+    },
+    {
+      "Name": "Saber Toothed Tiger (Creature)",
+      "Path": "Monsters/Saber-Toothed Tiger (Creature).md",
+      "Tags": [
+        "tiger",
+        "saber"
+      ]
+    },
+    {
+      "Name": "Sahuagin",
+      "Path": "Monsters/Sahuagin.md",
+      "Tags": []
+    },
+    {
+      "Name": "Salamander",
+      "Path": "Monsters/Salamander.md",
+      "Tags": []
+    },
+    {
+      "Name": "Satyr",
+      "Path": "Monsters/Satyr.md",
+      "Tags": []
+    },
+    {
+      "Name": "Scorpion (Creature)",
+      "Path": "Monsters/Scorpion (Creature).md",
+      "Tags": [
+        "scorpion"
+      ]
+    },
+    {
+      "Name": "Scout (NPC)",
+      "Path": "Monsters/Scout (NPC).md",
+      "Tags": [
+        "scout"
+      ]
+    },
+    {
+      "Name": "Sea Hag",
+      "Path": "Monsters/Sea Hag.md",
+      "Tags": [
+        "hag",
+        "sea"
+      ]
+    },
+    {
+      "Name": "Sea Horse (Creature)",
+      "Path": "Monsters/Sea Horse (Creature).md",
+      "Tags": [
+        "horse",
+        "sea"
+      ]
+    },
+    {
+      "Name": "Shadow",
+      "Path": "Monsters/Shadow.md",
+      "Tags": []
+    },
+    {
+      "Name": "Shambling Mound",
+      "Path": "Monsters/Shambling Mound.md",
+      "Tags": [
+        "mound"
+      ]
+    },
+    {
+      "Name": "Shield Guardian",
+      "Path": "Monsters/Shield Guardian.md",
+      "Tags": [
+        "guardian",
+        "shield"
+      ]
+    },
+    {
+      "Name": "Shrieker (Fungi)",
+      "Path": "Monsters/Shrieker (Fungi).md",
+      "Tags": [
+        "shrieker",
+        "fungi"
+      ]
+    },
+    {
+      "Name": "Skeleton",
+      "Path": "Monsters/Skeleton.md",
+      "Tags": []
+    },
+    {
+      "Name": "Solar (Angel)",
+      "Path": "Monsters/Solar (Angel).md",
+      "Tags": [
+        "solar"
+      ]
+    },
+    {
+      "Name": "Specter",
+      "Path": "Monsters/Specter.md",
+      "Tags": []
+    },
+    {
+      "Name": "Spider (Creature)",
+      "Path": "Monsters/Spider (Creature).md",
+      "Tags": [
+        "spider"
+      ]
+    },
+    {
+      "Name": "Spirit Naga",
+      "Path": "Monsters/Spirit Naga.md",
+      "Tags": [
+        "naga"
+      ]
+    },
+    {
+      "Name": "Sprite",
+      "Path": "Monsters/Sprite.md",
+      "Tags": []
+    },
+    {
+      "Name": "Spy (NPC)",
+      "Path": "Monsters/Spy (NPC).md",
+      "Tags": [
+        "spy"
+      ]
+    },
+    {
+      "Name": "Steam Mephit",
+      "Path": "Monsters/Steam Mephit.md",
+      "Tags": [
+        "mephit",
+        "steam"
+      ]
+    },
+    {
+      "Name": "Stirge",
+      "Path": "Monsters/Stirge.md",
+      "Tags": []
+    },
+    {
+      "Name": "Stone Giant (Giant)",
+      "Path": "Monsters/Stone Giant (Giant).md",
+      "Tags": [
+        "giant",
+        "stone"
+      ]
+    },
+    {
+      "Name": "Stone Golem",
+      "Path": "Monsters/Stone Golem.md",
+      "Tags": [
+        "golem",
+        "stone"
+      ]
+    },
+    {
+      "Name": "Storm Giant (Giant)",
+      "Path": "Monsters/Storm Giant (Giant).md",
+      "Tags": [
+        "storm"
+      ]
+    },
+    {
+      "Name": "Succubus Incubus",
+      "Path": "Monsters/Succubus-Incubus.md",
+      "Tags": [
+        "succubus",
+        "incubus"
+      ]
+    },
+    {
+      "Name": "Swarm of Bats (Creature)",
+      "Path": "Monsters/Swarm of Bats (Creature).md",
+      "Tags": [
+        "bats",
+        "swarm"
+      ]
+    },
+    {
+      "Name": "Swarm of Insects (Creature)",
+      "Path": "Monsters/Swarm of Insects (Creature).md",
+      "Tags": [
+        "insects",
+        "swarm"
+      ]
+    },
+    {
+      "Name": "Swarm of Poisonous Snakes (Creature)",
+      "Path": "Monsters/Swarm of Poisonous Snakes (Creature).md",
+      "Tags": [
+        "snakes",
+        "swarm"
+      ]
+    },
+    {
+      "Name": "Swarm of Quippers (Creature)",
+      "Path": "Monsters/Swarm of Quippers (Creature).md",
+      "Tags": [
+        "quippers",
+        "swarm"
+      ]
+    },
+    {
+      "Name": "Swarm of Rats (Creature)",
+      "Path": "Monsters/Swarm of Rats (Creature).md",
+      "Tags": [
+        "rats",
+        "swarm"
+      ]
+    },
+    {
+      "Name": "Swarm of Ravens (Creature)",
+      "Path": "Monsters/Swarm of Ravens (Creature).md",
+      "Tags": [
+        "ravens",
+        "swarm"
+      ]
+    },
+    {
+      "Name": "Tarrasque",
+      "Path": "Monsters/Tarrasque.md",
+      "Tags": []
+    },
+    {
+      "Name": "Thug (NPC)",
+      "Path": "Monsters/Thug (NPC).md",
+      "Tags": [
+        "thug"
+      ]
+    },
+    {
+      "Name": "Tiger (Creature)",
+      "Path": "Monsters/Tiger (Creature).md",
+      "Tags": [
+        "tiger"
+      ]
+    },
+    {
+      "Name": "Treant",
+      "Path": "Monsters/Treant.md",
+      "Tags": []
+    },
+    {
+      "Name": "Tribal Warrior (NPC)",
+      "Path": "Monsters/Tribal Warrior (NPC).md",
+      "Tags": [
+        "warrior",
+        "tribal"
+      ]
+    },
+    {
+      "Name": "Triceratops (Dinosaur)",
+      "Path": "Monsters/Triceratops (Dinosaur).md",
+      "Tags": [
+        "triceratops",
+        "dinosaur"
+      ]
+    },
+    {
+      "Name": "Troll",
+      "Path": "Monsters/Troll.md",
+      "Tags": []
+    },
+    {
+      "Name": "Tyrannosaurus Rex (Dinosaur)",
+      "Path": "Monsters/Tyrannosaurus Rex (Dinosaur).md",
+      "Tags": [
+        "tyrannosaurus",
+        "dinosaur"
+      ]
+    },
+    {
+      "Name": "Unicorn",
+      "Path": "Monsters/Unicorn.md",
+      "Tags": []
+    },
+    {
+      "Name": "Vampire Spawn",
+      "Path": "Monsters/Vampire Spawn.md",
+      "Tags": [
+        "vampire",
+        "spawn"
+      ]
+    },
+    {
+      "Name": "Vampire",
+      "Path": "Monsters/Vampire.md",
+      "Tags": []
+    },
+    {
+      "Name": "Veteran (NPC)",
+      "Path": "Monsters/Veteran (NPC).md",
+      "Tags": [
+        "veteran"
+      ]
+    },
+    {
+      "Name": "Violet Fungus (Fungi)",
+      "Path": "Monsters/Violet Fungus (Fungi).md",
+      "Tags": [
+        "fungus",
+        "violet"
+      ]
+    },
+    {
+      "Name": "Vrock (Demon)",
+      "Path": "Monsters/Vrock (Demon).md",
+      "Tags": [
+        "vrock"
+      ]
+    },
+    {
+      "Name": "Vulture (Creature)",
+      "Path": "Monsters/Vulture (Creature).md",
+      "Tags": [
+        "vulture"
+      ]
+    },
+    {
+      "Name": "Warhorse (Creature)",
+      "Path": "Monsters/Warhorse (Creature).md",
+      "Tags": [
+        "warhorse"
+      ]
+    },
+    {
+      "Name": "Warhorse Skeleton",
+      "Path": "Monsters/Warhorse Skeleton.md",
+      "Tags": [
+        "warhorse",
+        "skeleton"
+      ]
+    },
+    {
+      "Name": "Water Elemental",
+      "Path": "Monsters/Water Elemental.md",
+      "Tags": [
+        "elemental",
+        "water"
+      ]
+    },
+    {
+      "Name": "Weasel (Creature)",
+      "Path": "Monsters/Weasel (Creature).md",
+      "Tags": [
+        "weasel"
+      ]
+    },
+    {
+      "Name": "Werebear (Lycanthrope)",
+      "Path": "Monsters/Werebear (Lycanthrope).md",
+      "Tags": [
+        "werebear",
+        "lycanthrope"
+      ]
+    },
+    {
+      "Name": "Wereboar (Lycanthrope)",
+      "Path": "Monsters/Wereboar (Lycanthrope).md",
+      "Tags": [
+        "wereboar",
+        "lycanthrope"
+      ]
+    },
+    {
+      "Name": "Wererat (Lycanthrope)",
+      "Path": "Monsters/Wererat (Lycanthrope).md",
+      "Tags": [
+        "wererat",
+        "lycanthrope"
+      ]
+    },
+    {
+      "Name": "Weretiger (Lycanthrope)",
+      "Path": "Monsters/Weretiger (Lycanthrope).md",
+      "Tags": [
+        "weretiger",
+        "lycanthrope"
+      ]
+    },
+    {
+      "Name": "Werewolf (Lycanthrope)",
+      "Path": "Monsters/Werewolf (Lycanthrope).md",
+      "Tags": [
+        "werewolf",
+        "lycanthrope"
+      ]
+    },
+    {
+      "Name": "Wight",
+      "Path": "Monsters/Wight.md",
+      "Tags": []
+    },
+    {
+      "Name": "Will Wisp",
+      "Path": "Monsters/Will-o\u0027-Wisp.md",
+      "Tags": [
+        "wisp"
+      ]
+    },
+    {
+      "Name": "Winter Wolf (Creature)",
+      "Path": "Monsters/Winter Wolf (Creature).md",
+      "Tags": [
+        "wolf",
+        "winter"
+      ]
+    },
+    {
+      "Name": "Wolf (Creature)",
+      "Path": "Monsters/Wolf (Creature).md",
+      "Tags": [
+        "wolf",
+        "actions"
+      ]
+    },
+    {
+      "Name": "Worg (Creature)",
+      "Path": "Monsters/Worg (Creature).md",
+      "Tags": [
+        "worg"
+      ]
+    },
+    {
+      "Name": "Wraith",
+      "Path": "Monsters/Wraith.md",
+      "Tags": []
+    },
+    {
+      "Name": "Wyrmling Black Dragon (Chromatic)",
+      "Path": "Monsters/Wyrmling Black Dragon (Chromatic).md",
+      "Tags": [
+        "wyrmling",
+        "dragon",
+        "chromatic",
+        "black"
+      ]
+    },
+    {
+      "Name": "Wyrmling Blue Dragon (Chromatic)",
+      "Path": "Monsters/Wyrmling Blue Dragon (Chromatic).md",
+      "Tags": [
+        "wyrmling",
+        "dragon",
+        "chromatic",
+        "blue"
+      ]
+    },
+    {
+      "Name": "Wyrmling Brass Dragon (Metallic)",
+      "Path": "Monsters/Wyrmling Brass Dragon (Metallic).md",
+      "Tags": [
+        "wyrmling",
+        "dragon",
+        "metallic",
+        "brass"
+      ]
+    },
+    {
+      "Name": "Wyrmling Bronze Dragon (Metallic)",
+      "Path": "Monsters/Wyrmling Bronze Dragon (Metallic).md",
+      "Tags": [
+        "wyrmling",
+        "dragon",
+        "metallic",
+        "bronze"
+      ]
+    },
+    {
+      "Name": "Wyrmling Copper Dragon (Metallic)",
+      "Path": "Monsters/Wyrmling Copper Dragon (Metallic).md",
+      "Tags": [
+        "wyrmling",
+        "dragon",
+        "metallic",
+        "copper"
+      ]
+    },
+    {
+      "Name": "Wyrmling Gold Dragon (Metallic)",
+      "Path": "Monsters/Wyrmling Gold Dragon (Metallic).md",
+      "Tags": [
+        "wyrmling",
+        "dragon",
+        "metallic",
+        "gold"
+      ]
+    },
+    {
+      "Name": "Wyrmling Green Dragon (Chromatic)",
+      "Path": "Monsters/Wyrmling Green Dragon (Chromatic).md",
+      "Tags": [
+        "wyrmling",
+        "dragon",
+        "chromatic",
+        "green"
+      ]
+    },
+    {
+      "Name": "Wyrmling Red Dragon (Chromatic)",
+      "Path": "Monsters/Wyrmling Red Dragon (Chromatic).md",
+      "Tags": [
+        "wyrmling",
+        "dragon",
+        "chromatic",
+        "red"
+      ]
+    },
+    {
+      "Name": "Wyrmling Silver Dragon (Metallic)",
+      "Path": "Monsters/Wyrmling Silver Dragon (Metallic).md",
+      "Tags": [
+        "wyrmling",
+        "dragon",
+        "metallic",
+        "silver"
+      ]
+    },
+    {
+      "Name": "Wyrmling White Dragon (Chromatic)",
+      "Path": "Monsters/Wyrmling White Dragon (Chromatic).md",
+      "Tags": [
+        "wyrmling",
+        "dragon",
+        "chromatic",
+        "white"
+      ]
+    },
+    {
+      "Name": "Wyvern",
+      "Path": "Monsters/Wyvern.md",
+      "Tags": []
+    },
+    {
+      "Name": "Xorn",
+      "Path": "Monsters/Xorn.md",
+      "Tags": []
+    },
+    {
+      "Name": "Young Black Dragon (Chromatic)",
+      "Path": "Monsters/Young Black Dragon (Chromatic).md",
+      "Tags": [
+        "dragon",
+        "young",
+        "chromatic",
+        "black"
+     ]
+    },
+    {
+      "Name": "Young Blue Dragon (Chromatic)",
+      "Path": "Monsters/Young Blue Dragon (Chromatic).md",
+      "Tags": [
+        "dragon",
+        "young",
+        "chromatic",
+        "blue"
+      ]
+    },
+    {
+      "Name": "Young Brass Dragon (Metallic)",
+      "Path": "Monsters/Young Brass Dragon (Metallic).md",
+      "Tags": [
+        "dragon",
+        "young",
+        "metallic",
+        "brass"
+      ]
+    },
+    {
+      "Name": "Young Bronze Dragon (Metallic)",
+      "Path": "Monsters/Young Bronze Dragon (Metallic).md",
+      "Tags": [
+        "dragon",
+        "young",
+        "metallic",
+        "bronze"
+      ]
+    },
+    {
+      "Name": "Young Copper Dragon (Metallic)",
+      "Path": "Monsters/Young Copper Dragon (Metallic).md",
+      "Tags": [
+        "dragon",
+        "young",
+        "metallic",
+        "copper"
+      ]
+    },
+    {
+      "Name": "Young Gold Dragon (Metallic)",
+      "Path": "Monsters/Young Gold Dragon (Metallic).md",
+      "Tags": [
+        "dragon",
+        "young",
+        "metallic",
+        "gold"
+      ]
+    },
+    {
+      "Name": "Young Green Dragon (Chromatic)",
+      "Path": "Monsters/Young Green Dragon (Chromatic).md",
+      "Tags": [
+        "dragon",
+        "young",
+        "chromatic",
+        "green"
+      ]
+    },
+    {
+      "Name": "Young Red Dragon (Chromatic)",
+      "Path": "Monsters/Young Red Dragon (Chromatic).md",
+      "Tags": [
+        "dragon",
+        "young",
+        "chromatic",
+        "red"
+      ]
+    },
+    {
+      "Name": "Young Silver Dragon (Metallic)",
+      "Path": "Monsters/Young Silver Dragon (Metallic).md",
+      "Tags": [
+        "dragon",
+        "young",
+        "metallic",
+        "silver"
+      ]
+    },
+    {
+      "Name": "Young White Dragon (Chromatic)",
+      "Path": "Monsters/Young White Dragon (Chromatic).md",
+      "Tags": [
+        "dragon",
+        "young",
+        "chromatic",
+        "white"
+      ]
+    },
+    {
+      "Name": "Zombie",
+      "Path": "Monsters/Zombie.md",
+      "Tags": []
+    },
+    {
+      "Name": "Monster Statistics",
+      "Path": "Monsters (Alt)/# Monster Statistics.md",
+      "Tags": [
+        "stats",
+        "statistics",
+        "stats"
+      ]
+    },
+    {
+      "Name": "Creatures A-C",
+      "Path": "Monsters (Alt)/Creatures A-C.md",
+      "Tags": [
+        "creatures",
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "Name": "Creatures D-F",
+      "Path": "Monsters (Alt)/Creatures D-F.md",
+      "Tags": [
+        "creatures",
+        "D",
+        "E",
+        "F"
+      ]
+    },
+    {
+      "Name": "Creatures G-I",
+      "Path": "Monsters (Alt)/Creatures G-I.md",
+      "Tags": [
+        "creatures",
+        "G",
+        "H",
+        "I"
+      ]
+    },
+    {
+      "Name": "Creatures J-L",
+      "Path": "Monsters (Alt)/Creatures J-L.md",
+      "Tags": [
+        "creatures",
+        "J",
+        "K",
+        "L"
+      ]
+    },
+    {
+      "Name": "Creatures M-O",
+      "Path": "Monsters (Alt)/Creatures M-O.md",
+      "Tags": [
+        "creatures",
+        "M",
+        "N",
+        "O"
+      ]
+    },
+    {
+      "Name": "Creatures P-R",
+      "Path": "Monsters (Alt)/Creatures P-R.md",
+      "Tags": [
+        "creatures",
+        "P",
+        "Q",
+        "R"
+      ]
+    },
+    {
+      "Name": "Creatures S-U",
+      "Path": "Monsters (Alt)/Creatures S-U.md",
+      "Tags": [
+        "creatures",
+        "S",
+        "T",
+        "U"
+      ]
+    },
+    {
+      "Name": "Creatures V-Z",
+      "Path": "Monsters (Alt)/Creatures V-Z.md",
+      "Tags": [
+        "creatures",
+        "V",
+        "Y",
+        "Z"
+      ]
+    },
+    {
+      "Name": "Monsters A",
+      "Path": "Monsters (Alt)/Monsters A.md",
+      "Tags": [
+        "monsters",
+        "A"
+      ]
+    },
+    {
+      "Name": "Monsters B",
+      "Path": "Monsters (Alt)/Monsters B.md",
+      "Tags": [
+        "monsters",
+        "B"
+      ]
+    },
+    {
+      "Name": "Monsters C",
+      "Path": "Monsters (Alt)/Monsters C.md",
+      "Tags": [
+        "monsters",
+        "C"
+      ]
+    },
+    {
+      "Name": "Monsters D",
+      "Path": "Monsters (Alt)/Monsters D.md",
+      "Tags": [
+        "monsters",
+        "D"
+      ]
+    },
+    {
+      "Name": "Monsters E",
+      "Path": "Monsters (Alt)/Monsters E.md",
+      "Tags": [
+        "monsters",
+        "E"
+      ]
+    },
+    {
+      "Name": "Monsters F",
+      "Path": "Monsters (Alt)/Monsters F.md",
+      "Tags": [
+        "monsters",
+        "F"
+      ]
+    },
+    {
+      "Name": "Monsters G",
+      "Path": "Monsters (Alt)/Monsters G.md",
+      "Tags": [
+        "monsters",
+        "G"
+      ]
+    },
+    {
+      "Name": "Monsters H",
+      "Path": "Monsters (Alt)/Monsters H.md",
+      "Tags": [
+        "monsters",
+        "H"
+      ]
+    },
+    {
+      "Name": "Monsters I",
+      "Path": "Monsters (Alt)/Monsters I.md",
+      "Tags": [
+        "monsters",
+        "I"
+      ]
+    },
+    {
+      "Name": "Monsters J",
+      "Path": "Monsters (Alt)/Monsters J.md",
+      "Tags": [
+        "monsters",
+        "J"        
+      ]
+    },
+    {
+      "Name": "Monsters K",
+      "Path": "Monsters (Alt)/Monsters K.md",
+      "Tags": [
+        "monsters",
+        "K"
+      ]
+    },
+    {
+      "Name": "Monsters L",
+      "Path": "Monsters (Alt)/Monsters L.md",
+      "Tags": [
+        "monsters",
+        "L"
+      ]
+    },
+    {
+      "Name": "Monsters M",
+      "Path": "Monsters (Alt)/Monsters M.md",
+      "Tags": [
+        "monsters",
+        "M"
+      ]
+    },
+    {
+      "Name": "Monsters N",
+      "Path": "Monsters (Alt)/Monsters N.md",
+      "Tags": [
+        "monsters",
+        "N"
+      ]
+    },
+    {
+      "Name": "Monsters O",
+      "Path": "Monsters (Alt)/Monsters O.md",
+      "Tags": [
+        "monsters",
+        "O"
+      ]
+    },
+    {
+      "Name": "Monsters P",
+      "Path": "Monsters (Alt)/Monsters P.md",
+      "Tags": [
+        "monsters",
+        "P"
+      ]
+    },
+    {
+      "Name": "Monsters Q",
+      "Path": "Monsters (Alt)/Monsters Q.md",
+      "Tags": [
+        "monsters",
+        "Q"        
+      ]
+    },
+    {
+      "Name": "Monsters R",
+      "Path": "Monsters (Alt)/Monsters R.md",
+      "Tags": [
+        "monsters",
+        "R"
+      ]
+    },
+    {
+      "Name": "Monsters S",
+      "Path": "Monsters (Alt)/Monsters S.md",
+      "Tags": [
+        "monsters",
+        "S"
+      ]
+    },
+    {
+      "Name": "Monsters T",
+      "Path": "Monsters (Alt)/Monsters T.md",
+      "Tags": [
+        "monsters",
+        "T"
+      ]
+    },
+    {
+      "Name": "Monsters U",
+      "Path": "Monsters (Alt)/Monsters U.md",
+      "Tags": [
+        "monsters",
+        "U"
+      ]
+    },
+    {
+      "Name": "Monsters V",
+      "Path": "Monsters (Alt)/Monsters V.md",
+      "Tags": [
+        "monsters",
+        "V"
+      ]
+    },
+    {
+      "Name": "Monsters W",
+      "Path": "Monsters (Alt)/Monsters W.md",
+      "Tags": [
+        "monsters",
+        "W"
+      ]
+    },
+    {
+      "Name": "Monsters X",
+      "Path": "Monsters (Alt)/Monsters X.md",
+      "Tags": [
+        "monsters",
+        "X"
+      ]
+    },
+    {
+      "Name": "Monsters Y",
+      "Path": "Monsters (Alt)/Monsters Y.md",
+      "Tags": [
+        "monsters",
+        "Y"        
+      ]
+    },
+    {
+      "Name": "Monsters Z",
+      "Path": "Monsters (Alt)/Monsters Z.md",
+      "Tags": [
+        "monsters",
+        "Z"
+      ]
+    },
+    {
+      "Name": "NPCs",
+      "Path": "Monsters (Alt)/NPCs.md",
+      "Tags": []
+    },
+    {
+      "Name": "Racial Traits",
+      "Path": "Races/# Racial Traits.md",
+      "Tags": [
+        "racial",
+        "race",
+        "languages",
+        "subraces"
+      ]
+    },
+    {
+      "Name": "Dragonborn",
+      "Path": "Races/Dragonborn.md",
+      "Tags": [
+        "dragonborn",
+        "race"
+      ]
+    },
+    {
+      "Name": "Dwarf",
+      "Path": "Races/Dwarf.md",
+      "Tags": [
+        "dwarf",
+        "race"
+      ]
+    },
+    {
+      "Name": "Elf",
+      "Path": "Races/Elf.md",
+      "Tags": [
+        "elf",
+        "race"
+      ]
+    },
+    {
+      "Name": "Gnome",
+      "Path": "Races/Gnome.md",
+      "Tags": [
+        "gnome",
+        "race"
+      ]
+    },
+    {
+      "Name": "Half Elf",
+      "Path": "Races/Half-Elf.md",
+      "Tags": [
+        "elf",
+        "half",
+        "race"
+      ]
+    },
+    {
+      "Name": "Half-Orc",
+      "Path": "Races/Half-Orc.md",
+      "Tags": [
+        "orc",
+        "half",
+        "race"
+      ]
+    },
+    {
+      "Name": "Halfling",
+      "Path": "Races/Halfling.md",
+      "Tags": [
+        "halfling",
+        "race"
+      ]
+    },
+    {
+      "Name": "Human",
+      "Path": "Races/Human.md",
+      "Tags": [
+        "human",
+        "race"
+      ]
+    },
+    {
+      "Name": "Tiefling",
+      "Path": "Races/Tiefling.md",
+      "Tags": [
+        "tiefling",
+        "race"
+      ]
+    },
+    {
+      "Name": "Spellcasting",
+      "Path": "Spells/# Spellcasting.md",
+      "Tags": [
+        "casting",
+        "spells"
+      ]
+    },
+    {
+      "Name": "Spell Lists (Wikilinked)",
+      "Path": "Spells/## Spell Lists (Wikilinked).md",
+      "Tags": [
+        "spells",
+        "wiki",
+        "list"
+      ]
+    },
+    {
+      "Name": "Spell Lists",
+      "Path": "Spells/## Spell Lists.md",
+      "Tags": [
+        "spells",
+        "list"
+      ]
+    },
+    {
+      "Name": "Acid Arrow",
+      "Path": "Spells/Acid Arrow.md",
+      "Tags": [
+        "acid",
+        "arrow",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Acid Splash",
+      "Path": "Spells/Acid Splash.md",
+      "Tags": [
+        "acid",
+        "splash",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Aid",
+      "Path": "Spells/Aid.md",
+      "Tags": [
+        "aid",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Alarm",
+      "Path": "Spells/Alarm.md",
+      "Tags": [
+        "alarm",
+        "spell"        
+      ]
+    },
+    {
+      "Name": "Alter Self",
+      "Path": "Spells/Alter Self.md",
+      "Tags": [
+        "alter",
+        "self",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Animal Friendship",
+      "Path": "Spells/Animal Friendship.md",
+      "Tags": [
+        "friendship",
+        "animal",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Animal Messenger",
+      "Path": "Spells/Animal Messenger.md",
+      "Tags": [
+        "messenger",
+        "animal",
+        "spell"        
+      ]
+    },
+    {
+      "Name": "Animal Shapes",
+      "Path": "Spells/Animal Shapes.md",
+      "Tags": [
+        "shapes",
+        "animal",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Animate Dead",
+      "Path": "Spells/Animate Dead.md",
+      "Tags": [
+        "animate",
+        "dead",
+        "spell"        
+      ]
+    },
+    {
+      "Name": "Animate Objects",
+      "Path": "Spells/Animate Objects.md",
+      "Tags": [
+        "animate",
+        "objects",
+        "spell"        
+      ]
+    },
+    {
+      "Name": "Antilife Shell",
+      "Path": "Spells/Antilife Shell.md",
+      "Tags": [
+        "antilife",
+        "shell",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Antimagic Field",
+      "Path": "Spells/Antimagic Field.md",
+      "Tags": [
+        "antimagic",
+        "field",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Antipathy Sympathy",
+      "Path": "Spells/Antipathy-Sympathy.md",
+      "Tags": [
+        "antipathy",
+        "sympathy",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Arcane Eye",
+      "Path": "Spells/Arcane Eye.md",
+      "Tags": [
+        "arcane",
+        "eye",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Arcane Hand",
+      "Path": "Spells/Arcane Hand.md",
+      "Tags": [
+        "arcane",
+        "hand",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Arcane Lock",
+      "Path": "Spells/Arcane Lock.md",
+      "Tags": [
+        "arcane",
+        "lock",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Arcane Sword",
+      "Path": "Spells/Arcane Sword.md",
+      "Tags": [
+        "arcane",
+        "sword",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Arcanist\u0027s Magic Aura",
+      "Path": "Spells/Arcanist\u0027s Magic Aura.md",
+      "Tags": [
+        "arcanist",
+        "aura",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Astral Projection",
+      "Path": "Spells/Astral Projection.md",
+      "Tags": [
+        "astral",
+        "projection",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Augury",
+      "Path": "Spells/Augury.md",
+      "Tags": [
+        "augury",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Awaken",
+      "Path": "Spells/Awaken.md",
+      "Tags": [
+        "awaken",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Bane",
+      "Path": "Spells/Bane.md",
+      "Tags": [
+        "bane",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Banishment",
+      "Path": "Spells/Banishment.md",
+      "Tags": [
+        "banishment",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Barkskin",
+      "Path": "Spells/Barkskin.md",
+      "Tags": [
+        "barkskin",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Beacon of Hope",
+      "Path": "Spells/Beacon of Hope.md",
+      "Tags": [
+        "beacon",
+        "hope",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Bestow Curse",
+      "Path": "Spells/Bestow Curse.md",
+      "Tags": [
+        "bestow",
+        "curse",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Black Tentacles",
+      "Path": "Spells/Black Tentacles.md",
+      "Tags": [
+        "black",
+        "tentacles",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Blade Barrier",
+      "Path": "Spells/Blade Barrier.md",
+      "Tags": [
+        "blade",
+        "barrier",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Bless",
+      "Path": "Spells/Bless.md",
+      "Tags": [
+        "bless",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Blight",
+      "Path": "Spells/Blight.md",
+      "Tags": [
+        "blight",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Blindness Deafness",
+      "Path": "Spells/Blindness-Deafness.md",
+      "Tags": [
+        "blindness",
+        "deafness",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Blink",
+      "Path": "Spells/Blink.md",
+      "Tags": [
+        "blink",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Blur",
+      "Path": "Spells/Blur.md",
+      "Tags": [
+        "blur",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Branding Smite",
+      "Path": "Spells/Branding Smite.md",
+      "Tags": [
+        "branding",
+        "smite",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Burning Hands",
+      "Path": "Spells/Burning Hands.md",
+      "Tags": [
+        "burning",
+        "hands",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Call Lightning",
+      "Path": "Spells/Call Lightning.md",
+      "Tags": [
+        "lightning",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Calm Emotions",
+      "Path": "Spells/Calm Emotions.md",
+      "Tags": [
+        "calm",
+        "emotions",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Chain Lightning",
+      "Path": "Spells/Chain Lightning.md",
+      "Tags": [
+        "chain",
+        "lightning",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Charm Person",
+      "Path": "Spells/Charm Person.md",
+      "Tags": [
+        "charm",
+        "person",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Chill Touch",
+      "Path": "Spells/Chill Touch.md",
+      "Tags": [
+        "chill",
+        "touch",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Circle of Death",
+      "Path": "Spells/Circle of Death.md",
+      "Tags": [
+        "circle",
+        "death",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Clairvoyance",
+      "Path": "Spells/Clairvoyance.md",
+      "Tags": [
+        "clairvoyance",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Clone",
+      "Path": "Spells/Clone.md",
+      "Tags": [
+        "clone",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Cloudkill",
+      "Path": "Spells/Cloudkill.md",
+      "Tags": [
+        "cloudkill",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Color Spray",
+      "Path": "Spells/Color Spray.md",
+      "Tags": [
+        "color",
+        "spray",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Command",
+      "Path": "Spells/Command.md",
+      "Tags": [
+        "command",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Commune with Nature",
+      "Path": "Spells/Commune with Nature.md",
+      "Tags": [
+        "commune",
+        "nature",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Commune",
+      "Path": "Spells/Commune.md",
+      "Tags": [
+        "commune",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Comprehend Languages",
+      "Path": "Spells/Comprehend Languages.md",
+      "Tags": [
+        "comprehend",
+        "languages",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Compulsion",
+      "Path": "Spells/Compulsion.md",
+      "Tags": [
+        "compulsion",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Cone of Cold",
+      "Path": "Spells/Cone of Cold.md",
+      "Tags": [
+        "cone",
+        "cold",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Confusion",
+      "Path": "Spells/Confusion.md",
+      "Tags": [
+        "confusion",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Conjure Animals",
+      "Path": "Spells/Conjure Animals.md",
+      "Tags": [
+        "conjure",
+        "animals",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Conjure Celestial",
+      "Path": "Spells/Conjure Celestial.md",
+      "Tags": [
+        "conjure ",
+        "celestial",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Conjure Elemental",
+      "Path": "Spells/Conjure Elemental.md",
+      "Tags": [
+        "conjure",
+        "elemental",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Conjure Fey",
+      "Path": "Spells/Conjure Fey.md",
+      "Tags": [
+        "conjure",
+        "fey",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Conjure Minor Elementals",
+      "Path": "Spells/Conjure Minor Elementals.md",
+      "Tags": [
+        "conjure",
+        "minor",
+        "elementals",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Conjure Woodland Beings",
+      "Path": "Spells/Conjure Woodland Beings.md",
+      "Tags": [
+        "conjure",
+        "woodland",
+        "beings",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Contact Other Plane",
+      "Path": "Spells/Contact Other Plane.md",
+      "Tags": [
+        "contact",
+        "plane",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Contagion",
+      "Path": "Spells/Contagion.md",
+      "Tags": [
+        "contagion",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Contingency",
+      "Path": "Spells/Contingency.md",
+      "Tags": [
+        "contingency",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Continual Flame",
+      "Path": "Spells/Continual Flame.md",
+      "Tags": [
+        "continual",
+        "flame",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Control Water",
+      "Path": "Spells/Control Water.md",
+      "Tags": [
+        "control",
+        "water",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Control Weather",
+      "Path": "Spells/Control Weather.md",
+      "Tags": [
+        "control",
+        "weather",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Counterspell",
+      "Path": "Spells/Counterspell.md",
+      "Tags": [
+        "counterspell",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Create Food and Water",
+      "Path": "Spells/Create Food and Water.md",
+      "Tags": [
+        "create",
+        "food",
+        "water",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Create or Destroy Water",
+      "Path": "Spells/Create or Destroy Water.md",
+      "Tags": [
+        "create",
+        "destroy",
+        "water",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Create Undead",
+      "Path": "Spells/Create Undead.md",
+      "Tags": [
+        "create",
+        "undead",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Creation",
+      "Path": "Spells/Creation.md",
+      "Tags": [
+        "creation",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Cure Wounds",
+      "Path": "Spells/Cure Wounds.md",
+      "Tags": [
+        "cure",
+        "wounds",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Dancing Lights",
+      "Path": "Spells/Dancing Lights.md",
+      "Tags": [
+        "dancing",
+        "lights",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Darkness",
+      "Path": "Spells/Darkness.md",
+      "Tags": [
+        "darkness",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Darkvision",
+      "Path": "Spells/Darkvision.md",
+      "Tags": [
+        "darkvision",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Daylight",
+      "Path": "Spells/Daylight.md",
+      "Tags": [
+        "daylight",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Death Ward",
+      "Path": "Spells/Death Ward.md",
+      "Tags": [
+        "death",
+        "ward",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Delayed Blast Fireball",
+      "Path": "Spells/Delayed Blast Fireball.md",
+      "Tags": [
+        "delayed",
+        "blast",
+        "fireball",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Demiplane",
+      "Path": "Spells/Demiplane.md",
+      "Tags": [
+        "demiplane",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Detect Evil Good",
+      "Path": "Spells/Detect Evil and Good.md",
+      "Tags": [
+        "detect",
+        "evil",
+        "good",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Detect Magic",
+      "Path": "Spells/Detect Magic.md",
+      "Tags": [
+        "detect",
+        "magic",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Detect Poison and Disease",
+      "Path": "Spells/Detect Poison and Disease.md",
+      "Tags": [
+        "detect",
+        "poison",
+        "disease",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Detect Thoughts",
+      "Path": "Spells/Detect Thoughts.md",
+      "Tags": [
+        "detect",
+        "thoughts",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Dimension Door",
+      "Path": "Spells/Dimension Door.md",
+      "Tags": [
+        "dimension",
+        "door",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Disguise Self",
+      "Path": "Spells/Disguise Self.md",
+      "Tags": [
+        "disguise",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Disintegrate",
+      "Path": "Spells/Disintegrate.md",
+      "Tags": [
+        "disintegrate",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Dispel Evil Good",
+      "Path": "Spells/Dispel Evil and Good.md",
+      "Tags": [
+        "dispel",
+        "evil",
+        "good",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Dispel Magic",
+      "Path": "Spells/Dispel Magic.md",
+      "Tags": [
+        "dispel",
+        "magic",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Divination",
+      "Path": "Spells/Divination.md",
+      "Tags": [
+        "divination",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Divine Favor",
+      "Path": "Spells/Divine Favor.md",
+      "Tags": [
+        "divine",
+        "favor",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Divine Word",
+      "Path": "Spells/Divine Word.md",
+      "Tags": [
+        "divine",
+        "word",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Dominate Beast",
+      "Path": "Spells/Dominate Beast.md",
+      "Tags": [
+        "dominate",
+        "beast",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Dominate Monster",
+      "Path": "Spells/Dominate Monster.md",
+      "Tags": [
+        "dominate",
+        "monster",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Dominate Person",
+      "Path": "Spells/Dominate Person.md",
+      "Tags": [
+        "dominate",
+        "person",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Dream",
+      "Path": "Spells/Dream.md",
+      "Tags": [
+        "dream",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Druidcraft",
+      "Path": "Spells/Druidcraft.md",
+      "Tags": [
+        "druidcraft",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Earthquake",
+      "Path": "Spells/Earthquake.md",
+      "Tags": [
+        "earthquake",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Eldritch Blast",
+      "Path": "Spells/Eldritch Blast.md",
+      "Tags": [
+        "eldritch",
+        "blast",
+        "spell" 
+      ]
+    },
+    {
+      "Name": "Enhance Ability",
+      "Path": "Spells/Enhance Ability.md",
+      "Tags": [
+        "enhance",
+        "ability",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Enlarge Reduce",
+      "Path": "Spells/Enlarge-Reduce.md",
+      "Tags": [
+        "enlarge",
+        "reduce",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Entangle",
+      "Path": "Spells/Entangle.md",
+      "Tags": [
+        "entangle",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Enthrall",
+      "Path": "Spells/Enthrall.md",
+      "Tags": [
+        "enthrall",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Etherealness",
+      "Path": "Spells/Etherealness.md",
+      "Tags": [
+        "etherealness",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Expeditious Retreat",
+      "Path": "Spells/Expeditious Retreat.md",
+      "Tags": [
+        "expeditious",
+        "retreat",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Eyebite",
+      "Path": "Spells/Eyebite.md",
+      "Tags": [
+        "eyebite",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Fabricate",
+      "Path": "Spells/Fabricate.md",
+      "Tags": [
+        "fabricate",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Faerie Fire",
+      "Path": "Spells/Faerie Fire.md",
+      "Tags": [
+        "faerie",
+        "fire",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Faithful Hound",
+      "Path": "Spells/Faithful Hound.md",
+      "Tags": [
+        "faithful",
+        "hound",
+        "spell"
+      ]
+    },
+    {
+      "Name": "False Life",
+      "Path": "Spells/False Life.md",
+      "Tags": [
+        "false",
+        "life",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Fear",
+      "Path": "Spells/Fear.md",
+      "Tags": [
+        "fear",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Feather Fall",
+      "Path": "Spells/Feather Fall.md",
+      "Tags": [
+        "feather",
+        "fall",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Feeblemind",
+      "Path": "Spells/Feeblemind.md",
+      "Tags": [
+        "feeblemind",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Find Familiar",
+      "Path": "Spells/Find Familiar.md",
+      "Tags": [
+        "find",
+        "familiar",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Find Steed",
+      "Path": "Spells/Find Steed.md",
+      "Tags": [
+        "find",
+        "steed",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Find Path",
+      "Path": "Spells/Find the Path.md",
+      "Tags": [
+        "find",
+        "path",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Find Traps",
+      "Path": "Spells/Find Traps.md",
+      "Tags": [
+        "find",
+        "traps",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Finger of Death",
+      "Path": "Spells/Finger of Death.md",
+      "Tags": [
+        "finger",
+        "death",  
+        "spell"
+      ]
+    },
+    {
+      "Name": "Fire Bolt",
+      "Path": "Spells/Fire Bolt.md",
+      "Tags": [
+        "fire",
+        "bolt",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Fire Shield",
+      "Path": "Spells/Fire Shield.md",
+      "Tags": [
+        "fire",
+        "shield",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Fire Storm",
+      "Path": "Spells/Fire Storm.md",
+      "Tags": [
+        "fire",
+        "storm",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Fireball",
+      "Path": "Spells/Fireball.md",
+      "Tags": [
+        "fireball",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Flame Blade",
+      "Path": "Spells/Flame Blade.md",
+      "Tags": [
+        "flame",
+        "blade",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Flame Strike",
+      "Path": "Spells/Flame Strike.md",
+      "Tags": [
+        "flame",
+        "strike",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Flaming Sphere",
+      "Path": "Spells/Flaming Sphere.md",
+      "Tags": [
+        "flaming",
+        "sphere",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Flesh to Stone",
+      "Path": "Spells/Flesh to Stone.md",
+      "Tags": [
+        "flesh",
+        "stone",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Floating Disk",
+      "Path": "Spells/Floating Disk.md",
+      "Tags": [
+        "floating",
+        "disk",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Fly",
+      "Path": "Spells/Fly.md",
+      "Tags": [
+        "fly",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Fog Cloud",
+      "Path": "Spells/Fog Cloud.md",
+      "Tags": [
+        "fog",
+        "cloud",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Forbiddance",
+      "Path": "Spells/Forbiddance.md",
+      "Tags": [
+        "forbiddance",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Forcecage",
+      "Path": "Spells/Forcecage.md",
+      "Tags": [
+        "forcecage",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Foresight",
+      "Path": "Spells/Foresight.md",
+      "Tags": [
+        "foresight",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Freedom of Movement",
+      "Path": "Spells/Freedom of Movement.md",
+      "Tags": [
+        "freedom",
+        "movement",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Freezing Sphere",
+      "Path": "Spells/Freezing Sphere.md",
+      "Tags": [
+        "freezing",
+        "sphere",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Gaseous Form",
+      "Path": "Spells/Gaseous Form.md",
+      "Tags": [
+        "gaseous",
+        "form",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Gate",
+      "Path": "Spells/Gate.md",
+      "Tags": [
+        "gate",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Geas",
+      "Path": "Spells/Geas.md",
+      "Tags": [
+        "geas",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Gentle Repose",
+      "Path": "Spells/Gentle Repose.md",
+      "Tags": [
+        "gentle",
+        "repose",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Giant Insect",
+      "Path": "Spells/Giant Insect.md",
+      "Tags": [
+        "giant",
+        "insect",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Glibness",
+      "Path": "Spells/Glibness.md",
+      "Tags": [
+        "glibness",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Globe of Invulnerability",
+      "Path": "Spells/Globe of Invulnerability.md",
+      "Tags": [
+        "globe",
+        "invulnerability",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Glyph of Warding",
+      "Path": "Spells/Glyph of Warding.md",
+      "Tags": [
+        "glyph",
+        "warding",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Goodberry",
+      "Path": "Spells/Goodberry.md",
+      "Tags": [
+        "goodberry",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Grease",
+      "Path": "Spells/Grease.md",
+      "Tags": [
+        "grease",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Greater Invisibility",
+      "Path": "Spells/Greater Invisibility.md",
+      "Tags": [
+        "greater",
+        "invisibility",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Greater Restoration",
+      "Path": "Spells/Greater Restoration.md",
+      "Tags": [
+        "greater",
+        "restoration",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Guardian of Faith",
+      "Path": "Spells/Guardian of Faith.md",
+      "Tags": [
+        "guardian",
+        "faith",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Guards and Wards",
+      "Path": "Spells/Guards and Wards.md",
+      "Tags": [
+        "guards",
+        "wards",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Guidance",
+      "Path": "Spells/Guidance.md",
+      "Tags": [
+        "guidance",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Guiding Bolt",
+      "Path": "Spells/Guiding Bolt.md",
+      "Tags": [
+        "guiding",
+        "bolt",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Gust of Wind",
+      "Path": "Spells/Gust of Wind.md",
+      "Tags": [
+        "gust",
+        "wind",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Hallow",
+      "Path": "Spells/Hallow.md",
+      "Tags": [
+        "hallow",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Hallucinatory Terrain",
+      "Path": "Spells/Hallucinatory Terrain.md",
+      "Tags": [
+        "hallucinatory",
+        "terrain",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Harm",
+      "Path": "Spells/Harm.md",
+      "Tags": [
+        "harm",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Haste",
+      "Path": "Spells/Haste.md",
+      "Tags": [
+        "haste",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Heal",
+      "Path": "Spells/Heal.md",
+      "Tags": [
+        "heal",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Healing Word",
+      "Path": "Spells/Healing Word.md",
+      "Tags": [
+        "healing",
+        "word",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Heat Metal",
+      "Path": "Spells/Heat Metal.md",
+      "Tags": [
+        "heat",
+        "metal",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Hellish Rebuke",
+      "Path": "Spells/Hellish Rebuke.md",
+      "Tags": [
+        "hellish",
+        "rebuke",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Heroes Feast",
+      "Path": "Spells/Heroes\u0027 Feast.md",
+      "Tags": [
+        "heroes",
+        "feast",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Heroism",
+      "Path": "Spells/Heroism.md",
+      "Tags": [
+        "heroism",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Hideous Laughter",
+      "Path": "Spells/Hideous Laughter.md",
+      "Tags": [
+        "hideous",
+        "laughter",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Hold Monster",
+      "Path": "Spells/Hold Monster.md",
+      "Tags": [
+        "hold",
+        "monster",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Hold Person",
+      "Path": "Spells/Hold Person.md",
+      "Tags": [
+        "hold",
+        "person",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Holy Aura",
+      "Path": "Spells/Holy Aura.md",
+      "Tags": [
+        "holy",
+        "aura", 
+        "spell"
+      ]
+    },
+    {
+      "Name": "Hunter Mark",
+      "Path": "Spells/Hunter\u0027s Mark.md",
+      "Tags": [
+        "hunter",
+        "mark",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Hypnotic Pattern",
+      "Path": "Spells/Hypnotic Pattern.md",
+      "Tags": [
+        "hypnotic",
+        "pattern",
+        "spell" 
+      ]
+    },
+    {
+      "Name": "Ice Storm",
+      "Path": "Spells/Ice Storm.md",
+      "Tags": [
+        "ice",
+        "storm",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Identify",
+      "Path": "Spells/Identify.md",
+      "Tags": [
+        "identify",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Illusory Script",
+      "Path": "Spells/Illusory Script.md",
+      "Tags": [
+        "illusory",
+        "script",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Imprisonment",
+      "Path": "Spells/Imprisonment.md",
+      "Tags": [
+        "imprisonment",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Incendiary Cloud",
+      "Path": "Spells/Incendiary Cloud.md",
+      "Tags": [
+        "incendiary",
+        "cloud",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Inflict Wounds",
+      "Path": "Spells/Inflict Wounds.md",
+      "Tags": [
+        "inflict",
+        "wounds",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Insect Plague",
+      "Path": "Spells/Insect Plague.md",
+      "Tags": [
+        "insect",
+        "plague",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Instant Summons",
+      "Path": "Spells/Instant Summons.md",
+      "Tags": [
+        "instant",
+        "summons",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Invisibility",
+      "Path": "Spells/Invisibility.md",
+      "Tags": [
+        "invisibility",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Irresistible Dance",
+      "Path": "Spells/Irresistible Dance.md",
+      "Tags": [
+        "irresistible",
+        "dance",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Jump",
+      "Path": "Spells/Jump.md",
+      "Tags": [
+        "jump",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Knock",
+      "Path": "Spells/Knock.md",
+      "Tags": [
+        "knock",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Legend Lore",
+      "Path": "Spells/Legend Lore.md",
+      "Tags": [
+        "legend",
+        "lore",
+        "spell" 
+      ]
+    },
+    {
+      "Name": "Lesser Restoration",
+      "Path": "Spells/Lesser Restoration.md",
+      "Tags": [
+        "lesser",
+        "restoration",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Levitate",
+      "Path": "Spells/Levitate.md",
+      "Tags": [
+        "levitate",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Light",
+      "Path": "Spells/Light.md",
+      "Tags": [
+        "light",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Lightning Bolt",
+      "Path": "Spells/Lightning Bolt.md",
+      "Tags": [
+        "lightning",
+        "bolt",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Locate Animals or Plants",
+      "Path": "Spells/Locate Animals or Plants.md",
+      "Tags": [
+        "locate",
+        "animals",
+        "plants",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Locate Creature",
+      "Path": "Spells/Locate Creature.md",
+      "Tags": [
+        "locate",
+        "creature",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Locate Object",
+      "Path": "Spells/Locate Object.md",
+      "Tags": [
+        "locate",
+        "object",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Longstrider",
+      "Path": "Spells/Longstrider.md",
+      "Tags": [
+        "longstrider",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Mage Armor",
+      "Path": "Spells/Mage Armor.md",
+      "Tags": [
+        "mage",
+        "armor",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Mage Hand",
+      "Path": "Spells/Mage Hand.md",
+      "Tags": [
+        "mage",
+        "hand",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Magic Circle",
+      "Path": "Spells/Magic Circle.md",
+      "Tags": [
+        "magic",
+        "circle",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Magic Jar",
+      "Path": "Spells/Magic Jar.md",
+      "Tags": [
+        "magic",
+        "jar",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Magic Missile",
+      "Path": "Spells/Magic Missile.md",
+      "Tags": [
+        "magic",
+        "missile",
+        "spell"
+
+      ]
+    },
+    {
+      "Name": "Magic Mouth",
+      "Path": "Spells/Magic Mouth.md",
+      "Tags": [
+        "magic",
+        "mouth",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Magic Weapon",
+      "Path": "Spells/Magic Weapon.md",
+      "Tags": [
+        "magic",
+        "weapon",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Magnificent Mansion",
+      "Path": "Spells/Magnificent Mansion.md",
+      "Tags": [
+        "magnificent",
+        "mansion",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Major Image",
+      "Path": "Spells/Major Image.md",
+      "Tags": [
+        "major",
+        "image",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Mass Cure Wounds",
+      "Path": "Spells/Mass Cure Wounds.md",
+      "Tags": [
+        "mass",
+        "cure",
+        "wounds",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Mass Heal",
+      "Path": "Spells/Mass Heal.md",
+      "Tags": [
+        "mass",
+        "heal",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Mass Healing Word",
+      "Path": "Spells/Mass Healing Word.md",
+      "Tags": [
+        "mass",
+        "healing",
+        "word",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Mass Suggestion",
+      "Path": "Spells/Mass Suggestion.md",
+      "Tags": [
+        "mass",
+        "suggestion",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Maze",
+      "Path": "Spells/Maze.md",
+      "Tags": [
+        "maze",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Meld into Stone",
+      "Path": "Spells/Meld into Stone.md",
+      "Tags": [
+        "meld",
+        "into",
+        "stone",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Mending",
+      "Path": "Spells/Mending.md",
+      "Tags": [
+        "mending",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Message",
+      "Path": "Spells/Message.md",
+      "Tags": [
+        "message",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Meteor Swarm",
+      "Path": "Spells/Meteor Swarm.md",
+      "Tags": [
+        "meteor",
+        "swarm",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Mind Blank",
+      "Path": "Spells/Mind Blank.md",
+      "Tags": [
+        "mind",
+        "blank",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Minor Illusion",
+      "Path": "Spells/Minor Illusion.md",
+      "Tags": [
+        "minor",
+        "illusion", 
+        "spell"
+      ]
+    },
+    {
+      "Name": "Mirage Arcane",
+      "Path": "Spells/Mirage Arcane.md",
+      "Tags": [
+        "mirage",
+        "arcane",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Mirror Image",
+      "Path": "Spells/Mirror Image.md",
+      "Tags": [
+        "mirror",
+        "image",
+        "spell" 
+      ]
+    },
+    {
+      "Name": "Mislead",
+      "Path": "Spells/Mislead.md",
+      "Tags": [
+        "mislead",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Misty Step",
+      "Path": "Spells/Misty Step.md",
+      "Tags": [
+        "misty",
+        "step", 
+        "spell"
+      ]
+    },
+    {
+      "Name": "Modify Memory",
+      "Path": "Spells/Modify Memory.md",
+      "Tags": [
+        "modify",
+        "memory",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Moonbeam",
+      "Path": "Spells/Moonbeam.md",
+      "Tags": [
+        "moonbeam",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Move Earth",
+      "Path": "Spells/Move Earth.md",
+      "Tags": [
+        "move",
+        "earth",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Nondetection",
+      "Path": "Spells/Nondetection.md",
+      "Tags": [
+        "nondetection",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Pass without Trace",
+      "Path": "Spells/Pass without Trace.md",
+      "Tags": [
+        "pass",
+        "without",
+        "trace"  
+      ]
+    },
+    {
+      "Name": "Passwall",
+      "Path": "Spells/Passwall.md",
+      "Tags": [
+        "passwall",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Phantasmal Killer",
+      "Path": "Spells/Phantasmal Killer.md",
+      "Tags": [
+        "phantasmal",
+        "killer",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Phantom Steed",
+      "Path": "Spells/Phantom Steed.md",
+      "Tags": [
+        "phantom",
+        "steed",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Planar Ally",
+      "Path": "Spells/Planar Ally.md",
+      "Tags": [
+        "planar",
+        "ally",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Planar Binding",
+      "Path": "Spells/Planar Binding.md",
+      "Tags": [
+        "planar",
+        "binding",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Plane Shift",
+      "Path": "Spells/Plane Shift.md",
+      "Tags": [
+        "plane",
+        "shift",
+        "spell" 
+      ]
+    },
+    {
+      "Name": "Plant Growth",
+      "Path": "Spells/Plant Growth.md",
+      "Tags": [
+        "plant",
+        "growth",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Poison Spray",
+      "Path": "Spells/Poison Spray.md",
+      "Tags": [
+        "poison",
+        "spray",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Polymorph",
+      "Path": "Spells/Polymorph.md",
+      "Tags": [
+        "polymorph",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Power Word Kill",
+      "Path": "Spells/Power Word Kill.md",
+      "Tags": [
+        "power",
+        "word",
+        "kill",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Power Word Stun",
+      "Path": "Spells/Power Word Stun.md",
+      "Tags": [
+        "power",
+        "word",
+        "stun",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Prayer of Healing",
+      "Path": "Spells/Prayer of Healing.md",
+      "Tags": [
+        "prayer",
+        "healing",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Prestidigitation",
+      "Path": "Spells/Prestidigitation.md",
+      "Tags": [
+        "prestidigitation",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Prismatic Spray",
+      "Path": "Spells/Prismatic Spray.md",
+      "Tags": [
+        "prismatic",
+        "spray",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Prismatic Wall",
+      "Path": "Spells/Prismatic Wall.md",
+      "Tags": [
+        "prismatic",
+        "wall",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Private Sanctum",
+      "Path": "Spells/Private Sanctum.md",
+      "Tags": [
+        "private",
+        "sanctum",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Produce Flame",
+      "Path": "Spells/Produce Flame.md",
+      "Tags": [
+        "produce",
+        "flame",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Programmed Illusion",
+      "Path": "Spells/Programmed Illusion.md",
+      "Tags": [
+        "programmed",
+        "illusion",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Project Image",
+      "Path": "Spells/Project Image.md",
+      "Tags": [
+        "project",
+        "image",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Protection from Energy",
+      "Path": "Spells/Protection from Energy.md",
+      "Tags": [
+        "protection",
+        "from",
+        "energy",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Protection from Evil and Good",
+      "Path": "Spells/Protection from Evil and Good.md",
+      "Tags": [
+        "protection",
+        "evil",
+        "good",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Protection from Poison",
+      "Path": "Spells/Protection from Poison.md",
+      "Tags": [
+        "protection",
+        "poison",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Purify Food and Drink",
+      "Path": "Spells/Purify Food and Drink.md",
+      "Tags": [
+        "purify",
+        "food",
+        "drink",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Raise Dead",
+      "Path": "Spells/Raise Dead.md",
+      "Tags": [
+        "raise",
+        "dead",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Ray of Enfeeblement",
+      "Path": "Spells/Ray of Enfeeblement.md",
+      "Tags": [
+        "ray",
+        "enfeeblement",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Ray of Frost",
+      "Path": "Spells/Ray of Frost.md",
+      "Tags": [
+        "ray",
+        "frost",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Regenerate",
+      "Path": "Spells/Regenerate.md",
+      "Tags": [
+        "regenerate",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Reincarnate",
+      "Path": "Spells/Reincarnate.md",
+      "Tags": [
+        "reincarnate",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Remove Curse",
+      "Path": "Spells/Remove Curse.md",
+      "Tags": [
+        "remove",
+        "curse",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Resilient Sphere",
+      "Path": "Spells/Resilient Sphere.md",
+      "Tags": [
+        "resilient",
+        "sphere",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Resistance",
+      "Path": "Spells/Resistance.md",
+      "Tags": [
+        "resistance",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Resurrection",
+      "Path": "Spells/Resurrection.md",
+      "Tags": [
+        "resurrection",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Reverse Gravity",
+      "Path": "Spells/Reverse Gravity.md",
+      "Tags": [
+        "reverse",
+        "gravity",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Revivify",
+      "Path": "Spells/Revivify.md",
+      "Tags": [
+        "revivify",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Rope Trick",
+      "Path": "Spells/Rope Trick.md",
+      "Tags": [
+        "rope",
+        "trick",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Sacred Flame",
+      "Path": "Spells/Sacred Flame.md",
+      "Tags": [
+        "sacred",
+        "flame",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Sanctuary",
+      "Path": "Spells/Sanctuary.md",
+      "Tags": [
+        "sanctuary",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Scorching Ray",
+      "Path": "Spells/Scorching Ray.md",
+      "Tags": [
+        "scorching",
+        "ray",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Scrying",
+      "Path": "Spells/Scrying.md",
+      "Tags": [
+        "scrying",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Secret Chest",
+      "Path": "Spells/Secret Chest.md",
+      "Tags": [
+        "secret",
+        "chest",
+        "spell"
+      ]
+    },
+    {
+      "Name": "See Invisibility",
+      "Path": "Spells/See Invisibility.md",
+      "Tags": [
+        "see",
+        "invisibility",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Seeming",
+      "Path": "Spells/Seeming.md",
+      "Tags": [
+        "seeming",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Sending",
+      "Path": "Spells/Sending.md",
+      "Tags": [
+        "sending",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Sequester",
+      "Path": "Spells/Sequester.md",
+      "Tags": [
+        "sequester",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Shapechange",
+      "Path": "Spells/Shapechange.md",
+      "Tags": [
+        "shapechange",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Shatter",
+      "Path": "Spells/Shatter.md",
+      "Tags": [
+        "shatter",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Shield of Faith",
+      "Path": "Spells/Shield of Faith.md",
+      "Tags": [
+        "shield",
+        "faith",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Shield",
+      "Path": "Spells/Shield.md",
+      "Tags": [
+        "shield",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Shillelagh",
+      "Path": "Spells/Shillelagh.md",
+      "Tags": [
+        "shillelagh",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Shocking Grasp",
+      "Path": "Spells/Shocking Grasp.md",
+      "Tags": [
+        "shocking",
+        "grasp",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Silence",
+      "Path": "Spells/Silence.md",
+      "Tags": [
+        "silence",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Silent Image",
+      "Path": "Spells/Silent Image.md",
+      "Tags": [
+        "silent",
+        "image",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Simulacrum",
+      "Path": "Spells/Simulacrum.md",
+      "Tags": [
+        "simulacrum",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Sleep",
+      "Path": "Spells/Sleep.md",
+      "Tags": [
+        "sleep",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Sleet Storm",
+      "Path": "Spells/Sleet Storm.md",
+      "Tags": [
+        "sleet",
+        "storm",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Slow",
+      "Path": "Spells/Slow.md",
+      "Tags": [
+        "slow",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Spare the Dying",
+      "Path": "Spells/Spare the Dying.md",
+      "Tags": [
+        "spare",
+        "dying",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Speak with Animals",
+      "Path": "Spells/Speak with Animals.md",
+      "Tags": [
+        "speak",
+        "with",
+        "animals",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Speak with Dead",
+      "Path": "Spells/Speak with Dead.md",
+      "Tags": [
+        "speak",
+        "dead",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Speak with Plants",
+      "Path": "Spells/Speak with Plants.md",
+      "Tags": [
+        "speak",
+        "plants",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Spider Climb",
+      "Path": "Spells/Spider Climb.md",
+      "Tags": [
+        "spider",
+        "climb",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Spike Growth",
+      "Path": "Spells/Spike Growth.md",
+      "Tags": [
+        "spike",
+        "growth",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Spirit Guardians",
+      "Path": "Spells/Spirit Guardians.md",
+      "Tags": [
+        "spirit",
+        "guardians",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Spiritual Weapon",
+      "Path": "Spells/Spiritual Weapon.md",
+      "Tags": [
+        "spiritual",
+        "weapon",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Stinking Cloud",
+      "Path": "Spells/Stinking Cloud.md",
+      "Tags": [
+        "stinking",
+        "cloud",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Stone Shape",
+      "Path": "Spells/Stone Shape.md",
+      "Tags": [
+        "stone",
+        "shape",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Stoneskin",
+      "Path": "Spells/Stoneskin.md",
+      "Tags": [
+        "stoneskin",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Storm of Vengeance",
+      "Path": "Spells/Storm of Vengeance.md",
+      "Tags": [
+        "storm",
+        "vengeance",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Suggestion",
+      "Path": "Spells/Suggestion.md",
+      "Tags": [
+        "suggestion",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Sunbeam",
+      "Path": "Spells/Sunbeam.md",
+      "Tags": [
+        "sunbeam",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Sunburst",
+      "Path": "Spells/Sunburst.md",
+      "Tags": [
+        "sunburst",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Symbol",
+      "Path": "Spells/Symbol.md",
+      "Tags": [
+        "symbol",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Telekinesis",
+      "Path": "Spells/Telekinesis.md",
+      "Tags": [
+        "telekinesis",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Telepathic Bond",
+      "Path": "Spells/Telepathic Bond.md",
+      "Tags": [
+        "telepathic bond"
+      ]
+    },
+    {
+      "Name": "Teleport",
+      "Path": "Spells/Teleport.md",
+      "Tags": [
+        "teleport",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Teleportation Circle",
+      "Path": "Spells/Teleportation Circle.md",
+      "Tags": [
+        "teleportation",
+        "circle",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Thaumaturgy",
+      "Path": "Spells/Thaumaturgy.md",
+      "Tags": [
+        "thaumaturgy",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Thunderwave",
+      "Path": "Spells/Thunderwave.md",
+      "Tags": [
+        "thunderwave",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Time Stop",
+      "Path": "Spells/Time Stop.md",
+      "Tags": [
+        "time",
+        "stop",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Tiny Hut",
+      "Path": "Spells/Tiny Hut.md",
+      "Tags": [
+        "tiny",
+        "hut",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Tongues",
+      "Path": "Spells/Tongues.md",
+      "Tags": [
+        "tongues",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Transport via Plants",
+      "Path": "Spells/Transport via Plants.md",
+      "Tags": [
+        "transport",
+        "via",
+        "plants",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Tree Stride",
+      "Path": "Spells/Tree Stride.md",
+      "Tags": [
+        "tree",
+        "stride",
+        "spell" 
+      ]
+    },
+    {
+      "Name": "True Polymorph",
+      "Path": "Spells/True Polymorph.md",
+      "Tags": [
+        "true",
+        "polymorph",
+        "spell"
+      ]
+    },
+    {
+      "Name": "True Resurrection",
+      "Path": "Spells/True Resurrection.md",
+      "Tags": [
+        "true",
+        "resurrection", 
+        "spell"
+      ]
+    },
+    {
+      "Name": "True Seeing",
+      "Path": "Spells/True Seeing.md",
+      "Tags": [
+        "true",
+        "seeing",
+        "spell"
+      ]
+    },
+    {
+      "Name": "True Strike",
+      "Path": "Spells/True Strike.md",
+      "Tags": [
+        "true",
+        "strike",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Unseen Servant",
+      "Path": "Spells/Unseen Servant.md",
+      "Tags": [
+        "unseen",
+        "servant",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Vampiric Touch",
+      "Path": "Spells/Vampiric Touch.md",
+      "Tags": [
+        "vampiric",
+        "touch",  
+        "spell"
+      ]
+    },
+    {
+      "Name": "Vicious Mockery",
+      "Path": "Spells/Vicious Mockery.md",
+      "Tags": [
+        "vicious",
+        "mockery",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Wall of Fire",
+      "Path": "Spells/Wall of Fire.md",
+      "Tags": [
+        "wall",
+        "fire",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Wall of Force",
+      "Path": "Spells/Wall of Force.md",
+      "Tags": [
+        "wall",
+        "force",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Wall of Ice",
+      "Path": "Spells/Wall of Ice.md",
+      "Tags": [
+        "wall",
+        "ice",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Wall of Stone",
+      "Path": "Spells/Wall of Stone.md",
+      "Tags": [
+        "wall",
+        "stone",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Wall of Thorns",
+      "Path": "Spells/Wall of Thorns.md",
+      "Tags": [
+        "wall",
+        "thorns",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Warding Bond",
+      "Path": "Spells/Warding Bond.md",
+      "Tags": [
+        "warding",
+        "bond",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Water Breathing",
+      "Path": "Spells/Water Breathing.md",
+      "Tags": [
+        "water",
+        "breathing",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Water Walk",
+      "Path": "Spells/Water Walk.md",
+      "Tags": [
+        "water",
+        "walk",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Web",
+      "Path": "Spells/Web.md",
+      "Tags": [
+        "web",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Weird",
+      "Path": "Spells/Weird.md",
+      "Tags": [
+        "weird",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Wind Walk",
+      "Path": "Spells/Wind Walk.md",
+      "Tags": [
+        "wind",
+        "walk",
+        "spell" 
+      ]
+    },
+    {
+      "Name": "Wind Wall",
+      "Path": "Spells/Wind Wall.md",
+      "Tags": [
+        "wind",
+        "wall",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Wish",
+      "Path": "Spells/Wish.md",
+      "Tags": [
+        "wish",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Word of Recall",
+      "Path": "Spells/Word of Recall.md",
+      "Tags": [
+        "word",
+        "recall",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Zone of Truth",
+      "Path": "Spells/Zone of Truth.md",
+      "Tags": [
+        "zone",
+        "truth",
+        "spell"
+      ]
+    },
+    {
+      "Name": "Spellcasting",
+      "Path": "Spells (Alt)/# Spellcasting.md",
+      "Tags": [
+        "instantaneous",
+        "concentration",
+        "targets"
+      ]
+    },
+    {
+      "Name": "## Spell Lists",
+      "Path": "Spells (Alt)/## Spell Lists.md",
+      "Tags": [
+        "bard spells",
+        "cleric spells",
+        "druid spells",
+        "paladin spells",
+        "ranger spells",
+        "sorcerer spells",
+        "warlock spells",
+        "wizard spells"
+      ]
+    },
+    {
+      "Name": "Spells A",
+      "Path": "Spells (Alt)/Spells A.md",
+      "Tags": [
+        "spells",
+        "A"
+      ]
+    },
+    {
+      "Name": "Spells B",
+      "Path": "Spells (Alt)/Spells B.md",
+      "Tags": [
+        "spells",
+        "B"
+      ]
+    },
+    {
+      "Name": "Spells C",
+      "Path": "Spells (Alt)/Spells C.md",
+      "Tags": [
+        "spells",
+        "C"
+      ]
+    },
+    {
+      "Name": "Spells D",
+      "Path": "Spells (Alt)/Spells D.md",
+      "Tags": [
+        "spells",
+        "D"
+      ]
+    },
+    {
+      "Name": "Spells E",
+      "Path": "Spells (Alt)/Spells E.md",
+      "Tags": [
+        "spells",
+        "E"
+      ]
+    },
+    {
+      "Name": "Spells F",
+      "Path": "Spells (Alt)/Spells F.md",
+      "Tags": [
+        "spells",
+        "F"
+      ]
+    },
+    {
+      "Name": "Spells G",
+      "Path": "Spells (Alt)/Spells G.md",
+      "Tags": [
+        "spells",
+        "G"
+      ]
+    },
+    {
+      "Name": "Spells H",
+      "Path": "Spells (Alt)/Spells H.md",
+      "Tags": [
+        "spells",
+        "H"
+      ]
+    },
+    {
+      "Name": "Spells I",
+      "Path": "Spells (Alt)/Spells I.md",
+      "Tags": [
+        "spells",
+        "I"
+      ]
+    },
+    {
+      "Name": "Spells J",
+      "Path": "Spells (Alt)/Spells J.md",
+      "Tags": [
+        "spells",
+        "J"
+      ]
+    },
+    {
+      "Name": "Spells K",
+      "Path": "Spells (Alt)/Spells K.md",
+      "Tags": [
+        "spells",
+        "K"
+      ]
+    },
+    {
+      "Name": "Spells L",
+      "Path": "Spells (Alt)/Spells L.md",
+      "Tags": [
+        "spells",
+        "L"
+      ]
+    },
+    {
+      "Name": "Spells M",
+      "Path": "Spells (Alt)/Spells M.md",
+      "Tags": [
+        "spells",
+        "M"
+      ]
+    },
+    {
+      "Name": "Spells N",
+      "Path": "Spells (Alt)/Spells N.md",
+      "Tags": [
+        "spells",
+        "N"
+      ]
+    },
+    {
+      "Name": "Spells O",
+      "Path": "Spells (Alt)/Spells O.md",
+      "Tags": [
+        "spells",
+        "O"
+      ]
+    },
+    {
+      "Name": "Spells P",
+      "Path": "Spells (Alt)/Spells P.md",
+      "Tags": [
+        "spells",
+        "P"
+      ]
+    },
+    {
+      "Name": "Spells Q",
+      "Path": "Spells (Alt)/Spells Q.md",
+      "Tags": [
+        "spells",
+        "Q"        
+      ]
+    },
+    {
+      "Name": "Spells R",
+      "Path": "Spells (Alt)/Spells R.md",
+      "Tags": [
+        "spells",
+        "R"   
+      ]
+    },
+    {
+      "Name": "Spells S",
+      "Path": "Spells (Alt)/Spells S.md",
+      "Tags": [
+        "spells",
+        "S"   
+      ]
+    },
+    {
+      "Name": "Spells T",
+      "Path": "Spells (Alt)/Spells T.md",
+      "Tags": [
+        "spells",
+        "T"   
+      ]
+    },
+    {
+      "Name": "Spells U",
+      "Path": "Spells (Alt)/Spells U.md",
+      "Tags": [
+        "unseen servant"
+      ]
+    },
+    {
+      "Name": "Spells V",
+      "Path": "Spells (Alt)/Spells V.md",
+      "Tags": [
+        "spells",
+        "V"   
+      ]
+    },
+    {
+      "Name": "Spells W",
+      "Path": "Spells (Alt)/Spells W.md",
+      "Tags": [
+        "spells",
+        "W"   
+      ]
+    },
+    {
+      "Name": "Spells X",
+      "Path": "Spells (Alt)/Spells X.md",
+      "Tags": []
+    },
+    {
+      "Name": "Spells Y",
+      "Path": "Spells (Alt)/Spells Y.md",
+      "Tags": []
+    },
+    {
+      "Name": "Spells Z",
+      "Path": "Spells (Alt)/Spells Z.md",
+      "Tags": [
+        "spells",
+        "Z"   
+      ]
+    },
+    {
+      "Name": "Magic Items",
+      "Path": "Treasure/# Magic Items.md",
+      "Tags": [
+        "magic",
+        "items",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Artifacts",
+      "Path": "Treasure/## Artifacts.md",
+      "Tags": [
+        "artifacts",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "## Sentient Magic",
+      "Path": "Treasure/## Sentient Magic.md",
+      "Tags": [
+        "sentient",
+        "magic",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Adamantine Armor",
+      "Path": "Treasure/Adamantine Armor.md",
+      "Tags": [
+        "adamantine",
+        "armor",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Ammunition",
+      "Path": "Treasure/Ammunition, \u002B1, \u002B2, or \u002B3.md",
+      "Tags": [
+        "ammunition",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Amulet of Health",
+      "Path": "Treasure/Amulet of Health.md",
+      "Tags": [
+        "amulet",
+        "health",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Amulet of Proof Against Detection and Location",
+      "Path": "Treasure/Amulet of Proof Against Detection and Location.md",
+      "Tags": [
+        "amulet",
+        "proof",
+        "against",
+        "detection",
+        "location",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Amulet of the Planes",
+      "Path": "Treasure/Amulet of the Planes.md",
+      "Tags": [
+        "amulet",
+        "planes",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Animated Shield",
+      "Path": "Treasure/Animated Shield.md",
+      "Tags": [
+        "animated",
+        "shield",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Apparatus of the Crab",
+      "Path": "Treasure/Apparatus of the Crab.md",
+      "Tags": [
+        "apparatus",
+        "crab",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Armor of Invulnerability",
+      "Path": "Treasure/Armor of Invulnerability.md",
+      "Tags": [
+        "armor",
+        "invulnerability",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Armor of Resistance",
+      "Path": "Treasure/Armor of Resistance.md",
+      "Tags": [
+        "armor",
+        "resistance",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Armor of Vulnerability",
+      "Path": "Treasure/Armor of Vulnerability.md",
+      "Tags": [
+        "armor",
+        "vulnerability",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Armor",
+      "Path": "Treasure/Armor, \u002B1, \u002B2, or \u002B3.md",
+      "Tags": [
+        "armor",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Arrow of Slaying",
+      "Path": "Treasure/Arrow of Slaying.md",
+      "Tags": [
+        "arrow",
+        "slaying",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Arrow Catching Shield",
+      "Path": "Treasure/Arrow-Catching Shield.md",
+      "Tags": [
+        "arrow",
+        "catching",
+        "shield",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Bag of Beans",
+      "Path": "Treasure/Bag of Beans.md",
+      "Tags": [
+        "bag",
+        "beans",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Bag of Devouring",
+      "Path": "Treasure/Bag of Devouring.md",
+      "Tags": [
+        "bag",
+        "devouring",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Bag of Holding",
+      "Path": "Treasure/Bag of Holding.md",
+      "Tags": [
+        "bag",
+        "holding",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Bag of Tricks",
+      "Path": "Treasure/Bag of Tricks.md",
+      "Tags": [
+        "bag",
+        "tricks",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Bead of Force",
+      "Path": "Treasure/Bead of Force.md",
+      "Tags": [
+        "bead",
+        "force",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Belt of Dwarvenkind",
+      "Path": "Treasure/Belt of Dwarvenkind.md",
+      "Tags": [
+        "belt",
+        "dwarvenkind",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Belt of Giant Strength",
+      "Path": "Treasure/Belt of Giant Strength.md",
+      "Tags": [
+        "belt",
+        "giant",
+        "strength",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Berserker Axe",
+      "Path": "Treasure/Berserker Axe.md",
+      "Tags": [
+        "berserker",
+        "axe",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Boots of Elvenkind",
+      "Path": "Treasure/Boots of Elvenkind.md",
+      "Tags": [
+        "boots",
+        "elvenkind",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Boots of Levitation",
+      "Path": "Treasure/Boots of Levitation.md",
+      "Tags": [
+        "boots",
+        "levitation",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Boots of Speed",
+      "Path": "Treasure/Boots of Speed.md",
+      "Tags": [
+        "boots",
+        "speed",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Boots of Striding and Springing",
+      "Path": "Treasure/Boots of Striding and Springing.md",
+      "Tags": [
+        "boots",
+        "striding",
+        "springing",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Boots of the Winterlands",
+      "Path": "Treasure/Boots of the Winterlands.md",
+      "Tags": [
+        "boots",
+        "winterlands",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Bowl of Commanding Water Elementals",
+      "Path": "Treasure/Bowl of Commanding Water Elementals.md",
+      "Tags": [
+        "bowl",
+        "commanding",
+        "water",
+        "elementals",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Bracers of Archery",
+      "Path": "Treasure/Bracers of Archery.md",
+      "Tags": [
+        "bracers",
+        "archery",
+        "treasure"
+      ] 
+    },
+    {
+      "Name": "Bracers of Defense",
+      "Path": "Treasure/Bracers of Defense.md",
+      "Tags": [
+        "bracers",
+        "defense",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Brazier of Commanding Fire Elementals",
+      "Path": "Treasure/Brazier of Commanding Fire Elementals.md",
+      "Tags": [
+        "brazier",
+        "commanding",
+        "fire",
+        "elementals",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Brooch of Shielding",
+      "Path": "Treasure/Brooch of Shielding.md",
+      "Tags": [
+        "brooch",
+        "shielding",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Broom of Flying",
+      "Path": "Treasure/Broom of Flying.md",
+      "Tags": [
+        "broom",
+        "flying",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Candle of Invocation",
+      "Path": "Treasure/Candle of Invocation.md",
+      "Tags": [
+        "candle",
+        "invocation",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Cape of the Mountebank",
+      "Path": "Treasure/Cape of the Mountebank.md",
+      "Tags": [
+        "cape",
+        "mountebank",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Carpet of Flying",
+      "Path": "Treasure/Carpet of Flying.md",
+      "Tags": [
+        "carpet",
+        "flying",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Censer of Controlling Air Elementals",
+      "Path": "Treasure/Censer of Controlling Air Elementals.md",
+      "Tags": [
+        "censer",
+        "controlling",
+        "air",
+        "elementals",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Chime of Opening",
+      "Path": "Treasure/Chime of Opening.md",
+      "Tags": [
+        "chime",
+        "opening",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Circlet of Blasting",
+      "Path": "Treasure/Circlet of Blasting.md",
+      "Tags": [
+        "circlet",
+        "blasting",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Cloak of Arachnida",
+      "Path": "Treasure/Cloak of Arachnida.md",
+      "Tags": [
+        "cloak",
+        "arachnida",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Cloak of Displacement",
+      "Path": "Treasure/Cloak of Displacement.md",
+      "Tags": [
+        "cloak",
+        "displacement",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Cloak of Elvenkind",
+      "Path": "Treasure/Cloak of Elvenkind.md",
+      "Tags": [
+        "cloak",
+        "elvenkind",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Cloak of Protection",
+      "Path": "Treasure/Cloak of Protection.md",
+      "Tags": [
+        "cloak",
+        "protection",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Cloak of the Bat",
+      "Path": "Treasure/Cloak of the Bat.md",
+      "Tags": [
+        "cloak",
+        "bat",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Cloak of the Manta Ray",
+      "Path": "Treasure/Cloak of the Manta Ray.md",
+      "Tags": [
+        "cloak",
+        "manta",
+        "ray",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Crystal Ball",
+      "Path": "Treasure/Crystal Ball.md",
+      "Tags": [
+        "crystal",
+        "ball",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Cube of Force",
+      "Path": "Treasure/Cube of Force.md",
+      "Tags": [
+        "cube",
+        "force",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Cubic Gate",
+      "Path": "Treasure/Cubic Gate.md",
+      "Tags": [
+        "cubic",
+        "gate",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Dagger of Venom",
+      "Path": "Treasure/Dagger of Venom.md",
+      "Tags": [
+        "dagger",
+        "venom",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Dancing Sword",
+      "Path": "Treasure/Dancing Sword.md",
+      "Tags": [
+        "dancing",
+        "sword",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Decanter of Endless Water",
+      "Path": "Treasure/Decanter of Endless Water.md",
+      "Tags": [
+        "decanter",
+        "endless",
+        "water",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Deck of Illusions",
+      "Path": "Treasure/Deck of Illusions.md",
+      "Tags": [
+        "deck",
+        "illusions",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Deck of Many Things",
+      "Path": "Treasure/Deck of Many Things.md",
+      "Tags": [
+        "deck",
+        "many",
+        "things",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Defender",
+      "Path": "Treasure/Defender.md",
+      "Tags": [
+        "defender",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Demon Armor",
+      "Path": "Treasure/Demon Armor.md",
+      "Tags": [
+        "demon",
+        "armor",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Dimensional Shackles",
+      "Path": "Treasure/Dimensional Shackles.md",
+      "Tags": [
+        "dimensional",
+        "shackles",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Dragon Scale Mail",
+      "Path": "Treasure/Dragon Scale Mail.md",
+      "Tags": [
+        "dragon",
+        "scale",
+        "mail",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Dragon Slayer",
+      "Path": "Treasure/Dragon Slayer.md",
+      "Tags": [
+        "dragon",
+        "slayer",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Dust of Disappearance",
+      "Path": "Treasure/Dust of Disappearance.md",
+      "Tags": [
+        "dust",
+        "disappearance",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Dust of Dryness",
+      "Path": "Treasure/Dust of Dryness.md",
+      "Tags": [
+        "dust",
+        "dryness",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Dust of Sneezing and Choking",
+      "Path": "Treasure/Dust of Sneezing and Choking.md",
+      "Tags": [
+        "dust",
+        "sneezing",
+        "choking",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Dwarven Plate",
+      "Path": "Treasure/Dwarven Plate.md",
+      "Tags": [
+        "dwarven",
+        "plate",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Dwarven Thrower",
+      "Path": "Treasure/Dwarven Thrower.md",
+      "Tags": [
+        "dwarven",
+        "thrower",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Efficient Quiver",
+      "Path": "Treasure/Efficient Quiver.md",
+      "Tags": [
+        "efficient",
+        "quiver",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Efreeti Bottle",
+      "Path": "Treasure/Efreeti Bottle.md",
+      "Tags": [
+        "efreeti",
+        "bottle",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Elemental Gem",
+      "Path": "Treasure/Elemental Gem.md",
+      "Tags": [
+        "elemental",
+        "gem",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Elven Chain",
+      "Path": "Treasure/Elven Chain.md",
+      "Tags": [
+        "elven",
+        "chain",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Eversmoking Bottle",
+      "Path": "Treasure/Eversmoking Bottle.md",
+      "Tags": [
+        "eversmoking",
+        "bottle",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Eyes of Charming",
+      "Path": "Treasure/Eyes of Charming.md",
+      "Tags": [
+        "eyes",
+        "charming",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Eyes of Minute Seeing",
+      "Path": "Treasure/Eyes of Minute Seeing.md",
+      "Tags": [
+        "eyes",
+        "minute",
+        "seeing",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Eyes of the Eagle",
+      "Path": "Treasure/Eyes of the Eagle.md",
+      "Tags": [
+        "eyes",
+        "eagle",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Feather Token",
+      "Path": "Treasure/Feather Token.md",
+      "Tags": [
+        "feather",
+        "token",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Figurine of Wondrous Power",
+      "Path": "Treasure/Figurine of Wondrous Power.md",
+      "Tags": [
+        "figurine",
+        "wondrous",
+        "power",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Flame Tongue",
+      "Path": "Treasure/Flame Tongue.md",
+      "Tags": [
+        "flame",
+        "tongue",
+        "treasure"  
+      ]
+    },
+    {
+      "Name": "Folding Boat",
+      "Path": "Treasure/Folding Boat.md",
+      "Tags": [
+        "folding",
+        "boat",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Frost Brand",
+      "Path": "Treasure/Frost Brand.md",
+      "Tags": [
+        "frost",
+        "brand",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Gauntlets of Ogre Power",
+      "Path": "Treasure/Gauntlets of Ogre Power.md",
+      "Tags": [
+        "gauntlets",
+        "ogre",
+        "power",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Gem of Brightness",
+      "Path": "Treasure/Gem of Brightness.md",
+      "Tags": [
+        "gem",
+        "brightness",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Gem of Seeing",
+      "Path": "Treasure/Gem of Seeing.md",
+      "Tags": [
+        "gem",
+        "seeing",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Giant Slayer",
+      "Path": "Treasure/Giant Slayer.md",
+      "Tags": [
+        "giant",
+        "slayer",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Glamoured Studded Leather",
+      "Path": "Treasure/Glamoured Studded Leather.md",
+      "Tags": [
+        "glamoured",
+        "studded",
+        "leather",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Gloves of Missile Snaring",
+      "Path": "Treasure/Gloves of Missile Snaring.md",
+      "Tags": [
+        "gloves",
+        "missile",
+        "snaring",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Gloves of Swimming and Climbing",
+      "Path": "Treasure/Gloves of Swimming and Climbing.md",
+      "Tags": [
+        "gloves",
+        "swimming",
+        "climbing",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Goggles of Night",
+      "Path": "Treasure/Goggles of Night.md",
+      "Tags": [
+        "goggles",
+        "night",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Hammer of Thunderbolts",
+      "Path": "Treasure/Hammer of Thunderbolts.md",
+      "Tags": [
+        "hammer",
+        "thunderbolts",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Handy Haversack",
+      "Path": "Treasure/Handy Haversack.md",
+      "Tags": [
+        "handy",
+        "haversack",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Hat of Disguise",
+      "Path": "Treasure/Hat of Disguise.md",
+      "Tags": [
+        "hat",
+        "disguise",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Headband of Intellect",
+      "Path": "Treasure/Headband of Intellect.md",
+      "Tags": [
+        "headband",
+        "intellect",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Helm of Brilliance",
+      "Path": "Treasure/Helm of Brilliance.md",
+      "Tags": [
+        "helm",
+        "brilliance",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Helm of Comprehending Languages",
+      "Path": "Treasure/Helm of Comprehending Languages.md",
+      "Tags": [
+        "helm",
+        "comprehending",
+        "languages",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Helm of Telepathy",
+      "Path": "Treasure/Helm of Telepathy.md",
+      "Tags": [
+        "helm",
+        "telepathy",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Helm of Teleportation",
+      "Path": "Treasure/Helm of Teleportation.md",
+      "Tags": [
+        "helm",
+        "teleportation",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Holy Avenger",
+      "Path": "Treasure/Holy Avenger.md",
+      "Tags": [
+        "holy",
+        "avenger",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Horn of Blasting",
+      "Path": "Treasure/Horn of Blasting.md",
+      "Tags": [
+        "horn",
+        "blasting",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Horn of Valhalla",
+      "Path": "Treasure/Horn of Valhalla.md",
+      "Tags": [
+        "horn",
+        "valhalla",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Horseshoes of a Zephyr",
+      "Path": "Treasure/Horseshoes of a Zephyr.md",
+      "Tags": [
+        "horseshoes",
+        "zephyr",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Horseshoes of Speed",
+      "Path": "Treasure/Horseshoes of Speed.md",
+      "Tags": [
+        "horseshoes",
+        "speed",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Immovable Rod",
+      "Path": "Treasure/Immovable Rod.md",
+      "Tags": [
+        "immovable",
+        "rod",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Instant Fortress",
+      "Path": "Treasure/Instant Fortress.md",
+      "Tags": [
+        "instant",
+        "fortress",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Ioun Stone",
+      "Path": "Treasure/Ioun Stone.md",
+      "Tags": [
+        "ioun",
+        "stone",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Iron Bands of Binding",
+      "Path": "Treasure/Iron Bands of Binding.md",
+      "Tags": [
+        "iron",
+        "bands",
+        "binding",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Iron Flask",
+      "Path": "Treasure/Iron Flask.md",
+      "Tags": [
+        "iron",
+        "flask",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Javelin of Lightning",
+      "Path": "Treasure/Javelin of Lightning.md",
+      "Tags": [
+        "javelin",
+        "lightning",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Lantern of Revealing",
+      "Path": "Treasure/Lantern of Revealing.md",
+      "Tags": [
+        "lantern",
+        "revealing",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Luck Blade",
+      "Path": "Treasure/Luck Blade.md",
+      "Tags": [
+        "luck",
+        "blade",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Mace of Disruption",
+      "Path": "Treasure/Mace of Disruption.md",
+      "Tags": [
+        "mace",
+        "disruption",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Mace of Smiting",
+      "Path": "Treasure/Mace of Smiting.md",
+      "Tags": [
+        "mace",
+        "smiting",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Mace of Terror",
+      "Path": "Treasure/Mace of Terror.md",
+      "Tags": [
+        "mace",
+        "terror",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Mantle of Spell Resistance",
+      "Path": "Treasure/Mantle of Spell Resistance.md",
+      "Tags": [
+        "mantle",
+        "spell",
+        "resistance",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Manual of Bodily Health",
+      "Path": "Treasure/Manual of Bodily Health.md",
+      "Tags": [
+        "manual",
+        "bodily",
+        "health",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Manual of Gainful Exercise",
+      "Path": "Treasure/Manual of Gainful Exercise.md",
+      "Tags": [
+        "manual",
+        "gainful",
+        "exercise",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Manual of Golems",
+      "Path": "Treasure/Manual of Golems.md",
+      "Tags": [
+        "manual",
+        "golems",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Manual of Quickness of Action",
+      "Path": "Treasure/Manual of Quickness of Action.md",
+      "Tags": [
+        "manual",
+        "quickness",
+        "action",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Marvelous Pigments",
+      "Path": "Treasure/Marvelous Pigments.md",
+      "Tags": [
+        "marvelous",
+        "pigments",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Medallion of Thoughts",
+      "Path": "Treasure/Medallion of Thoughts.md",
+      "Tags": [
+        "medallion",
+        "thoughts",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Mirror of Life Trapping",
+      "Path": "Treasure/Mirror of Life Trapping.md",
+      "Tags": [
+        "mirror",
+        "life",
+        "trapping",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Mithral Armor",
+      "Path": "Treasure/Mithral Armor.md",
+      "Tags": [
+        "mithral",
+        "armor",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Necklace of Adaptation",
+      "Path": "Treasure/Necklace of Adaptation.md",
+      "Tags": [
+        "necklace",
+        "adaptation",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Necklace of Fireballs",
+      "Path": "Treasure/Necklace of Fireballs.md",
+      "Tags": [
+        "necklace",
+        "fireballs",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Necklace of Prayer Beads",
+      "Path": "Treasure/Necklace of Prayer Beads.md",
+      "Tags": [
+        "necklace",
+        "prayer",
+        "beads",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Nine Lives Stealer",
+      "Path": "Treasure/Nine Lives Stealer.md",
+      "Tags": [
+        "nine",
+        "lives",
+        "stealer",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Oathbow",
+      "Path": "Treasure/Oathbow.md",
+      "Tags": [
+        "oathbow",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Oil of Etherealness",
+      "Path": "Treasure/Oil of Etherealness.md",
+      "Tags": [
+        "oil",
+        "etherealness",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Oil of Sharpness",
+      "Path": "Treasure/Oil of Sharpness.md",
+      "Tags": [
+        "oil",
+        "sharpness",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Oil of Slipperiness",
+      "Path": "Treasure/Oil of Slipperiness.md",
+      "Tags": [
+        "oil",
+        "slipperiness",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Pearl of Power",
+      "Path": "Treasure/Pearl of Power.md",
+      "Tags": [
+        "pearl",
+        "power",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Periapt of Health",
+      "Path": "Treasure/Periapt of Health.md",
+      "Tags": [
+        "periapt",
+        "health",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Periapt of Proof against Poison",
+      "Path": "Treasure/Periapt of Proof against Poison.md",
+      "Tags": [
+        "periapt",
+        "proof",
+        "against",
+        "poison",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Periapt of Wound Closure",
+      "Path": "Treasure/Periapt of Wound Closure.md",
+      "Tags": [
+        "periapt",
+        "wound",
+        "closure",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Philter of Love",
+      "Path": "Treasure/Philter of Love.md",
+      "Tags": [
+        "philter",
+        "love",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Pipes of Haunting",
+      "Path": "Treasure/Pipes of Haunting.md",
+      "Tags": [
+        "pipes",
+        "haunting",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Pipes of the Sewers",
+      "Path": "Treasure/Pipes of the Sewers.md",
+      "Tags": [
+        "pipes",
+        "sewers",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Plate Armor of Etherealness",
+      "Path": "Treasure/Plate Armor of Etherealness.md",
+      "Tags": [
+        "plate",
+        "armor",
+        "etherealness",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Portable Hole",
+      "Path": "Treasure/Portable Hole.md",
+      "Tags": [
+        "portable",
+        "hole",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Potion of Animal Friendship",
+      "Path": "Treasure/Potion of Animal Friendship.md",
+      "Tags": [
+        "potion",
+        "animal",
+        "friendship",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Potion of Clairvoyance",
+      "Path": "Treasure/Potion of Clairvoyance.md",
+      "Tags": [
+        "potion",
+        "clairvoyance",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Potion of Climbing",
+      "Path": "Treasure/Potion of Climbing.md",
+      "Tags": [
+        "potion",
+        "climbing",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Potion of Diminution",
+      "Path": "Treasure/Potion of Diminution.md",
+      "Tags": [
+        "potion",
+        "diminution",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Potion of Flying",
+      "Path": "Treasure/Potion of Flying.md",
+      "Tags": [
+        "potion",
+        "flying",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Potion of Gaseous Form",
+      "Path": "Treasure/Potion of Gaseous Form.md",
+      "Tags": [
+        "potion",
+        "gaseous",
+        "form",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Potion of Giant Strength",
+      "Path": "Treasure/Potion of Giant Strength.md",
+      "Tags": [
+        "potion",
+        "giant",
+        "strength",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Potion of Growth",
+      "Path": "Treasure/Potion of Growth.md",
+      "Tags": [
+        "potion",
+        "growth",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Potion of Healing",
+      "Path": "Treasure/Potion of Healing.md",
+      "Tags": [
+        "potion",
+        "healing",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Potion of Heroism",
+      "Path": "Treasure/Potion of Heroism.md",
+      "Tags": [
+        "potion",
+        "heroism",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Potion of Invisibility",
+      "Path": "Treasure/Potion of Invisibility.md",
+      "Tags": [
+        "potion",
+        "invisibility",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Potion of Mind Reading",
+      "Path": "Treasure/Potion of Mind Reading.md",
+      "Tags": [
+        "potion",
+        "mind",
+        "reading",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Potion of Poison",
+      "Path": "Treasure/Potion of Poison.md",
+      "Tags": [
+        "potion",
+        "poison",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Potion of Resistance",
+      "Path": "Treasure/Potion of Resistance.md",
+      "Tags": [
+        "potion",
+        "resistance",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Potion of Speed",
+      "Path": "Treasure/Potion of Speed.md",
+      "Tags": [
+        "potion",
+        "speed",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Potion of Water Breathing",
+      "Path": "Treasure/Potion of Water Breathing.md",
+      "Tags": [
+        "potion",
+        "water",
+        "breathing",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Restorative Ointment",
+      "Path": "Treasure/Restorative Ointment.md",
+      "Tags": [
+        "restorative",
+        "ointment",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Ring of Animal Influence",
+      "Path": "Treasure/Ring of Animal Influence.md",
+      "Tags": [
+        "ring",
+        "animal",
+        "influence",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Ring of Djinni Summoning",
+      "Path": "Treasure/Ring of Djinni Summoning.md",
+      "Tags": [
+        "ring",
+        "djinni",
+        "summoning",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Ring of Elemental Command",
+      "Path": "Treasure/Ring of Elemental Command.md",
+      "Tags": [
+        "ring",
+        "elemental",
+        "command",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Ring of Evasion",
+      "Path": "Treasure/Ring of Evasion.md",
+      "Tags": [
+        "ring",
+        "evasion",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Ring of Feather Falling",
+      "Path": "Treasure/Ring of Feather Falling.md",
+      "Tags": [
+        "ring",
+        "feather",
+        "falling",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Ring of Free Action",
+      "Path": "Treasure/Ring of Free Action.md",
+      "Tags": [
+        "ring",
+        "free",
+        "action",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Ring of Invisibility",
+      "Path": "Treasure/Ring of Invisibility.md",
+      "Tags": [
+        "ring",
+        "invisibility",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Ring of Jumping",
+      "Path": "Treasure/Ring of Jumping.md",
+      "Tags": [
+        "ring",
+        "jumping",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Ring of Mind Shielding",
+      "Path": "Treasure/Ring of Mind Shielding.md",
+      "Tags": [
+        "ring",
+        "mind",
+        "shielding",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Ring of Protection",
+      "Path": "Treasure/Ring of Protection.md",
+      "Tags": [
+        "ring",
+        "protection", 
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Ring of Regeneration",
+      "Path": "Treasure/Ring of Regeneration.md",
+      "Tags": [
+        "ring",
+        "regeneration",
+        "treasure"  
+      ]
+    },
+    {
+      "Name": "Ring of Resistance",
+      "Path": "Treasure/Ring of Resistance.md",
+      "Tags": [
+        "ring",
+        "resistance",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Ring of Shooting Stars",
+      "Path": "Treasure/Ring of Shooting Stars.md",
+      "Tags": [
+        "ring",
+        "shooting",
+        "stars",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Ring of Spell Storing",
+      "Path": "Treasure/Ring of Spell Storing.md",
+      "Tags": [
+        "ring",
+        "spell",
+        "storing",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Ring of Spell Turning",
+      "Path": "Treasure/Ring of Spell Turning.md",
+      "Tags": [
+        "ring",
+        "spell",
+        "turning",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Ring of Swimming",
+      "Path": "Treasure/Ring of Swimming.md",
+      "Tags": [
+        "ring",
+        "swimming",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Ring of Telekinesis",
+      "Path": "Treasure/Ring of Telekinesis.md",
+      "Tags": [
+        "ring",
+        "telekinesis",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Ring of the Ram",
+      "Path": "Treasure/Ring of the Ram.md",
+      "Tags": [
+        "ring",
+        "ram",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Ring of Three Wishes",
+      "Path": "Treasure/Ring of Three Wishes.md",
+      "Tags": [
+        "ring",
+        "three",
+        "wishes",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Ring of Warmth",
+      "Path": "Treasure/Ring of Warmth.md",
+      "Tags": [
+        "ring",
+        "warmth",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Ring of Water Walking",
+      "Path": "Treasure/Ring of Water Walking.md",
+      "Tags": [
+        "ring",
+        "water",
+        "walking",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Ring of X-ray Vision",
+      "Path": "Treasure/Ring of X-ray Vision.md",
+      "Tags": [
+        "ring",
+        "x-ray",
+        "xray",
+        "vision",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Robe of Eyes",
+      "Path": "Treasure/Robe of Eyes.md",
+      "Tags": [
+        "robe",
+        "eyes",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Robe of Scintillating Colors",
+      "Path": "Treasure/Robe of Scintillating Colors.md",
+      "Tags": [
+        "robe",
+        "scintillating",
+        "colors",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Robe of Stars",
+      "Path": "Treasure/Robe of Stars.md",
+      "Tags": [
+        "robe",
+        "stars",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Robe of the Archmagi",
+      "Path": "Treasure/Robe of the Archmagi.md",
+      "Tags": [
+        "robe",
+        "archmagi",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Robe of Useful Items",
+      "Path": "Treasure/Robe of Useful Items.md",
+      "Tags": [
+        "robe",
+        "useful",
+        "items",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Rod of Absorption",
+      "Path": "Treasure/Rod of Absorption.md",
+      "Tags": [
+        "rodn",
+        "absorption",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Rod of Alertness",
+      "Path": "Treasure/Rod of Alertness.md",
+      "Tags": [
+        "rod",
+        "alertness",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Rod of Lordly Might",
+      "Path": "Treasure/Rod of Lordly Might.md",
+      "Tags": [
+        "rod",
+        "lordly",
+        "might",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Rod of Rulership",
+      "Path": "Treasure/Rod of Rulership.md",
+      "Tags": [
+        "rod",
+        "rulership",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Rod of Security",
+      "Path": "Treasure/Rod of Security.md",
+      "Tags": [
+        "rod",
+        "security",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Rope of Climbing",
+      "Path": "Treasure/Rope of Climbing.md",
+      "Tags": [
+        "rope",
+        "climbing",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Rope of Entanglement",
+      "Path": "Treasure/Rope of Entanglement.md",
+      "Tags": [
+        "rope",
+        "entanglement",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Scarab of Protection",
+      "Path": "Treasure/Scarab of Protection.md",
+      "Tags": [
+        "scarab",
+        "protection",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Scimitar of Speed",
+      "Path": "Treasure/Scimitar of Speed.md",
+      "Tags": [
+        "scimitar",
+        "speed",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Shield of Missile Attraction",
+      "Path": "Treasure/Shield of Missile Attraction.md",
+      "Tags": [
+        "shield",
+        "missile",
+        "attraction",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Shield, \u002B1, \u002B2, or \u002B3",
+      "Path": "Treasure/Shield, \u002B1, \u002B2, or \u002B3.md",
+      "Tags": [
+        "shield",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Slippers of Spider Climbing",
+      "Path": "Treasure/Slippers of Spider Climbing.md",
+      "Tags": [
+        "slippers",
+        "spider",
+        "climbing",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Sovereign Glue",
+      "Path": "Treasure/Sovereign Glue.md",
+      "Tags": [
+        "sovereign",
+        "glue",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Spell Scroll",
+      "Path": "Treasure/Spell Scroll.md",
+      "Tags": [
+        "spell",
+        "scroll",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Spellguard Shield",
+      "Path": "Treasure/Spellguard Shield.md",
+      "Tags": [
+        "spellguard",
+        "shield",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Sphere of Annihilation",
+      "Path": "Treasure/Sphere of Annihilation.md",
+      "Tags": [
+        "sphere",
+        "annihilation",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Staff of Charming",
+      "Path": "Treasure/Staff of Charming.md",
+      "Tags": [
+        "staff",
+        "charming",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Staff of Fire",
+      "Path": "Treasure/Staff of Fire.md",
+      "Tags": [
+        "staff",
+        "fire",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Staff of Frost",
+      "Path": "Treasure/Staff of Frost.md",
+      "Tags": [
+        "staff",
+        "frost",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Staff of Healing",
+      "Path": "Treasure/Staff of Healing.md",
+      "Tags": [
+        "staff",
+        "healing",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Staff of Power",
+      "Path": "Treasure/Staff of Power.md",
+      "Tags": [
+        "staff",
+        "power",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Staff of Striking",
+      "Path": "Treasure/Staff of Striking.md",
+      "Tags": [
+        "staff",
+        "striking",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Staff of Swarming Insects",
+      "Path": "Treasure/Staff of Swarming Insects.md",
+      "Tags": [
+        "staff",
+        "swarming",
+        "insects",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Staff of the Magi",
+      "Path": "Treasure/Staff of the Magi.md",
+      "Tags": [
+        "staff",
+        "magi",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Staff of the Python",
+      "Path": "Treasure/Staff of the Python.md",
+      "Tags": [
+        "staff",
+        "python",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Staff of the Woodlands",
+      "Path": "Treasure/Staff of the Woodlands.md",
+      "Tags": [
+        "staff",
+        "woodlands",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Staff of Thunder and Lightning",
+      "Path": "Treasure/Staff of Thunder and Lightning.md",
+      "Tags": [
+        "staff",
+        "thunder",
+        "lightning",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Staff of Withering",
+      "Path": "Treasure/Staff of Withering.md",
+      "Tags": [
+        "staff",
+        "withering",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Stone of Controlling Earth Elementals",
+      "Path": "Treasure/Stone of Controlling Earth Elementals.md",
+      "Tags": [
+        "stone",
+        "controlling",
+        "earth",
+        "elementals",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Stone of Good Luck (Luckstone)",
+      "Path": "Treasure/Stone of Good Luck (Luckstone).md",
+      "Tags": [
+        "stone",
+        "good",
+        "luck",
+        "luckstone",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Sun Blade",
+      "Path": "Treasure/Sun Blade.md",
+      "Tags": [
+        "sun",
+        "blade",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Sword of Life Stealing",
+      "Path": "Treasure/Sword of Life Stealing.md",
+      "Tags": [
+        "sword",
+        "life",
+        "stealing",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Sword of Sharpness",
+      "Path": "Treasure/Sword of Sharpness.md",
+      "Tags": [
+        "sword",
+        "sharpness",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Sword of Wounding",
+      "Path": "Treasure/Sword of Wounding.md",
+      "Tags": [
+        "sword",
+        "wounding",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Talisman of Pure Good",
+      "Path": "Treasure/Talisman of Pure Good.md",
+      "Tags": [
+        "talisman",
+        "pure",
+        "good",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Talisman of the Sphere",
+      "Path": "Treasure/Talisman of the Sphere.md",
+      "Tags": [
+        "talisman",
+        "sphere",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Talisman of Ultimate Evil",
+      "Path": "Treasure/Talisman of Ultimate Evil.md",
+      "Tags": [
+        "talisman",
+        "ultimate",
+        "evil",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Tome of Clear Thought",
+      "Path": "Treasure/Tome of Clear Thought.md",
+      "Tags": [
+        "tome",
+        "clear",
+        "thought",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Tome of Leadership and Influence",
+      "Path": "Treasure/Tome of Leadership and Influence.md",
+      "Tags": [
+        "tome",
+        "leadership",
+        "influence",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Tome of Understanding",
+      "Path": "Treasure/Tome of Understanding.md",
+      "Tags": [
+        "tome",
+        "understanding",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Trident of Fish Command",
+      "Path": "Treasure/Trident of Fish Command.md",
+      "Tags": [
+        "trident",
+        "fish",
+        "command",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Universal Solvent",
+      "Path": "Treasure/Universal Solvent.md",
+      "Tags": [
+        "universal",
+        "solvent",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Vicious Weapon",
+      "Path": "Treasure/Vicious Weapon.md",
+      "Tags": [
+        "vicious",
+        "weapon",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Vorpal Sword",
+      "Path": "Treasure/Vorpal Sword.md",
+      "Tags": [
+        "vorpal",
+        "sword",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Wand of Binding",
+      "Path": "Treasure/Wand of Binding.md",
+      "Tags": [
+        "wand",
+        "binding",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Wand of Enemy Detection",
+      "Path": "Treasure/Wand of Enemy Detection.md",
+      "Tags": [
+        "wand",
+        "enemy",
+        "detection",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Wand of Fear",
+      "Path": "Treasure/Wand of Fear.md",
+      "Tags": [
+        "wand",
+        "fear", 
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Wand of Fireballs",
+      "Path": "Treasure/Wand of Fireballs.md",
+      "Tags": [
+        "wand",
+        "fireballs",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Wand of Lightning Bolts",
+      "Path": "Treasure/Wand of Lightning Bolts.md",
+      "Tags": [
+        "wand",
+        "lightning",
+        "bolts",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Wand of Magic Detection",
+      "Path": "Treasure/Wand of Magic Detection.md",
+      "Tags": [
+        "wand",
+        "magic",
+        "detection",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Wand of Magic Missiles",
+      "Path": "Treasure/Wand of Magic Missiles.md",
+      "Tags": [
+        "wand",
+        "magic",
+        "missiles",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Wand of Paralysis",
+      "Path": "Treasure/Wand of Paralysis.md",
+      "Tags": [
+        "wand",
+        "paralysis",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Wand of Polymorph",
+      "Path": "Treasure/Wand of Polymorph.md",
+      "Tags": [
+        "wand",
+        "polymorph",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Wand of Secrets",
+      "Path": "Treasure/Wand of Secrets.md",
+      "Tags": [
+        "wand",
+        "secrets",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Wand of the War Mage, \u002B1, \u002B2, or \u002B3",
+      "Path": "Treasure/Wand of the War Mage, \u002B1, \u002B2, or \u002B3.md",
+      "Tags": [
+        "wand",
+        "war",
+        "mage",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Wand of Web",
+      "Path": "Treasure/Wand of Web.md",
+      "Tags": [
+        "wand",
+        "web",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Wand of Wonder",
+      "Path": "Treasure/Wand of Wonder.md",
+      "Tags": [
+        "wand",
+        "wonder",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Weapon, \u002B1, \u002B2, or \u002B3",
+      "Path": "Treasure/Weapon, \u002B1, \u002B2, or \u002B3.md",
+      "Tags": [
+        "weapon",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Well of Many Worlds",
+      "Path": "Treasure/Well of Many Worlds.md",
+      "Tags": [
+        "well",
+        "many",
+        "worlds",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Wind Fan",
+      "Path": "Treasure/Wind Fan.md",
+      "Tags": [
+        "wind",
+        "fan",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Winged Boots",
+      "Path": "Treasure/Winged Boots.md",
+      "Tags": [
+        "winged",
+        "boots",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Wings of Flying",
+      "Path": "Treasure/Wings of Flying.md",
+      "Tags": [
+        "wings",
+        "flying",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "# Magic Items (Alt)",
+      "Path": "Treasure (Alt)/# Magic Items.md",
+      "Tags": [
+        "magic",
+        "items",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "## Artifacts",
+      "Path": "Treasure (Alt)/## Artifacts.md",
+      "Tags": [
+        "artifacts",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "## Sentient Magic (Alt)",
+      "Path": "Treasure (Alt)/## Sentient Magic.md",
+      "Tags": [
+        "sentient",
+        "magic",
+        "treasure"
+      ]
+    },
+    {
+      "Name": "Magic Items A",
+      "Path": "Treasure (Alt)/Magic Items A.md",
+      "Tags": [
+        "magic",
+        "items",
+        "treasure",
+        "A"
+      ]
+    },
+    {
+      "Name": "Magic Items B",
+      "Path": "Treasure (Alt)/Magic Items B.md",
+      "Tags": [
+        "magic",
+        "items",
+        "treasure",
+        "B"
+      ]
+    },
+    {
+      "Name": "Magic Items C",
+      "Path": "Treasure (Alt)/Magic Items C.md",
+      "Tags": [
+        "magic",
+        "items",
+        "treasure",
+        "C"
+      ]
+    },
+    {
+      "Name": "Magic Items D",
+      "Path": "Treasure (Alt)/Magic Items D.md",
+      "Tags": [
+        "magic",
+        "items",
+        "treasure",
+        "D"
+      ]
+    },
+    {
+      "Name": "Magic Items E",
+      "Path": "Treasure (Alt)/Magic Items E.md",
+      "Tags": [
+        "magic",
+        "items",
+        "treasure",
+        "E"
+      ]
+    },
+    {
+      "Name": "Magic Items F",
+      "Path": "Treasure (Alt)/Magic Items F.md",
+      "Tags": [
+        "magic",
+        "items",
+        "treasure",
+        "F"
+      ]
+    },
+    {
+      "Name": "Magic Items G",
+      "Path": "Treasure (Alt)/Magic Items G.md",
+      "Tags": [
+        "magic",
+        "items",
+        "treasure",
+        "G"
+      ]
+    },
+    {
+      "Name": "Magic Items H",
+      "Path": "Treasure (Alt)/Magic Items H.md",
+      "Tags": [
+        "magic",
+        "items",
+        "treasure",
+        "H"
+      ]
+    },
+    {
+      "Name": "Magic Items I",
+      "Path": "Treasure (Alt)/Magic Items I.md",
+      "Tags": [
+        "magic",
+        "items",
+        "treasure",
+        "I"
+      ]
+    },
+    {
+      "Name": "Magic Items J",
+      "Path": "Treasure (Alt)/Magic Items J.md",
+      "Tags": [
+        "magic",
+        "items",
+        "treasure",
+        "J"
+      ]
+    },
+    {
+      "Name": "Magic Items K",
+      "Path": "Treasure (Alt)/Magic Items K.md",
+      "Tags": [
+        "magic",
+        "items",
+        "treasure",
+        "K"        
+      ]
+    },
+    {
+      "Name": "Magic Items L",
+      "Path": "Treasure (Alt)/Magic Items L.md",
+      "Tags": [
+        "magic",
+        "items",
+        "treasure",
+        "L"
+      ]
+    },
+    {
+      "Name": "Magic Items M",
+      "Path": "Treasure (Alt)/Magic Items M.md",
+      "Tags": [
+        "magic",
+        "items",
+        "treasure",
+        "M"
+      ]
+    },
+    {
+      "Name": "Magic Items N",
+      "Path": "Treasure (Alt)/Magic Items N.md",
+      "Tags": [
+        "magic",
+        "items",
+        "treasure",
+        "N"
+      ]
+    },
+    {
+      "Name": "Magic Items O",
+      "Path": "Treasure (Alt)/Magic Items O.md",
+      "Tags": [
+        "magic",
+        "items",
+        "treasure",
+        "O"
+      ]
+    },
+    {
+      "Name": "Magic Items P",
+      "Path": "Treasure (Alt)/Magic Items P.md",
+      "Tags": [
+        "magic",
+        "items",
+        "treasure",
+        "P"
+      ]
+    },
+    {
+      "Name": "Magic Items Q",
+      "Path": "Treasure (Alt)/Magic Items Q.md",
+      "Tags": [
+        "magic",
+        "items",
+        "treasure",
+        "Q"        
+      ]
+    },
+    {
+      "Name": "Magic Items R",
+      "Path": "Treasure (Alt)/Magic Items R.md",
+      "Tags": [
+        "magic",
+        "items",
+        "treasure",
+        "R"
+      ]
+    },
+    {
+      "Name": "Magic Items S",
+      "Path": "Treasure (Alt)/Magic Items S.md",
+      "Tags": [
+        "magic",
+        "items",
+        "treasure",
+        "S"      
+      ]
+    },
+    {
+      "Name": "Magic Items T",
+      "Path": "Treasure (Alt)/Magic Items T.md",
+      "Tags": [
+        "magic",
+        "items",
+        "treasure",
+        "T"
+      ]
+    },
+    {
+      "Name": "Magic Items U",
+      "Path": "Treasure (Alt)/Magic Items U.md",
+      "Tags": [
+        "magic",
+        "items",
+        "treasure",
+        "U"
+      ]
+    },
+    {
+      "Name": "Magic Items V",
+      "Path": "Treasure (Alt)/Magic Items V.md",
+      "Tags": [
+        "magic",
+        "items",
+        "treasure",
+        "V"
+      ]
+    },
+    {
+      "Name": "Magic Items W",
+      "Path": "Treasure (Alt)/Magic Items W.md",
+      "Tags": [
+        "magic",
+        "items",
+        "treasure",
+        "W"
+      ]
+    },
+    {
+      "Name": "Magic Items X",
+      "Path": "Treasure (Alt)/Magic Items X.md",
+      "Tags": [
+        "magic",
+        "items",
+        "treasure",
+        "X"        
+      ]
+    },
+    {
+      "Name": "Magic Items Y",
+      "Path": "Treasure (Alt)/Magic Items Y.md",
+      "Tags": [
+        "magic",
+        "items",
+        "treasure",
+        "Y"
+      ]
+    },
+    {
+      "Name": "Magic Items Z",
+      "Path": "Treasure (Alt)/Magic Items Z.md",
+      "Tags": [
+        "magic",
+        "items",
+        "treasure",
+        "Z"
+      ]
+    }
+  ]
+}
