@@ -4,6 +4,8 @@ using HueApi.Models.Requests;
 using HueApi.ColorConverters.Original.Extensions;
 using Spectre.Console;
 using PrettyPrompt;
+using Markdig.Parsers;
+using System.Net;
 
 namespace Grimoire
 {
@@ -34,6 +36,12 @@ namespace Grimoire
             if (!Settings.Enabled)
             {
                 AnsiConsole.MarkupLine($"💡 [gold3_1]Hue system disabled.[/]");
+                return;
+            }
+
+            if (System.Net.IPAddress.TryParse(Settings.BridgeIp, out IPAddress? address) == false)
+            {
+                AnsiConsole.MarkupLine($"❌ [red]Invalid IP address for Hue bridge: {Settings.BridgeIp}[/]");
                 return;
             }
 

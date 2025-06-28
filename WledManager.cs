@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using Spectre.Console;
 using Kevsoft.WLED;
 using Microsoft.CodeAnalysis.CSharp.Syntax;
+using System.Text.RegularExpressions;
 
 namespace Grimoire
 {
@@ -32,7 +33,23 @@ namespace Grimoire
                 return;
             }
 
-            client = new WLedClient(Settings.Uri);
+            var regex = new Regex(@"http:\/\/\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}");
+            if (regex.IsMatch(Settings.Uri) == false)
+            {
+                AnsiConsole.MarkupLine($"❌ [red]Wled URL device is not valid :{Settings.Uri}[/]");
+                return;
+            }
+
+            try
+            {
+                client = new WLedClient(Settings.Uri);
+            }
+            catch (Exception ex)
+            {
+                AnsiConsole.MarkupLine($"❌ [red]Error connecting to WLED device: {ex.Message}[/]");
+                return;
+            }
+
             var infoTask = client.Post(new StateRequest { On = false, PresetId = Settings.Preset , Brightness = Convert.ToByte(Settings.Brightness) });
             var timeoutTask = Task.Delay(3000);
             Task completed = await AnsiConsole.Status()
