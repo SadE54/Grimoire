@@ -13,15 +13,18 @@
 - 🎲 Dice rolling
 - 🧠 NPC and location generation, ... using configurable prompts with the OpenAI API
 - 🎲 Dice rolls on random tables
-- 🔥Torch simulation + direct driving of Philips HUE lights with flame animation or other effects
+- 🔥Torch simulation + direct driving of Philips HUE lights / Wled with flame animation or other effects
 - 📃 Uses markdown files for content
 - 🗂 Supports multiple games and versions via metadata
 - 💻 Crossplatorm (win-x64/linux-x64/linux-arm64/osx-x64/osx-arm64)
 
- 🔥 In development:
+## 🗄️ Provided Databases
+
+- **DnD5e** (en)
+- **Shadowdark Quickstart** (fr)
+
+## 🔥 In development:
  
- - D&D database
- - Wled compatibility for torch control
  - Ask for new features !
 
 ---
@@ -182,6 +185,12 @@ color = "FF0000"
 brightness = 100
 effect = "fire"
 
+[wled]
+enabled = false
+uri = "http://ip.ip.ip.ip"
+preset = 1
+brightness = 255
+
 ```
 
 The `rules` section sets the path to the JSON database for rules and tables.
@@ -192,6 +201,9 @@ The `openai` section defines parameters for OpenAI access:
 
 The Hue configuration is explained in detail here:
 https://github.com/SadE54/Grimoire/wiki/Philips-HUE-Setup
+
+The wled configuration is detailed in this wiki page :
+https://github.com/SadE54/Grimoire/wiki/WLED-configuration
 
 ---
 
@@ -239,13 +251,6 @@ https://github.com/SadE54/Grimoire/wiki/Philips-HUE-Setup
   ]
 }
 ```
-
----
-
-## 📚 Provided Databases
-
-- ⚔️ **Shadowdark** *(example database included)*
-- 📜 Other games can be added using markdown files and tags.
 
 ---
 
