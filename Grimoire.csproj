@@ -8,9 +8,9 @@
     <ApplicationIcon>grimoire.ico</ApplicationIcon>
   </PropertyGroup>
   <PropertyGroup>
-	<Version>0.9.1</Version>
-    <AssemblyVersion>0.9.1</AssemblyVersion>
-    <FileVersion>0.9.1</FileVersion>
+	<Version>0.9.2</Version>
+    <AssemblyVersion>0.9.2</AssemblyVersion>
+    <FileVersion>0.9.2</FileVersion>
   </PropertyGroup>
 
   <ItemGroup>
